@@ -1,0 +1,69 @@
+﻿@{ViewBag.Title = "QMS - Admin";}
+<h2>Admin Page</h2>
+<div class="qms_container">
+    <div class="col-sm-4">
+        <div class="" style="padding:4px;">
+            <div class="border-info">
+                <div class="pull-left">
+                    <h4>Zone</h4>
+                </div>
+                <table id="tblZone" class="table table-bordered table-hover dataTable no-footer">
+                    <thead>
+                        <tr>
+                            <th>Id</th>
+                            <th>Code</th>
+                            <th>Name</th>
+                        </tr>
+                    </thead>
+                    <tbody></tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+    <div class="col-sm-4">
+        <div class="" style="padding:4px;">
+            <div class="border-info">
+                <div class="pull-left">
+                    <h4>Client/Section/User</h4>
+                </div>
+                <table id="tblClient" class="table table-bordered table-hover dataTable no-footer">
+                    <thead>
+                        <tr>
+                            <th>Zone</th>
+                            <th>Client Type</th>
+                            <th>Name</th>
+                            <th>Ip Address</th>
+                        </tr>
+                    </thead>
+                    <tbody></tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+    <div class="col-sm-4">
+        <div class="col-sm-offset-1 col-sm-10" style="padding:4px;">
+            <div class="border-info">
+                <div class="pull-left">
+                    <h4>Zone Service</h4>
+                </div>
+                <table id="tblZone" class="table table-bordered table-hover dataTable no-footer">
+                    <thead>
+                        <tr>
+                            <th>Zone</th>
+                            <th>ServiceId</th>
+                        </tr>
+                    </thead>
+                    <tbody></tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+
+</div>
+<input type="hidden" id="hidAdminUrl" data-getzones="@Url.Content("~/admin/getzones")" />
+<script>
+    $(document).ready(function () {
+        qmsjs.initZoneIndex();
+    });
+</script>
+

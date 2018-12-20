@@ -1,0 +1,50 @@
+﻿@model IEnumerable<Sghis.QmsClient.UI.DTOS.MenuVm>
+
+@foreach (var groupmenu in Model.GroupBy(i=>i.ParentMenuId))
+{
+    var icon = "";
+
+    var parent = groupmenu.First();
+
+    if (parent.ParentMenuId == 1)
+    {
+        icon = "fa-file-o";
+    }
+    else if (parent.ParentMenuId == 3)
+    {
+        icon = "fa-folder-open-o";
+    }
+    else if (parent.ParentMenuId == 4)
+    {
+        icon = "fa-gear";
+    }
+    else
+    {
+        icon = "fa-list";
+    }
+
+
+    <li class="treeview">
+        <a href="#">
+            <i class="fa @icon"></i> <span>@parent.ParentMenuName</span>
+            <span class="pull-right-container" style="left:245px !important;">
+                <i class="fa fa-angle-left pull-right"></i>
+            </span>
+        </a>
+        <ul class="treeview-menu">
+            @foreach (var submenu in groupmenu)
+            {
+                <li>
+                    <a href="@Url.Content("~"+submenu.Url)" class="text-ellipsis" style="width:225px;">
+
+                        <i class="fa fa-circle-o"></i> @submenu.SubMenuName
+                    </a>
+
+                </li>
+            }
+
+
+        </ul>
+    </li>
+
+}

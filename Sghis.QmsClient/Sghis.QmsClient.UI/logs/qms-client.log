@@ -1,0 +1,171 @@
+2018-12-17 16:00:42,474 INFO  MvcApplication - --Starting HIS-LAB Application--
+2018-12-17 16:00:47,946 INFO  MvcRequest - Request GET: home/index 
+Parameter: index
+2018-12-17 16:09:20,219 INFO  MvcRequest - Request GET: home/index 
+Parameter: index
+2018-12-17 16:09:23,207 INFO  MvcRequest - Request GET: home/index 
+Parameter: index
+2018-12-17 16:09:25,817 INFO  MvcRequest - Request GET: home/index 
+Parameter: index
+2018-12-17 16:09:27,718 INFO  MvcRequest - Request GET: home/index 
+Parameter: index
+2018-12-17 16:09:29,366 INFO  MvcRequest - Request GET: home/index 
+Parameter: index
+2018-12-17 16:55:02,116 INFO  MvcApplication - --Starting HIS-LAB Application--
+2018-12-17 16:55:04,879 INFO  MvcRequest - Request GET: home/index 
+Parameter: index
+2018-12-17 16:56:04,241 INFO  MvcRequest - Request GET: home/index 
+Parameter: index
+2018-12-17 16:58:35,254 INFO  MvcRequest - Request GET: home/index 
+Parameter: index
+2018-12-17 16:59:18,134 INFO  MvcRequest - Request GET: home/index 
+Parameter: index
+2018-12-17 17:00:40,524 INFO  MvcRequest - Request GET: home/index 
+Parameter: index
+2018-12-17 17:00:59,966 INFO  MvcRequest - Request GET: home/index 
+Parameter: index
+2018-12-17 17:04:44,303 INFO  MvcApplication - --Starting HIS-LAB Application--
+2018-12-17 17:04:48,031 INFO  MvcRequest - Request GET: home/index 
+Parameter: index
+2018-12-17 17:05:07,776 INFO  MvcRequest - Request GET: home/index 
+Parameter: index
+2018-12-17 17:05:59,724 INFO  MvcRequest - Request GET: home/index 
+Parameter: index
+2018-12-17 17:07:50,071 INFO  MvcRequest - Request GET: home/index 
+Parameter: index
+2018-12-17 17:08:50,835 INFO  MvcRequest - Request GET: home/index 
+Parameter: index
+2018-12-17 17:09:34,272 INFO  MvcRequest - Request GET: home/index 
+Parameter: index
+2018-12-17 17:10:13,183 INFO  MvcRequest - Request GET: home/index 
+Parameter: index
+2018-12-17 17:10:54,249 INFO  MvcRequest - Request GET: home/index 
+Parameter: index
+2018-12-17 17:10:57,026 INFO  MvcRequest - Request GET: home/index 
+Parameter: index
+2018-12-17 17:11:00,368 INFO  MvcRequest - Request GET: home/index 
+Parameter: index
+2018-12-17 17:11:12,477 INFO  MvcRequest - Request GET: home/index 
+Parameter: index
+2018-12-17 17:12:47,156 INFO  MvcRequest - Request GET: home/index 
+Parameter: index
+2018-12-17 17:12:55,655 INFO  MvcRequest - Request GET: home/index 
+Parameter: index
+2018-12-17 17:12:59,650 INFO  MvcRequest - Request GET: home/index 
+Parameter: index
+2018-12-17 17:13:02,827 INFO  MvcRequest - Request GET: home/index 
+Parameter: index
+2018-12-17 17:13:06,263 INFO  MvcRequest - Request GET: home/index 
+Parameter: index
+2018-12-17 17:19:23,983 INFO  MvcApplication - --Starting HIS-LAB Application--
+2018-12-17 17:19:26,216 INFO  MvcRequest - Request GET: home/index 
+Parameter: index
+2018-12-17 17:19:51,747 INFO  MvcRequest - Request GET: home/index 
+Parameter: index
+2018-12-17 17:20:26,231 INFO  MvcRequest - Request GET: home/index 
+Parameter: index
+2018-12-17 17:22:04,227 INFO  MvcRequest - Request GET: home/index 
+Parameter: index
+2018-12-17 17:22:24,948 INFO  MvcRequest - Request GET: home/index 
+Parameter: index
+2018-12-17 17:22:28,075 INFO  MvcRequest - Request GET: home/index 
+Parameter: index
+2018-12-17 17:24:07,776 INFO  MvcRequest - Request GET: home/index 
+Parameter: index
+2018-12-17 17:26:32,059 INFO  MvcRequest - Request GET: home/index 
+Parameter: index
+2018-12-17 17:27:16,877 INFO  MvcApplication - --Starting HIS-LAB Application--
+2018-12-17 17:27:18,039 INFO  MvcRequest - Request GET: home/index 
+Parameter: index
+2018-12-17 17:27:27,291 INFO  MvcRequest - Request GET: home/index 
+Parameter: index
+2018-12-17 17:28:02,916 INFO  MvcRequest - Request GET: home/index 
+Parameter: index
+2018-12-17 17:28:28,843 INFO  MvcRequest - Request GET: home/index 
+Parameter: index
+2018-12-17 17:29:04,646 INFO  MvcRequest - Request GET: home/index 
+Parameter: index
+2018-12-17 17:29:35,379 INFO  MvcRequest - Request GET: home/index 
+Parameter: index
+2018-12-17 17:30:05,423 INFO  MvcRequest - Request GET: home/index 
+Parameter: index
+2018-12-17 17:30:17,332 INFO  MvcRequest - Request GET: home/index 
+Parameter: index
+2018-12-17 17:31:00,574 INFO  MvcRequest - Request GET: home/index 
+Parameter: index
+2018-12-17 17:31:43,480 INFO  MvcRequest - Request GET: home/index 
+Parameter: index
+2018-12-17 17:32:15,005 INFO  MvcRequest - Request GET: home/index 
+Parameter: index
+2018-12-17 17:32:26,307 INFO  MvcRequest - Request GET: home/index 
+Parameter: index
+2018-12-17 17:33:13,002 INFO  MvcRequest - Request GET: home/index 
+Parameter: index
+2018-12-17 17:33:48,689 INFO  MvcRequest - Request GET: home/index 
+Parameter: index
+2018-12-17 17:34:03,693 INFO  MvcRequest - Request GET: home/index 
+Parameter: index
+2018-12-17 17:34:23,745 INFO  MvcRequest - Request GET: home/index 
+Parameter: index
+2018-12-18 09:27:57,699 INFO  MvcRequest - Request GET: home/index 
+Parameter: index
+2018-12-18 09:28:20,651 INFO  MvcRequest - Request GET: home/index 
+Parameter: index
+2018-12-18 09:28:32,744 INFO  MvcRequest - Request GET: home/index 
+Parameter: index
+2018-12-18 09:28:47,163 INFO  MvcRequest - Request GET: home/index 
+Parameter: index
+2018-12-18 14:04:56,408 INFO  MvcApplication - --Starting HIS-LAB Application--
+2018-12-18 14:08:11,159 INFO  MvcApplication - --Starting HIS-LAB Application--
+2018-12-18 14:09:03,592 INFO  MvcApplication - --Starting HIS-LAB Application--
+2018-12-18 14:11:14,283 INFO  MvcApplication - --Starting HIS-LAB Application--
+2018-12-18 14:17:15,285 INFO  MvcApplication - --Starting HIS-LAB Application--
+2018-12-18 14:34:56,342 INFO  MvcApplication - --Starting HIS-LAB Application--
+2018-12-18 14:37:07,579 INFO  MvcApplication - --Starting HIS-LAB Application--
+2018-12-18 14:42:10,170 INFO  MvcApplication - --Starting HIS-LAB Application--
+2018-12-18 14:44:32,270 INFO  MvcApplication - --Starting HIS-LAB Application--
+2018-12-18 14:48:34,023 INFO  MvcApplication - --Starting HIS-LAB Application--
+2018-12-18 14:50:41,220 INFO  MvcApplication - --Starting HIS-LAB Application--
+2018-12-18 14:59:57,238 INFO  MvcApplication - --Starting HIS-LAB Application--
+2018-12-18 15:00:31,179 INFO  MvcApplication - --Starting HIS-LAB Application--
+2018-12-18 15:01:05,136 INFO  MvcApplication - --Starting HIS-LAB Application--
+2018-12-18 15:03:00,944 INFO  MvcApplication - --Starting HIS-LAB Application--
+2018-12-18 15:35:45,209 INFO  MvcApplication - --Starting HIS-LAB Application--
+2018-12-18 15:48:10,156 INFO  MvcApplication - --Starting HIS-LAB Application--
+2018-12-18 15:49:00,871 INFO  MvcApplication - --Starting HIS-LAB Application--
+2018-12-18 15:50:08,076 INFO  MvcApplication - --Starting HIS-LAB Application--
+2018-12-18 15:59:21,459 INFO  MvcApplication - --Starting HIS-LAB Application--
+2018-12-18 16:02:03,277 INFO  MvcApplication - --Starting HIS-LAB Application--
+2018-12-18 16:05:59,405 INFO  MvcApplication - --Starting HIS-LAB Application--
+2018-12-18 16:07:21,238 INFO  MvcApplication - --Starting HIS-LAB Application--
+2018-12-18 16:08:11,681 INFO  MvcApplication - --Starting HIS-LAB Application--
+2018-12-18 16:17:58,615 INFO  MvcApplication - --Starting HIS-LAB Application--
+2018-12-18 16:19:12,060 INFO  MvcApplication - --Starting HIS-LAB Application--
+2018-12-18 16:20:06,929 INFO  MvcApplication - --Starting HIS-LAB Application--
+2018-12-18 16:22:52,989 INFO  MvcApplication - --Starting HIS-LAB Application--
+2018-12-18 16:24:02,296 INFO  MvcApplication - --Starting HIS-LAB Application--
+2018-12-18 16:24:54,968 INFO  MvcApplication - --Starting HIS-LAB Application--
+2018-12-18 16:26:04,522 INFO  MvcApplication - --Starting HIS-LAB Application--
+2018-12-18 16:29:08,378 INFO  MvcApplication - --Starting HIS-LAB Application--
+2018-12-18 16:40:39,913 INFO  MvcApplication - --Starting HIS-LAB Application--
+2018-12-18 16:41:45,122 INFO  MvcApplication - --Starting HIS-LAB Application--
+2018-12-18 16:43:57,717 INFO  MvcApplication - --Starting HIS-LAB Application--
+2018-12-18 16:44:40,856 INFO  MvcApplication - --Starting HIS-LAB Application--
+2018-12-18 16:47:00,791 INFO  MvcApplication - --Starting HIS-LAB Application--
+2018-12-18 17:10:45,229 INFO  MvcApplication - --Starting HIS-LAB Application--
+2018-12-18 17:18:41,578 INFO  MvcApplication - --Starting HIS-LAB Application--
+2018-12-18 17:21:24,436 INFO  MvcApplication - --Starting HIS-LAB Application--
+2018-12-19 09:19:46,007 INFO  MvcApplication - --Starting HIS-LAB Application--
+2018-12-19 11:45:48,700 INFO  MvcApplication - --Starting HIS-LAB Application--
+2018-12-19 11:46:31,529 INFO  MvcApplication - --Starting HIS-LAB Application--
+2018-12-19 11:47:56,740 INFO  MvcApplication - --Starting HIS-LAB Application--
+2018-12-19 11:49:23,340 INFO  MvcApplication - --Starting HIS-LAB Application--
+2018-12-19 11:50:10,568 INFO  MvcApplication - --Starting HIS-LAB Application--
+2018-12-19 13:27:45,754 INFO  MvcApplication - --Starting HIS-LAB Application--
+2018-12-19 13:40:44,473 INFO  MvcApplication - --Starting HIS-LAB Application--
+2018-12-19 13:52:56,323 INFO  MvcApplication - --Starting HIS-LAB Application--
+2018-12-19 14:19:47,273 INFO  MvcApplication - --Starting HIS-LAB Application--
+2018-12-19 14:50:31,423 INFO  MvcApplication - --Starting HIS-LAB Application--
+2018-12-19 15:23:32,932 INFO  MvcApplication - --Starting HIS-LAB Application--
+2018-12-19 15:36:55,836 INFO  MvcApplication - --Starting HIS-LAB Application--
+2018-12-19 17:24:38,993 INFO  MvcApplication - --Starting HIS-LAB Application--

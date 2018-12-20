@@ -1,0 +1,55 @@
+﻿<h5>Zone</h5>
+<div class="qms_container">
+    
+</div>
+<script>
+    $(document).ready(function () {
+        $(document).on("click", "#btnCall", function () {
+            var data = { id: $("#tbTokenId").val(), stationid: $("#tbStationId").val() };
+            $.ajax({
+                type: "GET",
+                url: '/q/call/',
+                data: data,
+                success: function (d) {
+                    console.log("call success");
+                }
+            });
+        });
+
+        $(document).on("click", "#btnTransfer", function () {
+            var data = { id: $("#tbTokenId").val(), zoneid: $("#tbStationId").val() };
+            $.ajax({
+                type: "GET",
+                url: '/q/transfer/',
+                data: data,
+                success: function (d) {
+                    console.log("call success");
+                }
+            });
+        });
+
+        $(document).on("click", "#btnDone", function () {
+            var data = { id: $("#tbTokenId").val(), stationid: $("#tbStationId").val() };
+            $.ajax({
+                type: "GET",
+                url: '/q/done/',
+                data: data,
+                success: function (d) {
+                    console.log("call success");
+                }
+            });
+        });
+
+        $(document).on("click", "#btnCreate", function () {
+            var data = { id: "A123456" };
+            $.ajax({
+                type: "GET",
+                url: '/q/createtest/',
+                data: data,
+                success: function (d) {
+                    alert(d);
+                }
+            });
+        });
+    });
+</script>

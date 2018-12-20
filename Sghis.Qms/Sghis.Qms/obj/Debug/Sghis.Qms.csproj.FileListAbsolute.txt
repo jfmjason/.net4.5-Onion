@@ -1,0 +1,14 @@
+D:\Projects\Sghis\Dev\Sghis.Qms\Sghis.Qms\bin\Debug\Sghis.Qms.dll.config
+D:\Projects\Sghis\Dev\Sghis.Qms\Sghis.Qms\bin\Debug\Sghis.Qms.dll
+D:\Projects\Sghis\Dev\Sghis.Qms\Sghis.Qms\bin\Debug\Sghis.Qms.pdb
+D:\Projects\Sghis\Dev\Sghis.Qms\Sghis.Qms\bin\Debug\EntityFramework.dll
+D:\Projects\Sghis\Dev\Sghis.Qms\Sghis.Qms\bin\Debug\EntityFramework.SqlServer.dll
+D:\Projects\Sghis\Dev\Sghis.Qms\Sghis.Qms\bin\Debug\Sghis.Core.Entity.dll
+D:\Projects\Sghis\Dev\Sghis.Qms\Sghis.Qms\bin\Debug\Sghis.Core.Entity.pdb
+D:\Projects\Sghis\Dev\Sghis.Qms\Sghis.Qms\bin\Debug\EntityFramework.xml
+D:\Projects\Sghis\Dev\Sghis.Qms\Sghis.Qms\bin\Debug\EntityFramework.SqlServer.xml
+D:\Projects\Sghis\Dev\Sghis.Qms\Sghis.Qms\obj\Debug\Sghis.Qms.csprojAssemblyReference.cache
+D:\Projects\Sghis\Dev\Sghis.Qms\Sghis.Qms\obj\Debug\Sghis.Qms.csproj.CoreCompileInputs.cache
+D:\Projects\Sghis\Dev\Sghis.Qms\Sghis.Qms\obj\Debug\Sghis.Qms.csproj.CopyComplete
+D:\Projects\Sghis\Dev\Sghis.Qms\Sghis.Qms\obj\Debug\Sghis.Qms.dll
+D:\Projects\Sghis\Dev\Sghis.Qms\Sghis.Qms\obj\Debug\Sghis.Qms.pdb

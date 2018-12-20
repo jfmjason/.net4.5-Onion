@@ -1,0 +1,223 @@
+﻿@using Sghis.QmsClient.UI.Common
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>QMS - @ViewData["Title"]  </title>
+    <link href="@Url.Content("~/Content/plugins/bootstrap/css/bootstrap.min.css")" rel="stylesheet" />
+    <link href="@Url.Content("~/Content/plugins/font-awesome/css/font-awesome.min.css")" rel="stylesheet" />
+    <link href="@Url.Content("~/Content/plugins/adminlte/css/AdminLTE.min.css")" rel="stylesheet" />
+    <link href="@Url.Content("~/Content/plugins/adminlte/css/skins/skin-blue.css")" rel="stylesheet" />
+    <link href="@Url.Content("~/Content/plugins/select2/css/select2.min.css")"  rel="stylesheet" />
+    <link href="@Url.Content("~/Content/plugins/sweetalert2/sweetalert2.min.css")" rel="stylesheet" />
+    <link href="@Url.Content("~/Content/css/site.css")" rel="stylesheet" />
+
+    @RenderSection("styles", required: false)
+</head>
+<body class="hold-transition skin-blue sidebar-mini sidebar-collapse">
+    <div class="wrapper">
+
+        <header class="main-header">
+            <!-- Logo -->
+            <a href="../../index2.html" class="logo">
+                <!-- mini logo for sidebar mini 50x50 pixels -->
+                <span class="logo-mini"><b>Q</b>MS</span>
+                <!-- logo for regular state and mobile devices -->
+                <span class="logo-lg">QMS <b>Client</b>  </span>
+            </a>
+            <!-- Header Navbar: style can be found in header.less -->
+            <nav class="navbar navbar-static-top">
+                <!-- Sidebar toggle button-->
+                <a href="#" class="sidebar-toggle" data-toggle="push-menu" role="button">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </a>
+
+                <div class="navbar-custom-menu">
+                    <ul class="nav navbar-nav">
+
+                        <!-- Notifications: style can be found in dropdown.less -->
+                        <li class="dropdown notifications-menu">
+                            <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+                                <i class="fa fa-bell-o"></i>
+                                <span class="label label-warning">1</span>
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li class="header">You have 1 notifications</li>
+                                <li>
+                                    <!-- inner menu: contains the actual data -->
+                                    <ul class="menu">
+                                        <li>
+                                            <a href="#">
+                                                <i class="fa fa-info-circle text-aqua"></i><small>To clear browser's cache hit <mark>CTRL + F5</mark></small>
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li class="footer"><a href="#">View all</a></li>
+                            </ul>
+                        </li>
+                        <!-- User Account: style can be found in dropdown.less -->
+                        <li class="dropdown user user-menu">
+                            <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+                                <img src="@Url.Content("~/Content/img/user.png")" class="user-image" alt="User Image" />
+
+                                <span class="hidden-xs">@User.Identity.Name</span>
+                            </a>
+                            <ul class="dropdown-menu">
+                                <!-- User image -->
+                                <li class="user-header">
+                                    <img src="@Url.Content("~/Content/img/user.png")" class="img-circle" alt="User Image" />
+
+                                    <p>
+                                        @User.Identity.Name
+                                        <small>Employee number</small>
+                                    </p>
+                                </li>
+                                <!-- Menu Body -->
+                                <li class="user-body">
+                                </li>
+                                <!-- Menu Footer-->
+                                <li class="user-footer">
+                                    <div class="pull-right">
+                                        <a asp-action="logout" asp-controller="Account" class="btn btn-default btn-flat">Sign out</a>
+                                    </div>
+                                </li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+        </header>
+
+        <aside class="main-sidebar">
+            <!-- sidebar: style can be found in sidebar.less -->
+            <section class="sidebar" style="height: auto;">
+                <!-- Sidebar user panel -->
+                <div class="user-panel">
+                    <div class="pull-left image">
+                        <img src="@Url.Content("~/Content/img/user.png")" class="img-circle" alt="User Image" />
+                    </div>
+                    <div class="pull-left info">
+                        <p>@User.Identity.Name</p>
+                        <a href="#"><i class="fa fa-circle text-success"></i> Online</a>
+                    </div>
+                </div>
+
+                <form action="#" class="sidebar-form">
+                    <div class="input-group">
+                        <input id="sidebar-search" type="text" name="q" class="form-control" placeholder="Search...">
+                        <span class="input-group-btn">
+                            <button type="submit" name="search" id="search-btn" class="btn btn-flat">
+                                <i class="fa fa-search"></i>
+                            </button>
+                        </span>
+                    </div>
+                </form>
+
+                <ul class="sidebar-menu tree" data-widget="tree">
+                    <li class="header text-teal">MAIN NAVIGATION</li>
+                    <li class="treeview active staticmenu">
+                        <a href="#" data-url="/home">
+                            <i class="fa fa-home text-aqua"></i> <span>Home</span>
+                        </a>
+                    </li>
+                    
+                   @Html.Action("Menus", "Home");
+
+                    <li class="bg-green">
+                        <a href="/hislogin">
+                            <i class="fa fa-star-o" style="color: rgb(255, 255, 255);"></i><span style="color: rgb(255, 255, 255);">HIS Applications</span>
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="javascript:base.ResetSettings()">
+                            <i class="fa fa-refresh text-white"></i><span style="color: rgb(255, 255, 255);">Reset Settings</span>
+                        </a>
+                    </li>
+
+                    <li class="treeview ">
+                        <a asp-controller="account" asp-action="logout">
+                            <i class="glyphicon glyphicon-off text-red"></i> <span>Logout</span>
+                        </a>
+                    </li>
+                </ul>
+            </section>
+            <!-- /.sidebar -->
+        </aside>
+        <div class="content-wrapper" style="min-height: 600px;">
+            <section class="content-header">
+                <h1>@ViewBag.ParentMenu
+                    <small>@ViewBag.SubMenu</small>
+                </h1>
+            </section>
+            <section class="content">
+                @RenderBody()
+            </section>
+        </div>
+        <footer class="main-footer">
+            <div class="pull-right hidden-xs">
+                <b>App Version</b> 1.0
+            </div>
+            <i class="glyphicon glyphicon-map-marker text-orange pull-left" style="margin-right:2px;"></i>
+            <strong class="text-gray-darker pull-left">Zone : </strong><span id="zone"> <b class="text-danger">Not Set</b></span>
+            <i class="glyphicon glyphicon-user text-blue" style="margin-left:20px;"></i>
+            <strong class="text-gray-darker">Client : </strong><span id="client"> <b class="text-danger">Not Set</b></span>
+            <strong style="margin-left:20px;" class="text-gray-darker">IP Address :  </strong>@HttpContext.Current.Request.UserHostAddress
+            <strong style="margin-left:20px;" class="text-gray-darker">Api Version : </strong><span id="qmsapiversion"> <b class="text-danger">Not Set</b></span>
+        </footer>
+        <div class="control-sidebar-bg"></div>
+    </div>
+
+    <script src="@Url.Content("~/Content/scripts/jquery.min.js")"></script>
+    <script src="@Url.Content("~/Content/scripts/jquery.signalR-2.4.0.min.js")"></script>
+    <script src="@Url.Content("~/Content/plugins/bootstrap/js/bootstrap.min.js")"></script>
+    <script src="@Url.Content("~/Content/plugins/datatables.net/js/jquery.dataTables.min.js")"></script>
+    <script src="@Url.Content("~/Content/plugins/datatables.net-bs/js/dataTables.bootstrap.js")"></script>
+    <script src="@Url.Content("~/Content/plugins/select2/js/select2.full.min.js")"></script>
+    <script src="@Url.Content("~/Content/plugins/sweetalert2/sweetalert2.all.min.js")"></script>
+    <script src="@Url.Content("~/Content/plugins/adminlte/js/adminlte.min.js")"></script>
+    <script src="@Url.Content("~/Content/scripts/pagescript/basescript.js")"></script>
+
+    <script>
+        var base = {};
+        var toaster = {};
+
+        $(document).ready(function () {
+
+            toaster = Swal.mixin({
+                toast: true,
+                position: 'top-end',
+                showConfirmButton: false,
+                timer: 3000
+            });
+
+            base = new BaseScript();
+            base.url = '@Url.Content("~")';
+            base.setOrganizationDetail(@Html.Raw(Json.Encode(Global.OrganisationDetails)));
+            base.qms.setClientIPAddress('@HttpContext.Current.Request.UserHostAddress');
+            base.qms.setHubAddress('@Global.QmsHubAddress');
+            base.qms.setApiAddress("@Global.QmsApiAddress");
+            base.qms.getClientInfo('@HttpContext.Current.Request.UserHostAddress').then(function (data) {
+            $("#client").html(data.Name);
+            $("#zone").html(data.ZoneName);
+            $("#qmsapiversion").html(data.ApiVersion);
+            });
+
+            base.setMenuEvents();
+
+        });
+
+
+
+    </script>
+
+    @RenderSection("scripts", required: false)
+
+</body>
+</html>

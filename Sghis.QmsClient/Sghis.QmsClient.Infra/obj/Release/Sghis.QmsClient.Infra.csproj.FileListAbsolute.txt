@@ -1,0 +1,14 @@
+D:\Projects\Sghis\Dev\Sghis.QmsClient\Sghis.QmsClient.Infra\bin\Release\Sghis.QmsClient.Infra.dll.config
+D:\Projects\Sghis\Dev\Sghis.QmsClient\Sghis.QmsClient.Infra\bin\Release\Sghis.QmsClient.Infra.dll
+D:\Projects\Sghis\Dev\Sghis.QmsClient\Sghis.QmsClient.Infra\bin\Release\Sghis.QmsClient.Infra.pdb
+D:\Projects\Sghis\Dev\Sghis.QmsClient\Sghis.QmsClient.Infra\bin\Release\EntityFramework.dll
+D:\Projects\Sghis\Dev\Sghis.QmsClient\Sghis.QmsClient.Infra\bin\Release\EntityFramework.SqlServer.dll
+D:\Projects\Sghis\Dev\Sghis.QmsClient\Sghis.QmsClient.Infra\bin\Release\Sghis.Core.Entity.dll
+D:\Projects\Sghis\Dev\Sghis.QmsClient\Sghis.QmsClient.Infra\bin\Release\Sghis.Core.Entity.pdb
+D:\Projects\Sghis\Dev\Sghis.QmsClient\Sghis.QmsClient.Infra\bin\Release\EntityFramework.xml
+D:\Projects\Sghis\Dev\Sghis.QmsClient\Sghis.QmsClient.Infra\bin\Release\EntityFramework.SqlServer.xml
+D:\Projects\Sghis\Dev\Sghis.QmsClient\Sghis.QmsClient.Infra\obj\Release\Sghis.QmsClient.Infra.csprojAssemblyReference.cache
+D:\Projects\Sghis\Dev\Sghis.QmsClient\Sghis.QmsClient.Infra\obj\Release\Sghis.QmsClient.Infra.csproj.CoreCompileInputs.cache
+D:\Projects\Sghis\Dev\Sghis.QmsClient\Sghis.QmsClient.Infra\obj\Release\Sghis.QmsClient.Infra.csproj.CopyComplete
+D:\Projects\Sghis\Dev\Sghis.QmsClient\Sghis.QmsClient.Infra\obj\Release\Sghis.QmsClient.Infra.dll
+D:\Projects\Sghis\Dev\Sghis.QmsClient\Sghis.QmsClient.Infra\obj\Release\Sghis.QmsClient.Infra.pdb

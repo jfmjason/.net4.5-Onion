@@ -1,0 +1,2019 @@
+2018-12-11 14:55:30,279 INFO  QmsLogs - --Starting QMS API--
+2018-12-11 14:55:33,100 INFO  QmsLogs - Request GET: home/index 
+Parameter: index
+2018-12-11 15:05:24,177 INFO  QmsLogs - Request GET: admin/getclientbyipaddress 
+Parameter: getclientbyipaddress
+2018-12-11 15:29:55,244 INFO  QmsLogs - Request GET: admin/getclientbyipaddress 
+Parameter: getclientbyipaddress
+2018-12-11 15:38:51,250 INFO  QmsLogs - Request POST: admin/getclientbyipaddress 
+Parameter: getclientbyipaddress
+2018-12-11 15:48:18,225 INFO  QmsLogs - Request GET: admin/getclientbyipaddress 
+Parameter: getclientbyipaddress
+2018-12-11 15:48:32,895 ERROR ExceptionHandlerAttribute - Error while executing GET: admin/getclientbyipaddress 
+Parameter: ipAddress=130.1.8.23721
+2018-12-11 15:48:33,985 ERROR ExceptionHandlerAttribute - Stacktrace:  System.NullReferenceException: Object reference not set to an instance of an object.
+   at Sghis.Qms.Business.AdminBusiness.GetClientByIpAddress(String ipddress) in D:\Projects\Sghis\Dev\Sghis.Qms\Sghis.Qms\Business\AdminBusiness.cs:line 75
+   at Sghis.Qms.Web.Controllers.AdminController.GetClientByIpAddress(String ipAddress) in D:\Projects\Sghis\Dev\Sghis.Qms\Sghis.Qms.Web\Controllers\AdminController.cs:line 55
+   at lambda_method(Closure , ControllerBase , Object[] )
+   at System.Web.Mvc.ActionMethodDispatcher.Execute(ControllerBase controller, Object[] parameters)
+   at System.Web.Mvc.ReflectedActionDescriptor.Execute(ControllerContext controllerContext, IDictionary`2 parameters)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionMethod(ControllerContext controllerContext, ActionDescriptor actionDescriptor, IDictionary`2 parameters)
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c.<BeginInvokeSynchronousActionMethod>b__9_0(IAsyncResult asyncResult, ActionInvocation innerInvokeState)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResult`2.CallEndDelegate(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.End()
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.EndInvokeActionMethod(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.AsyncInvocationWithFilters.<InvokeActionMethodFilterAsynchronouslyRecursive>b__11_0()
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.AsyncInvocationWithFilters.<>c__DisplayClass11_1.<InvokeActionMethodFilterAsynchronouslyRecursive>b__2()
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.AsyncInvocationWithFilters.<>c__DisplayClass11_1.<InvokeActionMethodFilterAsynchronouslyRecursive>b__2()
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass7_0.<BeginInvokeActionMethodWithFilters>b__1(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResult`1.CallEndDelegate(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.End()
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.EndInvokeActionMethodWithFilters(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass3_6.<BeginInvokeAction>b__3()
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass3_1.<BeginInvokeAction>b__5(IAsyncResult asyncResult)
+2018-12-11 15:52:45,225 INFO  QmsLogs - Request GET: admin/getclientbyipaddress 
+Parameter: getclientbyipaddress
+2018-12-11 15:52:47,600 ERROR ExceptionHandlerAttribute - Error while executing GET: admin/getclientbyipaddress 
+Parameter: ipAddress=130.1.8.23721
+2018-12-11 15:52:47,605 ERROR ExceptionHandlerAttribute - Stacktrace:  System.NullReferenceException: Object reference not set to an instance of an object.
+   at Sghis.Qms.Business.AdminBusiness.GetClientByIpAddress(String ipddress) in D:\Projects\Sghis\Dev\Sghis.Qms\Sghis.Qms\Business\AdminBusiness.cs:line 75
+   at Sghis.Qms.Web.Controllers.AdminController.GetClientByIpAddress(String ipAddress) in D:\Projects\Sghis\Dev\Sghis.Qms\Sghis.Qms.Web\Controllers\AdminController.cs:line 55
+   at lambda_method(Closure , ControllerBase , Object[] )
+   at System.Web.Mvc.ActionMethodDispatcher.Execute(ControllerBase controller, Object[] parameters)
+   at System.Web.Mvc.ReflectedActionDescriptor.Execute(ControllerContext controllerContext, IDictionary`2 parameters)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionMethod(ControllerContext controllerContext, ActionDescriptor actionDescriptor, IDictionary`2 parameters)
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c.<BeginInvokeSynchronousActionMethod>b__9_0(IAsyncResult asyncResult, ActionInvocation innerInvokeState)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResult`2.CallEndDelegate(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.End()
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.EndInvokeActionMethod(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.AsyncInvocationWithFilters.<InvokeActionMethodFilterAsynchronouslyRecursive>b__11_0()
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.AsyncInvocationWithFilters.<>c__DisplayClass11_1.<InvokeActionMethodFilterAsynchronouslyRecursive>b__2()
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.AsyncInvocationWithFilters.<>c__DisplayClass11_1.<InvokeActionMethodFilterAsynchronouslyRecursive>b__2()
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass7_0.<BeginInvokeActionMethodWithFilters>b__1(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResult`1.CallEndDelegate(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.End()
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.EndInvokeActionMethodWithFilters(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass3_6.<BeginInvokeAction>b__3()
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass3_1.<BeginInvokeAction>b__5(IAsyncResult asyncResult)
+2018-12-11 15:54:59,041 INFO  QmsLogs - Request GET: admin/getclientbyipaddress 
+Parameter: getclientbyipaddress
+2018-12-11 15:55:01,555 ERROR ExceptionHandlerAttribute - Error while executing GET: admin/getclientbyipaddress 
+Parameter: ipAddress=130.1.8.23721
+2018-12-11 15:55:01,663 ERROR ExceptionHandlerAttribute - Stacktrace:  System.NullReferenceException: Object reference not set to an instance of an object.
+   at Sghis.Qms.Business.AdminBusiness.GetClientByIpAddress(String ipddress) in D:\Projects\Sghis\Dev\Sghis.Qms\Sghis.Qms\Business\AdminBusiness.cs:line 75
+   at Sghis.Qms.Web.Controllers.AdminController.GetClientByIpAddress(String ipAddress) in D:\Projects\Sghis\Dev\Sghis.Qms\Sghis.Qms.Web\Controllers\AdminController.cs:line 55
+   at lambda_method(Closure , ControllerBase , Object[] )
+   at System.Web.Mvc.ActionMethodDispatcher.Execute(ControllerBase controller, Object[] parameters)
+   at System.Web.Mvc.ReflectedActionDescriptor.Execute(ControllerContext controllerContext, IDictionary`2 parameters)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionMethod(ControllerContext controllerContext, ActionDescriptor actionDescriptor, IDictionary`2 parameters)
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c.<BeginInvokeSynchronousActionMethod>b__9_0(IAsyncResult asyncResult, ActionInvocation innerInvokeState)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResult`2.CallEndDelegate(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.End()
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.EndInvokeActionMethod(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.AsyncInvocationWithFilters.<InvokeActionMethodFilterAsynchronouslyRecursive>b__11_0()
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.AsyncInvocationWithFilters.<>c__DisplayClass11_1.<InvokeActionMethodFilterAsynchronouslyRecursive>b__2()
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.AsyncInvocationWithFilters.<>c__DisplayClass11_1.<InvokeActionMethodFilterAsynchronouslyRecursive>b__2()
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass7_0.<BeginInvokeActionMethodWithFilters>b__1(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResult`1.CallEndDelegate(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.End()
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.EndInvokeActionMethodWithFilters(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass3_6.<BeginInvokeAction>b__3()
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass3_1.<BeginInvokeAction>b__5(IAsyncResult asyncResult)
+2018-12-11 15:55:40,536 INFO  QmsLogs - Request GET: admin/getclientbyipaddress 
+Parameter: getclientbyipaddress
+2018-12-11 16:00:12,755 INFO  QmsLogs - --Starting QMS API--
+2018-12-11 16:00:16,235 INFO  QmsLogs - Request GET: home/index 
+Parameter: index
+2018-12-11 16:01:32,366 INFO  QmsLogs - Request GET: admin/getclientbyipaddress 
+Parameter: getclientbyipaddress
+2018-12-11 16:30:45,660 INFO  QmsLogs - Request POST: q/gettokensdt 
+Parameter: gettokensdt
+2018-12-11 16:31:28,290 INFO  QmsLogs - Request POST: q/gettokensdt 
+Parameter: gettokensdt
+2018-12-11 16:31:30,391 INFO  QmsLogs - Request POST: q/gettokensdt 
+Parameter: gettokensdt
+2018-12-11 16:31:31,197 INFO  QmsLogs - Request POST: q/gettokensdt 
+Parameter: gettokensdt
+2018-12-11 16:32:47,820 INFO  QmsLogs - Request POST: q/gettokensdt 
+Parameter: gettokensdt
+2018-12-11 16:32:48,881 INFO  QmsLogs - Request POST: q/gettokensdt 
+Parameter: gettokensdt
+2018-12-11 16:32:49,859 INFO  QmsLogs - Request POST: q/gettokensdt 
+Parameter: gettokensdt
+2018-12-11 16:32:50,788 INFO  QmsLogs - Request POST: q/gettokensdt 
+Parameter: gettokensdt
+2018-12-11 16:32:52,531 INFO  QmsLogs - Request POST: q/gettokensdt 
+Parameter: gettokensdt
+2018-12-11 16:32:53,634 INFO  QmsLogs - Request POST: q/gettokensdt 
+Parameter: gettokensdt
+2018-12-11 16:34:40,819 INFO  QmsLogs - Request POST: q/gettokensdt 
+Parameter: gettokensdt
+2018-12-11 16:34:42,132 INFO  QmsLogs - Request POST: q/gettokensdt 
+Parameter: gettokensdt
+2018-12-11 16:34:43,019 INFO  QmsLogs - Request POST: q/gettokensdt 
+Parameter: gettokensdt
+2018-12-11 16:35:53,569 INFO  QmsLogs - Request POST: q/gettokensdt 
+Parameter: gettokensdt
+2018-12-11 16:36:19,406 INFO  QmsLogs - Request POST: q/gettokensdt 
+Parameter: gettokensdt
+2018-12-11 16:36:55,852 INFO  QmsLogs - Request POST: q/gettokensdt 
+Parameter: gettokensdt
+2018-12-11 16:37:49,499 INFO  QmsLogs - Request POST: q/gettokensdt 
+Parameter: gettokensdt
+2018-12-11 16:37:58,167 INFO  QmsLogs - Request POST: q/gettokensdt 
+Parameter: gettokensdt
+2018-12-11 16:37:59,635 INFO  QmsLogs - Request POST: q/gettokensdt 
+Parameter: gettokensdt
+2018-12-11 16:38:55,099 INFO  QmsLogs - Request POST: q/gettokensdt 
+Parameter: gettokensdt
+2018-12-11 16:39:15,199 INFO  QmsLogs - Request POST: q/gettokensdt 
+Parameter: gettokensdt
+2018-12-11 16:39:28,930 INFO  QmsLogs - Request POST: q/gettokensdt 
+Parameter: gettokensdt
+2018-12-11 16:39:29,764 INFO  QmsLogs - Request POST: q/gettokensdt 
+Parameter: gettokensdt
+2018-12-11 16:39:33,529 INFO  QmsLogs - Request POST: q/gettokensdt 
+Parameter: gettokensdt
+2018-12-11 16:41:30,894 INFO  QmsLogs - Request POST: q/gettokensdt 
+Parameter: gettokensdt
+2018-12-11 16:44:04,658 INFO  QmsLogs - Request POST: q/gettokensdt 
+Parameter: gettokensdt
+2018-12-11 16:44:17,253 INFO  QmsLogs - Request POST: q/gettokensdt 
+Parameter: gettokensdt
+2018-12-11 16:44:33,543 INFO  QmsLogs - Request POST: q/gettokensdt 
+Parameter: gettokensdt
+2018-12-11 16:46:37,172 INFO  QmsLogs - Request POST: q/gettokensdt 
+Parameter: gettokensdt
+2018-12-11 16:48:38,889 INFO  QmsLogs - Request POST: q/gettokensdt 
+Parameter: gettokensdt
+2018-12-11 16:49:18,422 INFO  QmsLogs - Request POST: q/gettokensdt 
+Parameter: gettokensdt
+2018-12-11 16:49:36,409 INFO  QmsLogs - Request POST: q/gettokensdt 
+Parameter: gettokensdt
+2018-12-11 16:52:12,449 INFO  QmsLogs - Request POST: q/gettokensdt 
+Parameter: gettokensdt
+2018-12-11 16:52:44,284 INFO  QmsLogs - Request POST: q/gettokensdt 
+Parameter: gettokensdt
+2018-12-11 16:53:16,951 INFO  QmsLogs - Request POST: q/gettokensdt 
+Parameter: gettokensdt
+2018-12-11 16:53:44,856 INFO  QmsLogs - Request POST: q/gettokensdt 
+Parameter: gettokensdt
+2018-12-11 16:54:02,112 INFO  QmsLogs - Request POST: q/gettokensdt 
+Parameter: gettokensdt
+2018-12-11 16:54:34,500 INFO  QmsLogs - Request POST: q/gettokensdt 
+Parameter: gettokensdt
+2018-12-11 16:56:21,802 INFO  QmsLogs - Request POST: q/gettokensdt 
+Parameter: gettokensdt
+2018-12-11 16:56:55,500 INFO  QmsLogs - Request POST: q/gettokensdt 
+Parameter: gettokensdt
+2018-12-11 16:57:22,692 INFO  QmsLogs - Request POST: q/gettokensdt 
+Parameter: gettokensdt
+2018-12-11 16:57:52,073 INFO  QmsLogs - Request POST: q/gettokensdt 
+Parameter: gettokensdt
+2018-12-11 16:58:14,377 INFO  QmsLogs - Request POST: q/gettokensdt 
+Parameter: gettokensdt
+2018-12-11 16:58:25,869 INFO  QmsLogs - Request POST: q/gettokensdt 
+Parameter: gettokensdt
+2018-12-11 17:00:39,933 INFO  QmsLogs - Request POST: q/gettokensdt 
+Parameter: gettokensdt
+2018-12-11 17:00:55,001 INFO  QmsLogs - Request POST: q/gettokensdt 
+Parameter: gettokensdt
+2018-12-11 17:01:45,736 INFO  QmsLogs - Request POST: q/gettokensdt 
+Parameter: gettokensdt
+2018-12-11 17:01:55,937 INFO  QmsLogs - Request POST: q/gettokensdt 
+Parameter: gettokensdt
+2018-12-11 17:05:25,959 INFO  QmsLogs - Request POST: q/gettokensdt 
+Parameter: gettokensdt
+2018-12-11 17:07:34,613 INFO  QmsLogs - Request POST: q/gettokensdt 
+Parameter: gettokensdt
+2018-12-11 17:09:58,584 INFO  QmsLogs - Request POST: q/gettokensdt 
+Parameter: gettokensdt
+2018-12-11 17:12:11,671 INFO  QmsLogs - Request POST: q/gettokensdt 
+Parameter: gettokensdt
+2018-12-11 17:12:53,874 INFO  QmsLogs - Request POST: q/gettokensdt 
+Parameter: gettokensdt
+2018-12-11 17:15:06,425 INFO  QmsLogs - Request POST: q/gettokensdt 
+Parameter: gettokensdt
+2018-12-11 17:17:29,424 INFO  QmsLogs - Request POST: q/gettokensdt 
+Parameter: gettokensdt
+2018-12-11 17:18:53,403 INFO  QmsLogs - Request POST: q/gettokensdt 
+Parameter: gettokensdt
+2018-12-11 17:19:19,878 INFO  QmsLogs - Request POST: q/gettokensdt 
+Parameter: gettokensdt
+2018-12-11 17:19:50,323 INFO  QmsLogs - Request POST: q/gettokensdt 
+Parameter: gettokensdt
+2018-12-12 09:16:25,178 INFO  QmsLogs - Request POST: q/gettokensdt 
+Parameter: gettokensdt
+2018-12-12 09:17:11,389 INFO  QmsLogs - Request POST: q/gettokensdt 
+Parameter: gettokensdt
+2018-12-12 09:17:13,721 INFO  QmsLogs - Request POST: q/gettokensdt 
+Parameter: gettokensdt
+2018-12-12 09:17:15,053 INFO  QmsLogs - Request POST: q/gettokensdt 
+Parameter: gettokensdt
+2018-12-12 09:17:16,655 INFO  QmsLogs - Request POST: q/gettokensdt 
+Parameter: gettokensdt
+2018-12-12 09:17:17,910 INFO  QmsLogs - Request POST: q/gettokensdt 
+Parameter: gettokensdt
+2018-12-12 09:17:19,228 INFO  QmsLogs - Request POST: q/gettokensdt 
+Parameter: gettokensdt
+2018-12-12 09:17:20,504 INFO  QmsLogs - Request POST: q/gettokensdt 
+Parameter: gettokensdt
+2018-12-12 09:17:23,214 INFO  QmsLogs - Request POST: q/gettokensdt 
+Parameter: gettokensdt
+2018-12-12 09:17:24,104 INFO  QmsLogs - Request POST: q/gettokensdt 
+Parameter: gettokensdt
+2018-12-12 09:17:48,817 INFO  QmsLogs - Request POST: q/gettokensdt 
+Parameter: gettokensdt
+2018-12-12 09:18:02,430 INFO  QmsLogs - Request POST: q/gettokensdt 
+Parameter: gettokensdt
+2018-12-12 09:18:11,707 INFO  QmsLogs - Request POST: q/gettokensdt 
+Parameter: gettokensdt
+2018-12-12 09:31:18,004 INFO  QmsLogs - Request POST: q/gettokensdt 
+Parameter: gettokensdt
+2018-12-12 09:36:10,177 INFO  QmsLogs - Request POST: q/gettokensdt 
+Parameter: gettokensdt
+2018-12-12 09:38:21,157 INFO  QmsLogs - Request POST: q/gettokensdt 
+Parameter: gettokensdt
+2018-12-12 09:43:58,437 INFO  QmsLogs - Request POST: q/gettokensdt 
+Parameter: gettokensdt
+2018-12-12 09:44:18,529 INFO  QmsLogs - Request POST: q/gettokensdt 
+Parameter: gettokensdt
+2018-12-12 09:44:40,216 INFO  QmsLogs - Request POST: q/gettokensdt 
+Parameter: gettokensdt
+2018-12-12 09:45:07,444 INFO  QmsLogs - Request POST: q/gettokensdt 
+Parameter: gettokensdt
+2018-12-12 09:45:15,717 INFO  QmsLogs - Request POST: q/gettokensdt 
+Parameter: gettokensdt
+2018-12-12 09:45:34,373 INFO  QmsLogs - Request POST: q/gettokensdt 
+Parameter: gettokensdt
+2018-12-12 09:49:52,752 INFO  QmsLogs - Request POST: q/gettokensdt 
+Parameter: gettokensdt
+2018-12-12 09:50:19,132 INFO  QmsLogs - Request POST: q/gettokensdt 
+Parameter: gettokensdt
+2018-12-12 09:50:43,273 INFO  QmsLogs - Request POST: q/gettokensdt 
+Parameter: gettokensdt
+2018-12-12 09:53:16,741 INFO  QmsLogs - Request POST: q/gettokensdt 
+Parameter: gettokensdt
+2018-12-12 09:54:40,929 INFO  QmsLogs - Request POST: q/gettokensdt 
+Parameter: gettokensdt
+2018-12-12 09:55:24,290 INFO  QmsLogs - Request POST: q/gettokensdt 
+Parameter: gettokensdt
+2018-12-12 09:55:43,145 INFO  QmsLogs - Request POST: q/gettokensdt 
+Parameter: gettokensdt
+2018-12-12 09:56:05,592 INFO  QmsLogs - Request POST: q/gettokensdt 
+Parameter: gettokensdt
+2018-12-12 09:56:20,860 INFO  QmsLogs - Request POST: q/gettokensdt 
+Parameter: gettokensdt
+2018-12-12 09:56:28,238 INFO  QmsLogs - Request POST: q/gettokensdt 
+Parameter: gettokensdt
+2018-12-12 09:58:18,994 INFO  QmsLogs - Request POST: q/gettokensdt 
+Parameter: gettokensdt
+2018-12-12 10:11:57,638 INFO  QmsLogs - Request POST: q/gettokensdt 
+Parameter: gettokensdt
+2018-12-12 10:12:34,005 INFO  QmsLogs - Request POST: q/gettokensdt 
+Parameter: gettokensdt
+2018-12-12 10:12:34,825 INFO  QmsLogs - Request POST: q/gettokensdt 
+Parameter: gettokensdt
+2018-12-12 10:13:08,223 INFO  QmsLogs - Request GET: home/display1 
+Parameter: display1
+2018-12-12 10:13:28,716 INFO  QmsLogs - Request GET: q/gettokens 
+Parameter: gettokens
+2018-12-12 10:24:25,966 INFO  QmsLogs - --Starting QMS API--
+2018-12-12 10:24:29,501 INFO  QmsLogs - Request GET: home/index 
+Parameter: index
+2018-12-12 10:25:12,261 INFO  QmsLogs - Request GET: home/display1 
+Parameter: display1
+2018-12-12 10:25:23,078 INFO  QmsLogs - Request GET: q/gettokens 
+Parameter: gettokens
+2018-12-12 10:26:46,494 INFO  QmsLogs - Request POST: q/gettokensdt 
+Parameter: gettokensdt
+2018-12-12 10:31:20,431 INFO  QmsLogs - --Starting QMS API--
+2018-12-12 10:31:23,333 INFO  QmsLogs - Request GET: home/index 
+Parameter: index
+2018-12-12 10:31:38,380 INFO  QmsLogs - Request POST: q/gettokensdt 
+Parameter: gettokensdt
+2018-12-12 10:32:29,345 INFO  QmsLogs - Request POST: q/gettokensdt 
+Parameter: gettokensdt
+2018-12-12 10:32:45,854 INFO  QmsLogs - Request GET: home/display1 
+Parameter: display1
+2018-12-12 10:32:47,965 INFO  QmsLogs - Request GET: q/gettokens 
+Parameter: gettokens
+2018-12-12 10:32:52,140 INFO  QmsLogs - Request POST: q/call 
+Parameter: call
+2018-12-12 10:32:52,142 ERROR ExceptionHandlerAttribute - Error while executing POST: q/call 
+Parameter: 
+2018-12-12 10:32:52,192 ERROR ExceptionHandlerAttribute - Stacktrace:  System.ArgumentException: The parameters dictionary contains a null entry for parameter 'id' of non-nullable type 'System.Int32' for method 'System.Web.Mvc.JsonResult Call(Int32)' in 'Sghis.Qms.Web.Controllers.QController'. An optional parameter must be a reference type, a nullable type, or be declared as an optional parameter.
+Parameter name: parameters
+   at System.Web.Mvc.ActionDescriptor.ExtractParameterFromDictionary(ParameterInfo parameterInfo, IDictionary`2 parameters, MethodInfo methodInfo)
+   at System.Web.Mvc.ReflectedActionDescriptor.Execute(ControllerContext controllerContext, IDictionary`2 parameters)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionMethod(ControllerContext controllerContext, ActionDescriptor actionDescriptor, IDictionary`2 parameters)
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c.<BeginInvokeSynchronousActionMethod>b__9_0(IAsyncResult asyncResult, ActionInvocation innerInvokeState)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResult`2.CallEndDelegate(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.End()
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.EndInvokeActionMethod(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.AsyncInvocationWithFilters.<InvokeActionMethodFilterAsynchronouslyRecursive>b__11_0()
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.AsyncInvocationWithFilters.<>c__DisplayClass11_1.<InvokeActionMethodFilterAsynchronouslyRecursive>b__2()
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.AsyncInvocationWithFilters.<>c__DisplayClass11_1.<InvokeActionMethodFilterAsynchronouslyRecursive>b__2()
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass7_0.<BeginInvokeActionMethodWithFilters>b__1(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResult`1.CallEndDelegate(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.End()
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.EndInvokeActionMethodWithFilters(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass3_6.<BeginInvokeAction>b__3()
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass3_1.<BeginInvokeAction>b__5(IAsyncResult asyncResult)
+2018-12-12 10:33:26,175 INFO  QmsLogs - Request POST: q/call 
+Parameter: call
+2018-12-12 10:33:26,176 ERROR ExceptionHandlerAttribute - Error while executing POST: q/call 
+Parameter: 
+2018-12-12 10:33:26,176 ERROR ExceptionHandlerAttribute - Stacktrace:  System.ArgumentException: The parameters dictionary contains a null entry for parameter 'id' of non-nullable type 'System.Int32' for method 'System.Web.Mvc.JsonResult Call(Int32)' in 'Sghis.Qms.Web.Controllers.QController'. An optional parameter must be a reference type, a nullable type, or be declared as an optional parameter.
+Parameter name: parameters
+   at System.Web.Mvc.ActionDescriptor.ExtractParameterFromDictionary(ParameterInfo parameterInfo, IDictionary`2 parameters, MethodInfo methodInfo)
+   at System.Web.Mvc.ReflectedActionDescriptor.Execute(ControllerContext controllerContext, IDictionary`2 parameters)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionMethod(ControllerContext controllerContext, ActionDescriptor actionDescriptor, IDictionary`2 parameters)
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c.<BeginInvokeSynchronousActionMethod>b__9_0(IAsyncResult asyncResult, ActionInvocation innerInvokeState)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResult`2.CallEndDelegate(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.End()
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.EndInvokeActionMethod(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.AsyncInvocationWithFilters.<InvokeActionMethodFilterAsynchronouslyRecursive>b__11_0()
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.AsyncInvocationWithFilters.<>c__DisplayClass11_1.<InvokeActionMethodFilterAsynchronouslyRecursive>b__2()
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.AsyncInvocationWithFilters.<>c__DisplayClass11_1.<InvokeActionMethodFilterAsynchronouslyRecursive>b__2()
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass7_0.<BeginInvokeActionMethodWithFilters>b__1(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResult`1.CallEndDelegate(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.End()
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.EndInvokeActionMethodWithFilters(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass3_6.<BeginInvokeAction>b__3()
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass3_1.<BeginInvokeAction>b__5(IAsyncResult asyncResult)
+2018-12-12 10:34:32,644 INFO  QmsLogs - Request POST: q/gettokensdt 
+Parameter: gettokensdt
+2018-12-12 10:34:38,670 INFO  QmsLogs - Request POST: q/call 
+Parameter: call
+2018-12-12 10:34:38,670 ERROR ExceptionHandlerAttribute - Error while executing POST: q/call 
+Parameter: 
+2018-12-12 10:34:38,670 ERROR ExceptionHandlerAttribute - Stacktrace:  System.ArgumentException: The parameters dictionary contains a null entry for parameter 'id' of non-nullable type 'System.Int32' for method 'System.Web.Mvc.JsonResult Call(Int32)' in 'Sghis.Qms.Web.Controllers.QController'. An optional parameter must be a reference type, a nullable type, or be declared as an optional parameter.
+Parameter name: parameters
+   at System.Web.Mvc.ActionDescriptor.ExtractParameterFromDictionary(ParameterInfo parameterInfo, IDictionary`2 parameters, MethodInfo methodInfo)
+   at System.Web.Mvc.ReflectedActionDescriptor.Execute(ControllerContext controllerContext, IDictionary`2 parameters)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionMethod(ControllerContext controllerContext, ActionDescriptor actionDescriptor, IDictionary`2 parameters)
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c.<BeginInvokeSynchronousActionMethod>b__9_0(IAsyncResult asyncResult, ActionInvocation innerInvokeState)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResult`2.CallEndDelegate(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.End()
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.EndInvokeActionMethod(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.AsyncInvocationWithFilters.<InvokeActionMethodFilterAsynchronouslyRecursive>b__11_0()
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.AsyncInvocationWithFilters.<>c__DisplayClass11_1.<InvokeActionMethodFilterAsynchronouslyRecursive>b__2()
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.AsyncInvocationWithFilters.<>c__DisplayClass11_1.<InvokeActionMethodFilterAsynchronouslyRecursive>b__2()
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass7_0.<BeginInvokeActionMethodWithFilters>b__1(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResult`1.CallEndDelegate(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.End()
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.EndInvokeActionMethodWithFilters(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass3_6.<BeginInvokeAction>b__3()
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass3_1.<BeginInvokeAction>b__5(IAsyncResult asyncResult)
+2018-12-12 10:36:48,557 INFO  QmsLogs - Request POST: q/call 
+Parameter: call
+2018-12-12 10:36:52,526 ERROR ExceptionHandlerAttribute - Error while executing POST: q/call 
+Parameter: 
+2018-12-12 10:36:52,531 ERROR ExceptionHandlerAttribute - Stacktrace:  System.ArgumentException: The parameters dictionary contains a null entry for parameter 'id' of non-nullable type 'System.Int32' for method 'System.Web.Mvc.JsonResult Call(Int32)' in 'Sghis.Qms.Web.Controllers.QController'. An optional parameter must be a reference type, a nullable type, or be declared as an optional parameter.
+Parameter name: parameters
+   at System.Web.Mvc.ActionDescriptor.ExtractParameterFromDictionary(ParameterInfo parameterInfo, IDictionary`2 parameters, MethodInfo methodInfo)
+   at System.Web.Mvc.ReflectedActionDescriptor.Execute(ControllerContext controllerContext, IDictionary`2 parameters)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionMethod(ControllerContext controllerContext, ActionDescriptor actionDescriptor, IDictionary`2 parameters)
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c.<BeginInvokeSynchronousActionMethod>b__9_0(IAsyncResult asyncResult, ActionInvocation innerInvokeState)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResult`2.CallEndDelegate(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.End()
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.EndInvokeActionMethod(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.AsyncInvocationWithFilters.<InvokeActionMethodFilterAsynchronouslyRecursive>b__11_0()
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.AsyncInvocationWithFilters.<>c__DisplayClass11_1.<InvokeActionMethodFilterAsynchronouslyRecursive>b__2()
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.AsyncInvocationWithFilters.<>c__DisplayClass11_1.<InvokeActionMethodFilterAsynchronouslyRecursive>b__2()
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass7_0.<BeginInvokeActionMethodWithFilters>b__1(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResult`1.CallEndDelegate(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.End()
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.EndInvokeActionMethodWithFilters(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass3_6.<BeginInvokeAction>b__3()
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass3_1.<BeginInvokeAction>b__5(IAsyncResult asyncResult)
+2018-12-12 10:36:56,169 INFO  QmsLogs - Request POST: q/gettokensdt 
+Parameter: gettokensdt
+2018-12-12 10:36:59,427 INFO  QmsLogs - Request POST: q/call 
+Parameter: call
+2018-12-12 10:37:26,976 ERROR ExceptionHandlerAttribute - Error while executing POST: q/call 
+Parameter: 
+2018-12-12 10:37:28,260 ERROR ExceptionHandlerAttribute - Stacktrace:  System.ArgumentException: The parameters dictionary contains a null entry for parameter 'id' of non-nullable type 'System.Int32' for method 'System.Web.Mvc.JsonResult Call(Int32)' in 'Sghis.Qms.Web.Controllers.QController'. An optional parameter must be a reference type, a nullable type, or be declared as an optional parameter.
+Parameter name: parameters
+   at System.Web.Mvc.ActionDescriptor.ExtractParameterFromDictionary(ParameterInfo parameterInfo, IDictionary`2 parameters, MethodInfo methodInfo)
+   at System.Web.Mvc.ReflectedActionDescriptor.Execute(ControllerContext controllerContext, IDictionary`2 parameters)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionMethod(ControllerContext controllerContext, ActionDescriptor actionDescriptor, IDictionary`2 parameters)
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c.<BeginInvokeSynchronousActionMethod>b__9_0(IAsyncResult asyncResult, ActionInvocation innerInvokeState)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResult`2.CallEndDelegate(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.End()
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.EndInvokeActionMethod(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.AsyncInvocationWithFilters.<InvokeActionMethodFilterAsynchronouslyRecursive>b__11_0()
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.AsyncInvocationWithFilters.<>c__DisplayClass11_1.<InvokeActionMethodFilterAsynchronouslyRecursive>b__2()
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.AsyncInvocationWithFilters.<>c__DisplayClass11_1.<InvokeActionMethodFilterAsynchronouslyRecursive>b__2()
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass7_0.<BeginInvokeActionMethodWithFilters>b__1(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResult`1.CallEndDelegate(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.End()
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.EndInvokeActionMethodWithFilters(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass3_6.<BeginInvokeAction>b__3()
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass3_1.<BeginInvokeAction>b__5(IAsyncResult asyncResult)
+2018-12-12 10:38:19,013 ERROR ExceptionHandlerAttribute - Stacktrace:  System.ArgumentException: The parameters dictionary contains a null entry for parameter 'id' of non-nullable type 'System.Int32' for method 'System.Web.Mvc.JsonResult Call(Int32)' in 'Sghis.Qms.Web.Controllers.QController'. An optional parameter must be a reference type, a nullable type, or be declared as an optional parameter.
+Parameter name: parameters
+   at System.Web.Mvc.ActionDescriptor.ExtractParameterFromDictionary(ParameterInfo parameterInfo, IDictionary`2 parameters, MethodInfo methodInfo)
+   at System.Web.Mvc.ReflectedActionDescriptor.Execute(ControllerContext controllerContext, IDictionary`2 parameters)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionMethod(ControllerContext controllerContext, ActionDescriptor actionDescriptor, IDictionary`2 parameters)
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c.<BeginInvokeSynchronousActionMethod>b__9_0(IAsyncResult asyncResult, ActionInvocation innerInvokeState)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResult`2.CallEndDelegate(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.End()
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.EndInvokeActionMethod(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.AsyncInvocationWithFilters.<InvokeActionMethodFilterAsynchronouslyRecursive>b__11_0()
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.AsyncInvocationWithFilters.<>c__DisplayClass11_1.<InvokeActionMethodFilterAsynchronouslyRecursive>b__2()
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.AsyncInvocationWithFilters.<>c__DisplayClass11_1.<InvokeActionMethodFilterAsynchronouslyRecursive>b__2()
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass7_0.<BeginInvokeActionMethodWithFilters>b__1(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResult`1.CallEndDelegate(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.End()
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.EndInvokeActionMethodWithFilters(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass3_6.<BeginInvokeAction>b__3()
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass3_1.<BeginInvokeAction>b__5(IAsyncResult asyncResult)
+2018-12-12 10:39:03,009 INFO  QmsLogs - Request POST: q/gettokensdt 
+Parameter: gettokensdt
+2018-12-12 10:39:08,630 INFO  QmsLogs - Request POST: q/call 
+Parameter: call
+2018-12-12 10:39:08,630 ERROR ExceptionHandlerAttribute - Error while executing POST: q/call 
+Parameter: 
+2018-12-12 10:39:08,631 ERROR ExceptionHandlerAttribute - Stacktrace:  System.ArgumentException: The parameters dictionary contains a null entry for parameter 'id' of non-nullable type 'System.Int32' for method 'System.Web.Mvc.JsonResult Call(Int32)' in 'Sghis.Qms.Web.Controllers.QController'. An optional parameter must be a reference type, a nullable type, or be declared as an optional parameter.
+Parameter name: parameters
+   at System.Web.Mvc.ActionDescriptor.ExtractParameterFromDictionary(ParameterInfo parameterInfo, IDictionary`2 parameters, MethodInfo methodInfo)
+   at System.Web.Mvc.ReflectedActionDescriptor.Execute(ControllerContext controllerContext, IDictionary`2 parameters)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionMethod(ControllerContext controllerContext, ActionDescriptor actionDescriptor, IDictionary`2 parameters)
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c.<BeginInvokeSynchronousActionMethod>b__9_0(IAsyncResult asyncResult, ActionInvocation innerInvokeState)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResult`2.CallEndDelegate(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.End()
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.EndInvokeActionMethod(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.AsyncInvocationWithFilters.<InvokeActionMethodFilterAsynchronouslyRecursive>b__11_0()
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.AsyncInvocationWithFilters.<>c__DisplayClass11_1.<InvokeActionMethodFilterAsynchronouslyRecursive>b__2()
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.AsyncInvocationWithFilters.<>c__DisplayClass11_1.<InvokeActionMethodFilterAsynchronouslyRecursive>b__2()
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass7_0.<BeginInvokeActionMethodWithFilters>b__1(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResult`1.CallEndDelegate(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.End()
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.EndInvokeActionMethodWithFilters(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass3_6.<BeginInvokeAction>b__3()
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass3_1.<BeginInvokeAction>b__5(IAsyncResult asyncResult)
+2018-12-12 10:39:24,340 INFO  QmsLogs - Request POST: q/gettokensdt 
+Parameter: gettokensdt
+2018-12-12 10:39:58,745 INFO  QmsLogs - Request POST: q/gettokensdt 
+Parameter: gettokensdt
+2018-12-12 10:40:01,526 INFO  QmsLogs - Request POST: q/call 
+Parameter: call
+2018-12-12 10:40:01,526 ERROR ExceptionHandlerAttribute - Error while executing POST: q/call 
+Parameter: 
+2018-12-12 10:40:01,526 ERROR ExceptionHandlerAttribute - Stacktrace:  System.ArgumentException: The parameters dictionary contains a null entry for parameter 'id' of non-nullable type 'System.Int32' for method 'System.Web.Mvc.JsonResult Call(Int32)' in 'Sghis.Qms.Web.Controllers.QController'. An optional parameter must be a reference type, a nullable type, or be declared as an optional parameter.
+Parameter name: parameters
+   at System.Web.Mvc.ActionDescriptor.ExtractParameterFromDictionary(ParameterInfo parameterInfo, IDictionary`2 parameters, MethodInfo methodInfo)
+   at System.Web.Mvc.ReflectedActionDescriptor.Execute(ControllerContext controllerContext, IDictionary`2 parameters)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionMethod(ControllerContext controllerContext, ActionDescriptor actionDescriptor, IDictionary`2 parameters)
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c.<BeginInvokeSynchronousActionMethod>b__9_0(IAsyncResult asyncResult, ActionInvocation innerInvokeState)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResult`2.CallEndDelegate(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.End()
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.EndInvokeActionMethod(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.AsyncInvocationWithFilters.<InvokeActionMethodFilterAsynchronouslyRecursive>b__11_0()
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.AsyncInvocationWithFilters.<>c__DisplayClass11_1.<InvokeActionMethodFilterAsynchronouslyRecursive>b__2()
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.AsyncInvocationWithFilters.<>c__DisplayClass11_1.<InvokeActionMethodFilterAsynchronouslyRecursive>b__2()
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass7_0.<BeginInvokeActionMethodWithFilters>b__1(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResult`1.CallEndDelegate(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.End()
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.EndInvokeActionMethodWithFilters(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass3_6.<BeginInvokeAction>b__3()
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass3_1.<BeginInvokeAction>b__5(IAsyncResult asyncResult)
+2018-12-12 10:40:18,185 INFO  QmsLogs - Request POST: q/call 
+Parameter: call
+2018-12-12 10:40:18,186 ERROR ExceptionHandlerAttribute - Error while executing POST: q/call 
+Parameter: 
+2018-12-12 10:40:18,187 ERROR ExceptionHandlerAttribute - Stacktrace:  System.ArgumentException: The parameters dictionary contains a null entry for parameter 'id' of non-nullable type 'System.Int32' for method 'System.Web.Mvc.JsonResult Call(Int32)' in 'Sghis.Qms.Web.Controllers.QController'. An optional parameter must be a reference type, a nullable type, or be declared as an optional parameter.
+Parameter name: parameters
+   at System.Web.Mvc.ActionDescriptor.ExtractParameterFromDictionary(ParameterInfo parameterInfo, IDictionary`2 parameters, MethodInfo methodInfo)
+   at System.Web.Mvc.ReflectedActionDescriptor.Execute(ControllerContext controllerContext, IDictionary`2 parameters)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionMethod(ControllerContext controllerContext, ActionDescriptor actionDescriptor, IDictionary`2 parameters)
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c.<BeginInvokeSynchronousActionMethod>b__9_0(IAsyncResult asyncResult, ActionInvocation innerInvokeState)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResult`2.CallEndDelegate(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.End()
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.EndInvokeActionMethod(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.AsyncInvocationWithFilters.<InvokeActionMethodFilterAsynchronouslyRecursive>b__11_0()
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.AsyncInvocationWithFilters.<>c__DisplayClass11_1.<InvokeActionMethodFilterAsynchronouslyRecursive>b__2()
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.AsyncInvocationWithFilters.<>c__DisplayClass11_1.<InvokeActionMethodFilterAsynchronouslyRecursive>b__2()
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass7_0.<BeginInvokeActionMethodWithFilters>b__1(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResult`1.CallEndDelegate(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.End()
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.EndInvokeActionMethodWithFilters(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass3_6.<BeginInvokeAction>b__3()
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass3_1.<BeginInvokeAction>b__5(IAsyncResult asyncResult)
+2018-12-12 10:43:13,093 INFO  QmsLogs - Request POST: q/gettokensdt 
+Parameter: gettokensdt
+2018-12-12 10:43:19,821 INFO  QmsLogs - Request POST: q/call 
+Parameter: call
+2018-12-12 10:45:25,934 INFO  QmsLogs - Request GET: home/index 
+Parameter: index
+2018-12-12 10:45:27,785 INFO  QmsLogs - Request GET: home/index 
+Parameter: index
+2018-12-12 10:45:38,521 INFO  QmsLogs - Request GET: home/display1 
+Parameter: display1
+2018-12-12 10:46:19,140 INFO  QmsLogs - Request GET: q/gettokens 
+Parameter: gettokens
+2018-12-12 10:46:58,191 INFO  QmsLogs - Request POST: q/gettokensdt 
+Parameter: gettokensdt
+2018-12-12 10:47:36,888 INFO  QmsLogs - Request POST: q/gettokensdt 
+Parameter: gettokensdt
+2018-12-12 10:47:47,104 INFO  QmsLogs - Request POST: q/call 
+Parameter: call
+2018-12-12 10:47:47,162 INFO  QmsLogs - Request POST: q/gettokensdt 
+Parameter: gettokensdt
+2018-12-12 10:47:48,517 INFO  QmsLogs - Request POST: q/call 
+Parameter: call
+2018-12-12 10:47:48,633 INFO  QmsLogs - Request POST: q/gettokensdt 
+Parameter: gettokensdt
+2018-12-12 10:47:49,464 INFO  QmsLogs - Request POST: q/call 
+Parameter: call
+2018-12-12 10:47:49,515 INFO  QmsLogs - Request POST: q/gettokensdt 
+Parameter: gettokensdt
+2018-12-12 13:57:13,058 INFO  QmsLogs - Request GET: q/gettokens 
+Parameter: gettokens
+2018-12-12 14:27:43,684 INFO  QmsLogs - --Starting QMS API--
+2018-12-12 14:27:52,919 INFO  QmsLogs - Request GET: home/index 
+Parameter: index
+2018-12-12 14:38:58,083 INFO  QmsLogs - Request GET: admin/getclientbyipaddress 
+Parameter: getclientbyipaddress
+2018-12-12 14:38:58,110 INFO  QmsLogs - Request POST: q/gettokensdt 
+Parameter: gettokensdt
+2018-12-12 14:39:20,660 ERROR ExceptionHandlerAttribute - Error while executing POST: q/gettokensdt 
+Parameter: draw=1&columns%5b0%5d%5bdata%5d=TokenNumber&columns%5b0%5d%5bname%5d=&columns%5b0%5d%5bsearchable%5d=true&columns%5b0%5d%5borderable%5d=false&columns%5b0%5d%5bsearch%5d%5bvalue%5d=&columns%5b0%5d%5bsearch%5d%5bregex%5d=false&columns%5b1%5d%5bdata%5d=Mrn&columns%5b1%5d%5bname%5d=&columns%5b1%5d%5bsearchable%5d=true&columns%5b1%5d%5borderable%5d=false&columns%5b1%5d%5bsearch%5d%5bvalue%5d=&columns%5b1%5d%5bsearch%5d%5bregex%5d=false&columns%5b2%5d%5bdata%5d=Status&columns%5b2%5d%5bname%5d=&columns%5b2%5d%5bsearchable%5d=true&columns%5b2%5d%5borderable%5d=false&columns%5b2%5d%5bsearch%5d%5bvalue%5d=&columns%5b2%5d%5bsearch%5d%5bregex%5d=false&columns%5b3%5d%5bdata%5d=3&columns%5b3%5d%5bname%5d=&columns%5b3%5d%5bsearchable%5d=true&columns%5b3%5d%5borderable%5d=false&columns%5b3%5d%5bsearch%5d%5bvalue%5d=&columns%5b3%5d%5bsearch%5d%5bregex%5d=false&start=0&length=10&search%5bvalue%5d=&search%5bregex%5d=false&Status=1%2c3%2c4
+2018-12-12 14:39:23,341 ERROR ExceptionHandlerAttribute - Stacktrace:  System.InvalidOperationException: The context cannot be used while the model is being created. This exception may be thrown if the context is used inside the OnModelCreating method or if the same context instance is accessed by multiple threads concurrently. Note that instance members of DbContext and related classes are not guaranteed to be thread safe.
+   at System.Data.Entity.Internal.LazyInternalContext.InitializeContext()
+   at System.Data.Entity.Internal.InternalContext.GetEntitySetAndBaseTypeForType(Type entityType)
+   at System.Data.Entity.Internal.Linq.InternalSet`1.Initialize()
+   at System.Data.Entity.Internal.Linq.InternalSet`1.GetEnumerator()
+   at System.Data.Entity.Infrastructure.DbQuery`1.System.Collections.Generic.IEnumerable<TResult>.GetEnumerator()
+   at System.Linq.Enumerable.WhereEnumerableIterator`1.MoveNext()
+   at System.Linq.Enumerable.SingleOrDefault[TSource](IEnumerable`1 source)
+   at Sghis.Qms.Data.QmsRepository`1.GetByCriteria(Func`2 criteria) in D:\Projects\Sghis\Dev\Sghis.Qms\Sghis.Qms\Data\QmsRepository.cs:line 81
+   at Sghis.Qms.Business.QueuingBusiness.GetTokensByIpAddress(Int32& totalRecords, Int32 startPage, Int32 pageSize, String ip, String statusids) in D:\Projects\Sghis\Dev\Sghis.Qms\Sghis.Qms\Business\QueuingBusiness.cs:line 110
+   at Sghis.Qms.Web.Controllers.QController.GetTokensDt(DtTokenRequest dtr) in D:\Projects\Sghis\Dev\Sghis.Qms\Sghis.Qms.Web\Controllers\QController.cs:line 137
+   at lambda_method(Closure , ControllerBase , Object[] )
+   at System.Web.Mvc.ActionMethodDispatcher.Execute(ControllerBase controller, Object[] parameters)
+   at System.Web.Mvc.ReflectedActionDescriptor.Execute(ControllerContext controllerContext, IDictionary`2 parameters)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionMethod(ControllerContext controllerContext, ActionDescriptor actionDescriptor, IDictionary`2 parameters)
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c.<BeginInvokeSynchronousActionMethod>b__9_0(IAsyncResult asyncResult, ActionInvocation innerInvokeState)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResult`2.CallEndDelegate(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.End()
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.EndInvokeActionMethod(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.AsyncInvocationWithFilters.<InvokeActionMethodFilterAsynchronouslyRecursive>b__11_0()
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.AsyncInvocationWithFilters.<>c__DisplayClass11_1.<InvokeActionMethodFilterAsynchronouslyRecursive>b__2()
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.AsyncInvocationWithFilters.<>c__DisplayClass11_1.<InvokeActionMethodFilterAsynchronouslyRecursive>b__2()
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass7_0.<BeginInvokeActionMethodWithFilters>b__1(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResult`1.CallEndDelegate(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.End()
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.EndInvokeActionMethodWithFilters(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass3_6.<BeginInvokeAction>b__3()
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass3_1.<BeginInvokeAction>b__5(IAsyncResult asyncResult)
+2018-12-12 14:39:38,415 INFO  QmsLogs - Request POST: q/gettokensdt 
+Parameter: gettokensdt
+2018-12-12 14:40:07,666 INFO  QmsLogs - Request POST: q/gettokensdt 
+Parameter: gettokensdt
+2018-12-12 14:40:19,511 INFO  QmsLogs - Request POST: q/gettokensdt 
+Parameter: gettokensdt
+2018-12-12 14:41:53,105 INFO  QmsLogs - --Starting QMS API--
+2018-12-12 14:41:54,183 INFO  QmsLogs - Request GET: home/index 
+Parameter: index
+2018-12-12 14:42:02,138 INFO  QmsLogs - Request GET: home/index 
+Parameter: index
+2018-12-12 14:42:03,563 INFO  QmsLogs - Request GET: q/createtest 
+Parameter: createtest
+2018-12-12 14:42:05,442 INFO  QmsLogs - Request POST: q/gettokensdt 
+Parameter: gettokensdt
+2018-12-12 14:42:17,993 ERROR ExceptionHandlerAttribute - Error while executing POST: q/gettokensdt 
+Parameter: draw=1&columns%5b0%5d%5bdata%5d=TokenNumber&columns%5b0%5d%5bname%5d=&columns%5b0%5d%5bsearchable%5d=true&columns%5b0%5d%5borderable%5d=false&columns%5b0%5d%5bsearch%5d%5bvalue%5d=&columns%5b0%5d%5bsearch%5d%5bregex%5d=false&columns%5b1%5d%5bdata%5d=Mrn&columns%5b1%5d%5bname%5d=&columns%5b1%5d%5bsearchable%5d=true&columns%5b1%5d%5borderable%5d=false&columns%5b1%5d%5bsearch%5d%5bvalue%5d=&columns%5b1%5d%5bsearch%5d%5bregex%5d=false&columns%5b2%5d%5bdata%5d=Status&columns%5b2%5d%5bname%5d=&columns%5b2%5d%5bsearchable%5d=true&columns%5b2%5d%5borderable%5d=false&columns%5b2%5d%5bsearch%5d%5bvalue%5d=&columns%5b2%5d%5bsearch%5d%5bregex%5d=false&columns%5b3%5d%5bdata%5d=3&columns%5b3%5d%5bname%5d=&columns%5b3%5d%5bsearchable%5d=true&columns%5b3%5d%5borderable%5d=false&columns%5b3%5d%5bsearch%5d%5bvalue%5d=&columns%5b3%5d%5bsearch%5d%5bregex%5d=false&start=0&length=10&search%5bvalue%5d=&search%5bregex%5d=false&Status=1%2c3%2c4
+2018-12-12 14:42:18,159 ERROR ExceptionHandlerAttribute - Stacktrace:  System.ObjectDisposedException: The ObjectContext instance has been disposed and can no longer be used for operations that require a connection.
+   at System.Data.Entity.Core.Objects.ObjectContext.ReleaseConnection()
+   at System.Data.Entity.Core.Common.Internal.Materialization.Shaper`1.Finally()
+   at System.Data.Entity.Core.Common.Internal.Materialization.Shaper`1.SimpleEnumerator.Dispose()
+   at System.Data.Entity.Internal.LazyEnumerator`1.Dispose()
+   at System.Linq.Enumerable.WhereEnumerableIterator`1.Dispose()
+   at System.Linq.Enumerable.SingleOrDefault[TSource](IEnumerable`1 source)
+   at Sghis.Qms.Data.QmsRepository`1.GetByCriteria(Func`2 criteria) in D:\Projects\Sghis\Dev\Sghis.Qms\Sghis.Qms\Data\QmsRepository.cs:line 81
+   at Sghis.Qms.Business.QueuingBusiness.GetTokensByIpAddress(Int32& totalRecords, Int32 startPage, Int32 pageSize, String ip, String statusids) in D:\Projects\Sghis\Dev\Sghis.Qms\Sghis.Qms\Business\QueuingBusiness.cs:line 110
+   at Sghis.Qms.Web.Controllers.QController.GetTokensDt(DtTokenRequest dtr) in D:\Projects\Sghis\Dev\Sghis.Qms\Sghis.Qms.Web\Controllers\QController.cs:line 137
+   at lambda_method(Closure , ControllerBase , Object[] )
+   at System.Web.Mvc.ActionMethodDispatcher.Execute(ControllerBase controller, Object[] parameters)
+   at System.Web.Mvc.ReflectedActionDescriptor.Execute(ControllerContext controllerContext, IDictionary`2 parameters)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionMethod(ControllerContext controllerContext, ActionDescriptor actionDescriptor, IDictionary`2 parameters)
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c.<BeginInvokeSynchronousActionMethod>b__9_0(IAsyncResult asyncResult, ActionInvocation innerInvokeState)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResult`2.CallEndDelegate(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.End()
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.EndInvokeActionMethod(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.AsyncInvocationWithFilters.<InvokeActionMethodFilterAsynchronouslyRecursive>b__11_0()
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.AsyncInvocationWithFilters.<>c__DisplayClass11_1.<InvokeActionMethodFilterAsynchronouslyRecursive>b__2()
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.AsyncInvocationWithFilters.<>c__DisplayClass11_1.<InvokeActionMethodFilterAsynchronouslyRecursive>b__2()
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass7_0.<BeginInvokeActionMethodWithFilters>b__1(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResult`1.CallEndDelegate(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.End()
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.EndInvokeActionMethodWithFilters(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass3_6.<BeginInvokeAction>b__3()
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass3_1.<BeginInvokeAction>b__5(IAsyncResult asyncResult)
+2018-12-12 14:42:22,239 INFO  QmsLogs - Request POST: q/gettokensdt 
+Parameter: gettokensdt
+2018-12-12 14:42:42,037 INFO  QmsLogs - Request GET: q/createtest 
+Parameter: createtest
+2018-12-12 14:42:42,076 INFO  QmsLogs - Request GET: home/index 
+Parameter: index
+2018-12-12 14:42:45,008 INFO  QmsLogs - Request GET: q/createtest 
+Parameter: createtest
+2018-12-12 14:42:45,072 INFO  QmsLogs - Request GET: home/index 
+Parameter: index
+2018-12-12 14:42:47,003 INFO  QmsLogs - Request GET: q/createtest 
+Parameter: createtest
+2018-12-12 14:42:47,028 INFO  QmsLogs - Request GET: home/index 
+Parameter: index
+2018-12-12 14:42:49,030 INFO  QmsLogs - Request GET: q/createtest 
+Parameter: createtest
+2018-12-12 14:42:49,057 INFO  QmsLogs - Request GET: home/index 
+Parameter: index
+2018-12-12 14:42:53,898 INFO  QmsLogs - Request POST: q/gettokensdt 
+Parameter: gettokensdt
+2018-12-12 14:42:58,321 INFO  QmsLogs - Request POST: q/call 
+Parameter: call
+2018-12-12 14:42:58,568 INFO  QmsLogs - Request POST: q/gettokensdt 
+Parameter: gettokensdt
+2018-12-12 14:43:05,901 INFO  QmsLogs - Request POST: q/call 
+Parameter: call
+2018-12-12 14:43:05,979 INFO  QmsLogs - Request POST: q/gettokensdt 
+Parameter: gettokensdt
+2018-12-12 14:43:18,012 ERROR ExceptionHandlerAttribute - Error while executing POST: q/done 
+Parameter: id=29
+2018-12-12 14:43:18,097 ERROR ExceptionHandlerAttribute - Stacktrace:  System.Data.Entity.Infrastructure.CommitFailedException: An error was reported while committing a database transaction but it could not be determined whether the transaction succeeded or failed on the database server. See the inner exception and http://go.microsoft.com/fwlink/?LinkId=313468 for more information. ---> System.Data.SqlClient.SqlException: The transaction operation cannot be performed because there are pending requests working on this transaction.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.TdsParser.Run(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj)
+   at System.Data.SqlClient.TdsParser.TdsExecuteTransactionManagerRequest(Byte[] buffer, TransactionManagerRequestType request, String transactionName, TransactionManagerIsolationLevel isoLevel, Int32 timeout, SqlInternalTransaction transaction, TdsParserStateObject stateObj, Boolean isDelegateControlRequest)
+   at System.Data.SqlClient.SqlInternalConnectionTds.ExecuteTransactionYukon(TransactionRequest transactionRequest, String transactionName, IsolationLevel iso, SqlInternalTransaction internalTransaction, Boolean isDelegateControlRequest)
+   at System.Data.SqlClient.SqlInternalConnectionTds.ExecuteTransaction(TransactionRequest transactionRequest, String name, IsolationLevel iso, SqlInternalTransaction internalTransaction, Boolean isDelegateControlRequest)
+   at System.Data.SqlClient.SqlInternalTransaction.Commit()
+   at System.Data.SqlClient.SqlTransaction.Commit()
+   at System.Data.Entity.Infrastructure.Interception.DbTransactionDispatcher.<Commit>b__c(DbTransaction t, DbTransactionInterceptionContext c)
+   at System.Data.Entity.Infrastructure.Interception.InternalDispatcher`1.Dispatch[TTarget,TInterceptionContext](TTarget target, Action`2 operation, TInterceptionContext interceptionContext, Action`3 executing, Action`3 executed)
+   --- End of inner exception stack trace ---
+   at System.Data.Entity.Infrastructure.Interception.InternalDispatcher`1.Dispatch[TTarget,TInterceptionContext](TTarget target, Action`2 operation, TInterceptionContext interceptionContext, Action`3 executing, Action`3 executed)
+   at System.Data.Entity.Infrastructure.Interception.DbTransactionDispatcher.Commit(DbTransaction transaction, DbInterceptionContext interceptionContext)
+   at System.Data.Entity.Core.EntityClient.EntityTransaction.Commit()
+   at System.Data.Entity.Core.Objects.ObjectContext.ExecuteInTransaction[T](Func`1 func, IDbExecutionStrategy executionStrategy, Boolean startLocalTransaction, Boolean releaseConnectionOnSuccess)
+   at System.Data.Entity.Core.Objects.ObjectContext.SaveChangesToStore(SaveOptions options, IDbExecutionStrategy executionStrategy, Boolean startLocalTransaction)
+   at System.Data.Entity.Core.Objects.ObjectContext.<>c__DisplayClass2a.<SaveChangesInternal>b__27()
+   at System.Data.Entity.SqlServer.DefaultSqlExecutionStrategy.Execute[TResult](Func`1 operation)
+   at System.Data.Entity.Core.Objects.ObjectContext.SaveChangesInternal(SaveOptions options, Boolean executeInExistingTransaction)
+   at System.Data.Entity.Core.Objects.ObjectContext.SaveChanges(SaveOptions options)
+   at System.Data.Entity.Internal.InternalContext.SaveChanges()
+   at System.Data.Entity.Internal.LazyInternalContext.SaveChanges()
+   at System.Data.Entity.DbContext.SaveChanges()
+   at Sghis.Qms.Data.QmsRepository`1.Commit() in D:\Projects\Sghis\Dev\Sghis.Qms\Sghis.Qms\Data\QmsRepository.cs:line 118
+   at Sghis.Qms.Business.QueuingBusiness.UpdateToken(Int32 id, TokenStatus status, String actionBy, Nullable`1 zoneId, Nullable`1 stationId) in D:\Projects\Sghis\Dev\Sghis.Qms\Sghis.Qms\Business\QueuingBusiness.cs:line 165
+   at Sghis.Qms.Business.QueuingBusiness.UpdateTokenByIp(Int32 id, TokenStatus status, String actionBy, Nullable`1 zoneId, String ipAddress) in D:\Projects\Sghis\Dev\Sghis.Qms\Sghis.Qms\Business\QueuingBusiness.cs:line 126
+   at Sghis.Qms.Web.Controllers.QController.Done(Int32 id) in D:\Projects\Sghis\Dev\Sghis.Qms\Sghis.Qms.Web\Controllers\QController.cs:line 102
+   at lambda_method(Closure , ControllerBase , Object[] )
+   at System.Web.Mvc.ActionMethodDispatcher.Execute(ControllerBase controller, Object[] parameters)
+   at System.Web.Mvc.ReflectedActionDescriptor.Execute(ControllerContext controllerContext, IDictionary`2 parameters)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionMethod(ControllerContext controllerContext, ActionDescriptor actionDescriptor, IDictionary`2 parameters)
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c.<BeginInvokeSynchronousActionMethod>b__9_0(IAsyncResult asyncResult, ActionInvocation innerInvokeState)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResult`2.CallEndDelegate(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.End()
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.EndInvokeActionMethod(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.AsyncInvocationWithFilters.<InvokeActionMethodFilterAsynchronouslyRecursive>b__11_0()
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.AsyncInvocationWithFilters.<>c__DisplayClass11_1.<InvokeActionMethodFilterAsynchronouslyRecursive>b__2()
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.AsyncInvocationWithFilters.<>c__DisplayClass11_1.<InvokeActionMethodFilterAsynchronouslyRecursive>b__2()
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass7_0.<BeginInvokeActionMethodWithFilters>b__1(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResult`1.CallEndDelegate(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.End()
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.EndInvokeActionMethodWithFilters(IAsyncResult asyncResult)
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass3_6.<BeginInvokeAction>b__3()
+   at System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass3_1.<BeginInvokeAction>b__5(IAsyncResult asyncResult)
+2018-12-12 14:43:30,907 INFO  QmsLogs - Request POST: q/call 
+Parameter: call
+2018-12-12 14:43:30,978 INFO  QmsLogs - Request POST: q/done 
+Parameter: done
+2018-12-12 14:43:30,990 INFO  QmsLogs - Request POST: q/gettokensdt 
+Parameter: gettokensdt
+2018-12-12 14:43:36,957 INFO  QmsLogs - Request POST: q/call 
+Parameter: call
+2018-12-12 14:43:37,022 INFO  QmsLogs - Request POST: q/gettokensdt 
+Parameter: gettokensdt
+2018-12-12 14:43:39,523 INFO  QmsLogs - Request POST: q/call 
+Parameter: call
+2018-12-12 14:43:39,575 INFO  QmsLogs - Request POST: q/gettokensdt 
+Parameter: gettokensdt
+2018-12-12 14:45:11,153 INFO  QmsLogs - Request GET: home/display1 
+Parameter: display1
+2018-12-12 14:45:13,597 INFO  QmsLogs - Request GET: q/gettokens 
+Parameter: gettokens
+2018-12-12 14:45:17,492 INFO  QmsLogs - Request GET: home/display1 
+Parameter: display1
+2018-12-12 14:45:18,845 INFO  QmsLogs - Request GET: q/gettokens 
+Parameter: gettokens
+2018-12-12 14:48:56,175 INFO  QmsLogs - Request POST: q/gettokensdt 
+Parameter: gettokensdt
+2018-12-12 14:49:01,707 INFO  QmsLogs - Request POST: q/gettokensdt 
+Parameter: gettokensdt
+2018-12-12 15:11:47,297 INFO  QmsLogs - Request GET: q/createtest 
+Parameter: createtest
+2018-12-12 15:11:48,951 INFO  QmsLogs - Request GET: home/index 
+Parameter: index
+2018-12-12 15:11:50,404 INFO  QmsLogs - Request GET: q/createtest 
+Parameter: createtest
+2018-12-12 15:11:50,481 INFO  QmsLogs - Request GET: home/index 
+Parameter: index
+2018-12-12 15:11:53,338 INFO  QmsLogs - Request GET: q/createtest 
+Parameter: createtest
+2018-12-12 15:11:53,350 INFO  QmsLogs - Request GET: home/index 
+Parameter: index
+2018-12-12 15:11:55,032 INFO  QmsLogs - Request GET: q/createtest 
+Parameter: createtest
+2018-12-12 15:11:55,123 INFO  QmsLogs - Request GET: home/index 
+Parameter: index
+2018-12-12 15:17:26,765 INFO  QmsLogs - Request GET: q/createtest 
+Parameter: createtest
+2018-12-12 15:17:26,783 INFO  QmsLogs - Request GET: home/index 
+Parameter: index
+2018-12-12 15:17:29,130 INFO  QmsLogs - Request GET: q/createtest 
+Parameter: createtest
+2018-12-12 15:17:29,177 INFO  QmsLogs - Request GET: home/index 
+Parameter: index
+2018-12-12 15:17:30,978 INFO  QmsLogs - Request GET: q/createtest 
+Parameter: createtest
+2018-12-12 15:17:31,026 INFO  QmsLogs - Request GET: home/index 
+Parameter: index
+2018-12-12 15:17:34,467 INFO  QmsLogs - Request GET: q/createtest 
+Parameter: createtest
+2018-12-12 15:17:34,528 INFO  QmsLogs - Request GET: home/index 
+Parameter: index
+2018-12-12 15:23:05,603 INFO  QmsLogs - Request GET: q/createtest 
+Parameter: createtest
+2018-12-12 15:23:05,670 INFO  QmsLogs - Request GET: home/index 
+Parameter: index
+2018-12-12 15:23:07,911 INFO  QmsLogs - Request GET: q/createtest 
+Parameter: createtest
+2018-12-12 15:23:07,972 INFO  QmsLogs - Request GET: home/index 
+Parameter: index
+2018-12-12 15:45:26,416 INFO  QmsLogs - --Starting QMS API--
+2018-12-12 15:45:34,070 INFO  QmsLogs - Request GET: home/index 
+Parameter: index
+2018-12-12 16:05:43,624 INFO  QmsLogs - --Starting QMS API--
+2018-12-12 16:05:47,657 INFO  QmsLogs - Request GET: home/index 
+Parameter: index
+2018-12-12 16:07:21,821 INFO  QmsLogs - Request GET: home/index 
+Parameter: index
+2018-12-12 16:07:23,320 INFO  QmsLogs - Request GET: home/index 
+Parameter: index
+2018-12-12 16:07:24,323 INFO  QmsLogs - Request GET: home/index 
+Parameter: index
+2018-12-12 16:07:25,299 INFO  QmsLogs - Request GET: home/index 
+Parameter: index
+2018-12-12 16:07:30,453 INFO  QmsLogs - Request GET: home/display1 
+Parameter: display1
+2018-12-12 16:07:39,270 INFO  QmsLogs - Request GET: q/gettokens 
+Parameter: gettokens
+2018-12-12 16:27:36,250 INFO  QmsLogs - Request GET: q/gettokens 
+Parameter: gettokens
+2018-12-12 16:38:10,944 INFO  QmsLogs - --Starting QMS API--
+2018-12-12 16:38:16,878 INFO  QmsLogs - Request GET: home/index 
+Parameter: index
+2018-12-12 16:39:25,111 INFO  QmsLogs - Request GET: home/index 
+Parameter: index
+2018-12-12 16:41:50,174 INFO  QmsLogs - --Starting QMS API--
+2018-12-12 16:41:51,990 INFO  QmsLogs - Request GET: home/index 
+Parameter: index
+2018-12-12 16:41:58,528 INFO  QmsLogs - Request GET: home/index 
+Parameter: index
+2018-12-12 17:04:14,523 INFO  QmsLogs - --Starting QMS API--
+2018-12-12 17:04:15,658 INFO  QmsLogs - Request GET: home/index 
+Parameter: index
+2018-12-15 11:38:49,687 INFO  QmsLogs - --Starting QMS API--
+2018-12-15 11:38:58,216 INFO  MvcRequest - Request GET: home/index 
+Parameter: index
+2018-12-15 11:46:53,840 INFO  MvcRequest - Request GET: admin/getclientbyipaddress 
+Parameter: getclientbyipaddress
+2018-12-15 11:57:44,298 INFO  MvcRequest - Request GET: admin/getclientbyipaddress 
+Parameter: getclientbyipaddress
+2018-12-15 12:01:47,092 INFO  ApiRequest - Request POST: http://localhost:5556/api/q/gettokensdt 
+2018-12-15 12:03:47,477 INFO  ApiRequest - Request POST: http://localhost:5556/api/q/gettokensdt 
+2018-12-15 12:42:53,358 INFO  ApiRequest - Request GET: http://localhost:5556/api/q/getclientbyipaddress?ipAddress=130.1.8.237 
+2018-12-15 12:42:54,115 INFO  ApiRequest - Request GET: http://localhost:5556/api/q/getclientbyipaddress?ipAddress=130.1.8.237 
+2018-12-15 12:43:06,968 INFO  ApiRequest - Request POST: http://localhost:5556/api/q/gettokensdt 
+2018-12-15 12:44:55,551 INFO  ApiRequest - Request POST: http://localhost:5556/api/q/gettokensdt 
+2018-12-15 12:45:04,544 INFO  ApiRequest - Request POST: http://localhost:5556/api/q/gettokensdt 
+2018-12-15 12:54:44,001 INFO  ApiRequest - Request POST: http://localhost:5556/api/q/gettokensdt 
+2018-12-15 12:55:14,791 INFO  ApiRequest - Request POST: http://localhost:5556/api/q/gettokensdt 
+2018-12-15 12:55:15,558 INFO  ApiRequest - Request POST: http://localhost:5556/api/q/gettokensdt 
+2018-12-15 12:55:16,209 INFO  ApiRequest - Request POST: http://localhost:5556/api/q/gettokensdt 
+2018-12-15 12:55:16,800 INFO  ApiRequest - Request POST: http://localhost:5556/api/q/gettokensdt 
+2018-12-15 12:55:17,626 INFO  ApiRequest - Request POST: http://localhost:5556/api/q/gettokensdt 
+2018-12-15 12:55:23,886 INFO  ApiRequest - Request POST: http://localhost:5556/api/q/call 
+2018-12-15 12:55:23,900 INFO  ApiRequest - Request POST: http://localhost:5556/api/q/call 
+2018-12-15 12:57:45,363 INFO  QmsLogs - --Starting QMS API--
+2018-12-15 12:57:52,166 INFO  ApiRequest - Request POST: http://localhost:5556/api/q/gettokensdt 
+2018-12-15 12:57:52,562 INFO  MvcRequest - Request GET: home/index 
+Parameter: index
+2018-12-15 12:58:01,046 INFO  ApiRequest - Request POST: http://localhost:5556/api/q/call 
+2018-12-15 12:58:01,054 INFO  ApiRequest - Request POST: http://localhost:5556/api/q/call 
+2018-12-15 12:58:01,818 INFO  ApiRequest - Request POST: http://localhost:5556/api/q/gettokensdt 
+2018-12-15 12:58:09,618 INFO  ApiRequest - Request POST: http://localhost:5556/api/q/done 
+2018-12-15 12:58:09,682 INFO  ApiRequest - Request POST: http://localhost:5556/api/q/gettokensdt 
+2018-12-15 14:14:52,336 INFO  QmsLogs - --Starting QMS API--
+2018-12-15 14:15:07,638 INFO  MvcRequest - Request GET: home/index 
+Parameter: index
+2018-12-15 14:22:15,133 INFO  ApiRequest - Request POST: http://localhost:5556/api/q/token/gettokensdt 
+2018-12-15 14:26:51,642 INFO  ApiRequest - Request POST: http://localhost:5556/api/q/token/gettokensdt 
+2018-12-15 14:29:19,051 INFO  ApiRequest - Request POST: http://localhost:5556/api/q/token/gettokensdt 
+2018-12-15 14:34:28,631 INFO  ApiRequest - Request POST: http://localhost:5556/api/q/token/gettokensdt 
+2018-12-15 14:36:36,809 INFO  ApiRequest - Request POST: http://localhost:5556/api/q/token/gettokensdt 
+2018-12-15 14:36:49,450 INFO  ApiRequest - Request POST: http://localhost:5556/api/q/token/gettokensdt 
+2018-12-15 14:37:19,905 INFO  ApiRequest - Request POST: http://localhost:5556/api/q/token/gettokensdt 
+2018-12-15 14:37:34,969 INFO  ApiRequest - Request POST: http://localhost:5556/api/q/token/gettokensdt 
+2018-12-15 14:39:34,625 INFO  ApiRequest - Request POST: http://localhost:5556/api/q/token/gettokensdt 
+2018-12-15 14:39:51,928 INFO  ApiRequest - Request POST: http://localhost:5556/api/q/token/gettokensdt 
+2018-12-15 14:40:21,721 INFO  ApiRequest - Request POST: http://localhost:5556/api/q/token/gettokensdt 
+2018-12-15 14:40:40,270 INFO  ApiRequest - Request POST: http://localhost:5556/api/q/token/gettokensdt 
+2018-12-15 14:40:48,044 INFO  ApiRequest - Request POST: http://localhost:5556/api/q/token/gettokensdt 
+2018-12-15 14:42:10,538 INFO  ApiRequest - Request POST: http://localhost:5556/api/q/token/gettokensdt 
+2018-12-15 14:43:45,560 INFO  ApiRequest - Request POST: http://localhost:5556/api/q/token/gettokensdt 
+2018-12-15 14:44:50,132 INFO  ApiRequest - Request POST: http://localhost:5556/api/q/token/gettokensdt 
+2018-12-15 14:45:05,909 INFO  ApiRequest - Request POST: http://localhost:5556/api/q/token/gettokensdt 
+2018-12-15 14:45:42,678 INFO  ApiRequest - Request POST: http://localhost:5556/api/q/token/gettokensdt 
+2018-12-15 14:46:16,436 INFO  ApiRequest - Request POST: http://localhost:5556/api/q/token/gettokensdt 
+2018-12-15 14:46:33,238 INFO  ApiRequest - Request POST: http://localhost:5556/api/q/token/gettokensdt 
+2018-12-15 14:46:45,730 INFO  ApiRequest - Request POST: http://localhost:5556/api/q/token/gettokensdt 
+2018-12-15 14:47:38,313 INFO  ApiRequest - Request POST: http://localhost:5556/api/q/token/gettokensdt 
+2018-12-15 14:47:56,304 INFO  ApiRequest - Request POST: http://localhost:5556/api/q/token/gettokensdt 
+2018-12-15 14:48:15,473 INFO  ApiRequest - Request POST: http://localhost:5556/api/q/token/gettokensdt 
+2018-12-15 14:49:42,779 INFO  ApiRequest - Request POST: http://localhost:5556/api/q/token/gettokensdt 
+2018-12-15 14:50:08,196 INFO  ApiRequest - Request POST: http://localhost:5556/api/q/token/gettokensdt 
+2018-12-15 14:50:23,722 INFO  ApiRequest - Request POST: http://localhost:5556/api/q/token/gettokensdt 
+2018-12-15 14:50:56,237 INFO  ApiRequest - Request POST: http://localhost:5556/api/q/token/gettokensdt 
+2018-12-15 14:51:04,311 INFO  ApiRequest - Request POST: http://localhost:5556/api/q/token/gettokensdt 
+2018-12-15 14:51:22,089 INFO  ApiRequest - Request POST: http://localhost:5556/api/q/token/gettokensdt 
+2018-12-15 14:51:52,128 INFO  ApiRequest - Request POST: http://localhost:5556/api/q/token/gettokensdt 
+2018-12-15 14:52:04,446 INFO  ApiRequest - Request POST: http://localhost:5556/api/q/token/gettokensdt 
+2018-12-15 14:52:15,168 INFO  ApiRequest - Request POST: http://localhost:5556/api/q/token/gettokensdt 
+2018-12-15 14:52:39,751 INFO  ApiRequest - Request POST: http://localhost:5556/api/q/token/gettokensdt 
+2018-12-15 14:53:24,004 INFO  ApiRequest - Request POST: http://localhost:5556/api/q/token/gettokensdt 
+2018-12-15 14:53:45,157 INFO  ApiRequest - Request POST: http://localhost:5556/api/q/token/gettokensdt 
+2018-12-15 14:53:54,763 INFO  ApiRequest - Request POST: http://localhost:5556/api/q/token/gettokensdt 
+2018-12-15 14:54:31,247 INFO  ApiRequest - Request POST: http://localhost:5556/api/q/token/gettokensdt 
+2018-12-15 14:54:45,149 INFO  ApiRequest - Request POST: http://localhost:5556/api/q/token/gettokensdt 
+2018-12-15 14:55:18,920 INFO  ApiRequest - Request POST: http://localhost:5556/api/q/token/gettokensdt 
+2018-12-15 14:56:22,062 INFO  ApiRequest - Request POST: http://localhost:5556/api/q/token/gettokensdt 
+2018-12-15 14:56:32,041 INFO  ApiRequest - Request POST: http://localhost:5556/api/q/token/gettokensdt 
+2018-12-15 14:56:54,326 INFO  ApiRequest - Request POST: http://localhost:5556/api/q/token/gettokensdt 
+2018-12-15 14:57:37,106 INFO  ApiRequest - Request POST: http://localhost:5556/api/q/token/gettokensdt 
+2018-12-15 14:57:59,988 INFO  ApiRequest - Request POST: http://localhost:5556/api/q/token/gettokensdt 
+2018-12-15 15:02:58,059 INFO  ApiRequest - Request POST: http://localhost:5556/api/q/token/gettokensdt 
+2018-12-15 15:03:50,130 INFO  ApiRequest - Request POST: http://localhost:5556/api/q/token/gettokensdt 
+2018-12-15 15:04:27,101 INFO  ApiRequest - Request POST: http://localhost:5556/api/q/token/gettokensdt 
+2018-12-15 15:04:51,042 INFO  ApiRequest - Request POST: http://localhost:5556/api/q/token/gettokensdt 
+2018-12-15 15:05:19,514 INFO  ApiRequest - Request POST: http://localhost:5556/api/q/token/gettokensdt 
+2018-12-15 15:05:35,619 INFO  ApiRequest - Request POST: http://localhost:5556/api/q/token/gettokensdt 
+2018-12-15 15:06:00,738 INFO  ApiRequest - Request POST: http://localhost:5556/api/q/token/gettokensdt 
+2018-12-15 15:06:32,841 INFO  ApiRequest - Request POST: http://localhost:5556/api/q/token/gettokensdt 
+2018-12-15 15:07:14,114 INFO  ApiRequest - Request POST: http://localhost:5556/api/q/token/gettokensdt 
+2018-12-15 15:07:27,301 INFO  ApiRequest - Request POST: http://localhost:5556/api/q/token/gettokensdt 
+2018-12-15 15:07:46,303 INFO  ApiRequest - Request POST: http://localhost:5556/api/q/token/gettokensdt 
+2018-12-15 15:08:39,601 INFO  ApiRequest - Request POST: http://localhost:5556/api/q/token/gettokensdt 
+2018-12-15 15:09:30,415 INFO  ApiRequest - Request POST: http://localhost:5556/api/q/token/gettokensdt 
+2018-12-15 15:09:43,112 INFO  ApiRequest - Request POST: http://localhost:5556/api/q/token/gettokensdt 
+2018-12-15 15:13:15,217 INFO  ApiRequest - Request POST: http://localhost:5556/api/q/token/gettokensdt 
+2018-12-15 15:13:25,187 INFO  ApiRequest - Request POST: http://localhost:5556/api/q/token/call 
+2018-12-15 15:13:25,200 INFO  ApiRequest - Request POST: http://localhost:5556/api/q/token/call 
+2018-12-15 15:13:26,319 INFO  ApiRequest - Request POST: http://localhost:5556/api/q/token/call 
+2018-12-15 15:13:26,325 INFO  ApiRequest - Request POST: http://localhost:5556/api/q/token/call 
+2018-12-15 15:13:26,501 INFO  ApiRequest - Request POST: http://localhost:5556/api/q/token/call 
+2018-12-15 15:13:26,508 INFO  ApiRequest - Request POST: http://localhost:5556/api/q/token/call 
+2018-12-15 15:13:26,680 INFO  ApiRequest - Request POST: http://localhost:5556/api/q/token/call 
+2018-12-15 15:13:26,687 INFO  ApiRequest - Request POST: http://localhost:5556/api/q/token/call 
+2018-12-15 15:13:48,492 ERROR MvcExceptionHandlerAttribute - Error while executing POST: http://localhost:5556/api/q/token/call 
+2018-12-15 15:13:48,492 ERROR MvcExceptionHandlerAttribute - Error while executing POST: http://localhost:5556/api/q/token/call 
+2018-12-15 15:13:50,995 ERROR MvcExceptionHandlerAttribute - Error while executing POST: http://localhost:5556/api/q/token/call 
+2018-12-15 15:13:51,685 INFO  ApiRequest - Request POST: http://localhost:5556/api/q/token/gettokensdt 
+2018-12-15 15:13:59,602 ERROR MvcExceptionHandlerAttribute - Error while executing POST: http://localhost:5556/api/q/token/gettokensdt 
+2018-12-15 15:13:59,637 ERROR MvcExceptionHandlerAttribute - Stacktrace:  System.Data.Entity.Core.EntityException: The underlying provider failed on Open. ---> System.InvalidOperationException: The connection was not closed. The connection's current state is connecting.
+   at System.Data.ProviderBase.DbConnectionClosedConnecting.TryOpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at System.Data.SqlClient.SqlConnection.TryOpenInner(TaskCompletionSource`1 retry)
+   at System.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry)
+   at System.Data.SqlClient.SqlConnection.Open()
+   at System.Data.Entity.Infrastructure.Interception.DbConnectionDispatcher.<Open>b__36(DbConnection t, DbConnectionInterceptionContext c)
+   at System.Data.Entity.Infrastructure.Interception.InternalDispatcher`1.Dispatch[TTarget,TInterceptionContext](TTarget target, Action`2 operation, TInterceptionContext interceptionContext, Action`3 executing, Action`3 executed)
+   at System.Data.Entity.Infrastructure.Interception.DbConnectionDispatcher.Open(DbConnection connection, DbInterceptionContext interceptionContext)
+   at System.Data.Entity.Core.EntityClient.EntityConnection.<Open>b__2()
+   at System.Data.Entity.SqlServer.DefaultSqlExecutionStrategy.<>c__DisplayClass1.<Execute>b__0()
+   at System.Data.Entity.SqlServer.DefaultSqlExecutionStrategy.Execute[TResult](Func`1 operation)
+   at System.Data.Entity.SqlServer.DefaultSqlExecutionStrategy.Execute(Action operation)
+   at System.Data.Entity.Core.EntityClient.EntityConnection.Open()
+   --- End of inner exception stack trace ---
+   at System.Data.Entity.Core.EntityClient.EntityConnection.Open()
+   at System.Data.Entity.Core.Objects.ObjectContext.EnsureConnection(Boolean shouldMonitorTransactions)
+   at System.Data.Entity.Core.Objects.ObjectContext.ExecuteInTransaction[T](Func`1 func, IDbExecutionStrategy executionStrategy, Boolean startLocalTransaction, Boolean releaseConnectionOnSuccess)
+   at System.Data.Entity.Core.Objects.ObjectContext.SaveChangesToStore(SaveOptions options, IDbExecutionStrategy executionStrategy, Boolean startLocalTransaction)
+   at System.Data.Entity.Core.Objects.ObjectContext.<>c__DisplayClass2a.<SaveChangesInternal>b__27()
+   at System.Data.Entity.SqlServer.DefaultSqlExecutionStrategy.Execute[TResult](Func`1 operation)
+   at System.Data.Entity.Core.Objects.ObjectContext.SaveChangesInternal(SaveOptions options, Boolean executeInExistingTransaction)
+   at System.Data.Entity.Core.Objects.ObjectContext.SaveChanges(SaveOptions options)
+   at System.Data.Entity.Internal.InternalContext.SaveChanges()
+   at System.Data.Entity.Internal.LazyInternalContext.SaveChanges()
+   at System.Data.Entity.DbContext.SaveChanges()
+   at Sghis.Qms.Data.QmsRepository`1.Commit() in D:\Projects\Sghis\Dev\Sghis.Qms\Sghis.Qms\Data\QmsRepository.cs:line 118
+   at Sghis.Qms.Business.QueuingBusiness.UpdateToken(Int32 id, TokenStatus status, String actionBy, Nullable`1 zoneId, Nullable`1 stationId) in D:\Projects\Sghis\Dev\Sghis.Qms\Sghis.Qms\Business\QueuingBusiness.cs:line 172
+   at Sghis.Qms.Business.QueuingBusiness.UpdateTokenByIp(Int32 id, TokenStatus status, String actionBy, Nullable`1 zoneId, String ipAddress) in D:\Projects\Sghis\Dev\Sghis.Qms\Sghis.Qms\Business\QueuingBusiness.cs:line 133
+   at Sghis.Qms.Web.Controllers.QController.Call(FormDataCollection col) in D:\Projects\Sghis\Dev\Sghis.Qms\Sghis.Qms.Web\Controllers\QController.cs:line 79
+   at lambda_method(Closure , Object , Object[] )
+   at System.Web.Http.Controllers.ReflectedHttpActionDescriptor.ActionExecutor.<>c__DisplayClass6_1.<GetExecutor>b__3(Object instance, Object[] methodParameters)
+   at System.Web.Http.Controllers.ReflectedHttpActionDescriptor.ActionExecutor.Execute(Object instance, Object[] arguments)
+   at System.Web.Http.Controllers.ReflectedHttpActionDescriptor.ExecuteAsync(HttpControllerContext controllerContext, IDictionary`2 arguments, CancellationToken cancellationToken)
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Controllers.ApiControllerActionInvoker.<InvokeActionAsyncCore>d__1.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Filters.ActionFilterAttribute.<CallOnActionExecutedAsync>d__6.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Web.Http.Filters.ActionFilterAttribute.<CallOnActionExecutedAsync>d__6.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Filters.ActionFilterAttribute.<ExecuteActionFilterAsyncCore>d__5.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Filters.ActionFilterAttribute.<CallOnActionExecutedAsync>d__6.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Web.Http.Filters.ActionFilterAttribute.<CallOnActionExecutedAsync>d__6.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Filters.ActionFilterAttribute.<ExecuteActionFilterAsyncCore>d__5.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Controllers.ActionFilterResult.<ExecuteAsync>d__5.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Controllers.ExceptionFilterResult.<ExecuteAsync>d__6.MoveNext()
+2018-12-15 15:13:59,637 ERROR MvcExceptionHandlerAttribute - Stacktrace:  System.Data.Entity.Core.EntityException: The underlying provider failed on Open. ---> System.InvalidOperationException: The connection was not closed. The connection's current state is open.
+   at System.Data.ProviderBase.DbConnectionInternal.TryOpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at System.Data.SqlClient.SqlConnection.TryOpenInner(TaskCompletionSource`1 retry)
+   at System.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry)
+   at System.Data.SqlClient.SqlConnection.Open()
+   at System.Data.Entity.Infrastructure.Interception.DbConnectionDispatcher.<Open>b__36(DbConnection t, DbConnectionInterceptionContext c)
+   at System.Data.Entity.Infrastructure.Interception.InternalDispatcher`1.Dispatch[TTarget,TInterceptionContext](TTarget target, Action`2 operation, TInterceptionContext interceptionContext, Action`3 executing, Action`3 executed)
+   at System.Data.Entity.Infrastructure.Interception.DbConnectionDispatcher.Open(DbConnection connection, DbInterceptionContext interceptionContext)
+   at System.Data.Entity.Core.EntityClient.EntityConnection.<Open>b__2()
+   at System.Data.Entity.SqlServer.DefaultSqlExecutionStrategy.<>c__DisplayClass1.<Execute>b__0()
+   at System.Data.Entity.SqlServer.DefaultSqlExecutionStrategy.Execute[TResult](Func`1 operation)
+   at System.Data.Entity.SqlServer.DefaultSqlExecutionStrategy.Execute(Action operation)
+   at System.Data.Entity.Core.EntityClient.EntityConnection.Open()
+   --- End of inner exception stack trace ---
+   at System.Data.Entity.Core.EntityClient.EntityConnection.Open()
+   at System.Data.Entity.Core.Objects.ObjectContext.EnsureConnection(Boolean shouldMonitorTransactions)
+   at System.Data.Entity.Core.Objects.ObjectContext.ExecuteInTransaction[T](Func`1 func, IDbExecutionStrategy executionStrategy, Boolean startLocalTransaction, Boolean releaseConnectionOnSuccess)
+   at System.Data.Entity.Core.Objects.ObjectContext.SaveChangesToStore(SaveOptions options, IDbExecutionStrategy executionStrategy, Boolean startLocalTransaction)
+   at System.Data.Entity.Core.Objects.ObjectContext.<>c__DisplayClass2a.<SaveChangesInternal>b__27()
+   at System.Data.Entity.SqlServer.DefaultSqlExecutionStrategy.Execute[TResult](Func`1 operation)
+   at System.Data.Entity.Core.Objects.ObjectContext.SaveChangesInternal(SaveOptions options, Boolean executeInExistingTransaction)
+   at System.Data.Entity.Core.Objects.ObjectContext.SaveChanges(SaveOptions options)
+   at System.Data.Entity.Internal.InternalContext.SaveChanges()
+   at System.Data.Entity.Internal.LazyInternalContext.SaveChanges()
+   at System.Data.Entity.DbContext.SaveChanges()
+   at Sghis.Qms.Data.QmsRepository`1.Commit() in D:\Projects\Sghis\Dev\Sghis.Qms\Sghis.Qms\Data\QmsRepository.cs:line 118
+   at Sghis.Qms.Business.QueuingBusiness.UpdateToken(Int32 id, TokenStatus status, String actionBy, Nullable`1 zoneId, Nullable`1 stationId) in D:\Projects\Sghis\Dev\Sghis.Qms\Sghis.Qms\Business\QueuingBusiness.cs:line 172
+   at Sghis.Qms.Business.QueuingBusiness.UpdateTokenByIp(Int32 id, TokenStatus status, String actionBy, Nullable`1 zoneId, String ipAddress) in D:\Projects\Sghis\Dev\Sghis.Qms\Sghis.Qms\Business\QueuingBusiness.cs:line 133
+   at Sghis.Qms.Web.Controllers.QController.Call(FormDataCollection col) in D:\Projects\Sghis\Dev\Sghis.Qms\Sghis.Qms.Web\Controllers\QController.cs:line 79
+   at lambda_method(Closure , Object , Object[] )
+   at System.Web.Http.Controllers.ReflectedHttpActionDescriptor.ActionExecutor.<>c__DisplayClass6_1.<GetExecutor>b__3(Object instance, Object[] methodParameters)
+   at System.Web.Http.Controllers.ReflectedHttpActionDescriptor.ActionExecutor.Execute(Object instance, Object[] arguments)
+   at System.Web.Http.Controllers.ReflectedHttpActionDescriptor.ExecuteAsync(HttpControllerContext controllerContext, IDictionary`2 arguments, CancellationToken cancellationToken)
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Controllers.ApiControllerActionInvoker.<InvokeActionAsyncCore>d__1.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Filters.ActionFilterAttribute.<CallOnActionExecutedAsync>d__6.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Web.Http.Filters.ActionFilterAttribute.<CallOnActionExecutedAsync>d__6.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Filters.ActionFilterAttribute.<ExecuteActionFilterAsyncCore>d__5.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Filters.ActionFilterAttribute.<CallOnActionExecutedAsync>d__6.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Web.Http.Filters.ActionFilterAttribute.<CallOnActionExecutedAsync>d__6.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Filters.ActionFilterAttribute.<ExecuteActionFilterAsyncCore>d__5.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Controllers.ActionFilterResult.<ExecuteAsync>d__5.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Controllers.ExceptionFilterResult.<ExecuteAsync>d__6.MoveNext()
+2018-12-15 15:13:59,685 ERROR MvcExceptionHandlerAttribute - Stacktrace:  System.NullReferenceException: Object reference not set to an instance of an object.
+   at Sghis.Core.Entity.Qms.QmsMapper.MapTokenToDtContent(Token obj) in D:\Projects\Sghis\Dev\Sghis.Core\Sghis.Core.Entity\Qms\Mapper\QmsMapper-Token.cs:line 123
+   at Sghis.Core.Entity.Qms.QmsMapper.MapTokenToDtContent(List`1 objs) in D:\Projects\Sghis\Dev\Sghis.Core\Sghis.Core.Entity\Qms\Mapper\QmsMapper-Token.cs:line 117
+   at Sghis.Qms.Web.Controllers.QController.GetTokensDt(DtTokenRequest dtr) in D:\Projects\Sghis\Dev\Sghis.Qms\Sghis.Qms.Web\Controllers\QController.cs:line 174
+   at lambda_method(Closure , Object , Object[] )
+   at System.Web.Http.Controllers.ReflectedHttpActionDescriptor.ActionExecutor.<>c__DisplayClass6_1.<GetExecutor>b__3(Object instance, Object[] methodParameters)
+   at System.Web.Http.Controllers.ReflectedHttpActionDescriptor.ActionExecutor.Execute(Object instance, Object[] arguments)
+   at System.Web.Http.Controllers.ReflectedHttpActionDescriptor.ExecuteAsync(HttpControllerContext controllerContext, IDictionary`2 arguments, CancellationToken cancellationToken)
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Controllers.ApiControllerActionInvoker.<InvokeActionAsyncCore>d__1.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Filters.ActionFilterAttribute.<CallOnActionExecutedAsync>d__6.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Web.Http.Filters.ActionFilterAttribute.<CallOnActionExecutedAsync>d__6.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Filters.ActionFilterAttribute.<ExecuteActionFilterAsyncCore>d__5.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Controllers.ActionFilterResult.<ExecuteAsync>d__5.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Controllers.ExceptionFilterResult.<ExecuteAsync>d__6.MoveNext()
+2018-12-15 15:13:59,696 ERROR MvcExceptionHandlerAttribute - Stacktrace:  System.InvalidOperationException: EntityMemberChanged or EntityComplexMemberChanged was called without first calling EntityMemberChanging or EntityComplexMemberChanging on the same change tracker with the same property name. For information about properly reporting changes, see the Entity Framework documentation. 
+   at System.Data.Entity.Core.Objects.EntityEntry.EntityMemberChanged(String entityMemberName, Object complexObject, String complexObjectMemberName)
+   at System.Data.Entity.Core.Objects.EntityEntry.EntityMemberChanged(String entityMemberName)
+   at System.Data.Entity.Core.Objects.ObjectStateEntry.System.Data.Entity.Core.Objects.DataClasses.IEntityChangeTracker.EntityMemberChanged(String entityMemberName)
+   at System.Data.Entity.Core.Objects.Internal.SnapshotChangeTrackingStrategy.SetCurrentValue(EntityEntry entry, StateManagerMemberMetadata member, Int32 ordinal, Object target, Object value)
+   at System.Data.Entity.Core.Objects.Internal.EntityWrapper`1.SetCurrentValue(EntityEntry entry, StateManagerMemberMetadata member, Int32 ordinal, Object target, Object value)
+   at System.Data.Entity.Core.Objects.EntityEntry.SetCurrentEntityValue(StateManagerTypeMetadata metadata, Int32 ordinal, Object userObject, Object newValue)
+   at System.Data.Entity.Core.Objects.ObjectStateEntryDbUpdatableDataRecord.SetRecordValue(Int32 ordinal, Object value)
+   at System.Data.Entity.Core.Mapping.Update.Internal.PropagatorResult.SetServerGenValue(Object value)
+   at System.Data.Entity.Core.Mapping.Update.Internal.UpdateTranslator.BackPropagateServerGen(List`1 generatedValues)
+   at System.Data.Entity.Core.Mapping.Update.Internal.UpdateTranslator.Update()
+   at System.Data.Entity.Core.EntityClient.Internal.EntityAdapter.<Update>b__2(UpdateTranslator ut)
+   at System.Data.Entity.Core.EntityClient.Internal.EntityAdapter.Update[T](T noChangesResult, Func`2 updateFunction)
+   at System.Data.Entity.Core.EntityClient.Internal.EntityAdapter.Update()
+   at System.Data.Entity.Core.Objects.ObjectContext.<SaveChangesToStore>b__35()
+   at System.Data.Entity.Core.Objects.ObjectContext.ExecuteInTransaction[T](Func`1 func, IDbExecutionStrategy executionStrategy, Boolean startLocalTransaction, Boolean releaseConnectionOnSuccess)
+   at System.Data.Entity.Core.Objects.ObjectContext.SaveChangesToStore(SaveOptions options, IDbExecutionStrategy executionStrategy, Boolean startLocalTransaction)
+   at System.Data.Entity.Core.Objects.ObjectContext.<>c__DisplayClass2a.<SaveChangesInternal>b__27()
+   at System.Data.Entity.SqlServer.DefaultSqlExecutionStrategy.Execute[TResult](Func`1 operation)
+   at System.Data.Entity.Core.Objects.ObjectContext.SaveChangesInternal(SaveOptions options, Boolean executeInExistingTransaction)
+   at System.Data.Entity.Core.Objects.ObjectContext.SaveChanges(SaveOptions options)
+   at System.Data.Entity.Internal.InternalContext.SaveChanges()
+   at System.Data.Entity.Internal.LazyInternalContext.SaveChanges()
+   at System.Data.Entity.DbContext.SaveChanges()
+   at Sghis.Qms.Data.QmsRepository`1.Commit() in D:\Projects\Sghis\Dev\Sghis.Qms\Sghis.Qms\Data\QmsRepository.cs:line 118
+   at Sghis.Qms.Business.QueuingBusiness.UpdateToken(Int32 id, TokenStatus status, String actionBy, Nullable`1 zoneId, Nullable`1 stationId) in D:\Projects\Sghis\Dev\Sghis.Qms\Sghis.Qms\Business\QueuingBusiness.cs:line 172
+   at Sghis.Qms.Business.QueuingBusiness.UpdateTokenByIp(Int32 id, TokenStatus status, String actionBy, Nullable`1 zoneId, String ipAddress) in D:\Projects\Sghis\Dev\Sghis.Qms\Sghis.Qms\Business\QueuingBusiness.cs:line 133
+   at Sghis.Qms.Web.Controllers.QController.Call(FormDataCollection col) in D:\Projects\Sghis\Dev\Sghis.Qms\Sghis.Qms.Web\Controllers\QController.cs:line 79
+   at lambda_method(Closure , Object , Object[] )
+   at System.Web.Http.Controllers.ReflectedHttpActionDescriptor.ActionExecutor.<>c__DisplayClass6_1.<GetExecutor>b__3(Object instance, Object[] methodParameters)
+   at System.Web.Http.Controllers.ReflectedHttpActionDescriptor.ActionExecutor.Execute(Object instance, Object[] arguments)
+   at System.Web.Http.Controllers.ReflectedHttpActionDescriptor.ExecuteAsync(HttpControllerContext controllerContext, IDictionary`2 arguments, CancellationToken cancellationToken)
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Controllers.ApiControllerActionInvoker.<InvokeActionAsyncCore>d__1.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Filters.ActionFilterAttribute.<CallOnActionExecutedAsync>d__6.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Web.Http.Filters.ActionFilterAttribute.<CallOnActionExecutedAsync>d__6.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Filters.ActionFilterAttribute.<ExecuteActionFilterAsyncCore>d__5.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Filters.ActionFilterAttribute.<CallOnActionExecutedAsync>d__6.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Web.Http.Filters.ActionFilterAttribute.<CallOnActionExecutedAsync>d__6.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Filters.ActionFilterAttribute.<ExecuteActionFilterAsyncCore>d__5.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Controllers.ActionFilterResult.<ExecuteAsync>d__5.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Controllers.ExceptionFilterResult.<ExecuteAsync>d__6.MoveNext()
+2018-12-15 15:16:12,151 INFO  ApiRequest - Request POST: http://localhost:5556/api/q/token/gettokensdt 
+2018-12-15 15:16:14,687 ERROR MvcExceptionHandlerAttribute - Error while executing POST: http://localhost:5556/api/q/token/gettokensdt 
+2018-12-15 15:16:14,687 ERROR MvcExceptionHandlerAttribute - Stacktrace:  System.NullReferenceException: Object reference not set to an instance of an object.
+   at Sghis.Core.Entity.Qms.QmsMapper.MapTokenToDtContent(Token obj) in D:\Projects\Sghis\Dev\Sghis.Core\Sghis.Core.Entity\Qms\Mapper\QmsMapper-Token.cs:line 123
+   at Sghis.Core.Entity.Qms.QmsMapper.MapTokenToDtContent(List`1 objs) in D:\Projects\Sghis\Dev\Sghis.Core\Sghis.Core.Entity\Qms\Mapper\QmsMapper-Token.cs:line 117
+   at Sghis.Qms.Web.Controllers.QController.GetTokensDt(DtTokenRequest dtr) in D:\Projects\Sghis\Dev\Sghis.Qms\Sghis.Qms.Web\Controllers\QController.cs:line 174
+   at lambda_method(Closure , Object , Object[] )
+   at System.Web.Http.Controllers.ReflectedHttpActionDescriptor.ActionExecutor.<>c__DisplayClass6_1.<GetExecutor>b__3(Object instance, Object[] methodParameters)
+   at System.Web.Http.Controllers.ReflectedHttpActionDescriptor.ActionExecutor.Execute(Object instance, Object[] arguments)
+   at System.Web.Http.Controllers.ReflectedHttpActionDescriptor.ExecuteAsync(HttpControllerContext controllerContext, IDictionary`2 arguments, CancellationToken cancellationToken)
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Controllers.ApiControllerActionInvoker.<InvokeActionAsyncCore>d__1.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Filters.ActionFilterAttribute.<CallOnActionExecutedAsync>d__6.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Web.Http.Filters.ActionFilterAttribute.<CallOnActionExecutedAsync>d__6.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Filters.ActionFilterAttribute.<ExecuteActionFilterAsyncCore>d__5.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Controllers.ActionFilterResult.<ExecuteAsync>d__5.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Controllers.ExceptionFilterResult.<ExecuteAsync>d__6.MoveNext()
+2018-12-15 15:18:58,782 INFO  ApiRequest - Request POST: http://localhost:5556/api/q/token/gettokensdt 
+2018-12-15 15:19:05,551 ERROR MvcExceptionHandlerAttribute - Error while executing POST: http://localhost:5556/api/q/token/gettokensdt 
+2018-12-15 15:19:05,552 ERROR MvcExceptionHandlerAttribute - Stacktrace:  System.NullReferenceException: Object reference not set to an instance of an object.
+   at Sghis.Core.Entity.Qms.QmsMapper.MapTokenToDtContent(Token obj) in D:\Projects\Sghis\Dev\Sghis.Core\Sghis.Core.Entity\Qms\Mapper\QmsMapper-Token.cs:line 123
+   at Sghis.Core.Entity.Qms.QmsMapper.MapTokenToDtContent(List`1 objs) in D:\Projects\Sghis\Dev\Sghis.Core\Sghis.Core.Entity\Qms\Mapper\QmsMapper-Token.cs:line 117
+   at Sghis.Qms.Web.Controllers.QController.GetTokensDt(DtTokenRequest dtr) in D:\Projects\Sghis\Dev\Sghis.Qms\Sghis.Qms.Web\Controllers\QController.cs:line 174
+   at lambda_method(Closure , Object , Object[] )
+   at System.Web.Http.Controllers.ReflectedHttpActionDescriptor.ActionExecutor.<>c__DisplayClass6_1.<GetExecutor>b__3(Object instance, Object[] methodParameters)
+   at System.Web.Http.Controllers.ReflectedHttpActionDescriptor.ActionExecutor.Execute(Object instance, Object[] arguments)
+   at System.Web.Http.Controllers.ReflectedHttpActionDescriptor.ExecuteAsync(HttpControllerContext controllerContext, IDictionary`2 arguments, CancellationToken cancellationToken)
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Controllers.ApiControllerActionInvoker.<InvokeActionAsyncCore>d__1.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Filters.ActionFilterAttribute.<CallOnActionExecutedAsync>d__6.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Web.Http.Filters.ActionFilterAttribute.<CallOnActionExecutedAsync>d__6.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Filters.ActionFilterAttribute.<ExecuteActionFilterAsyncCore>d__5.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Controllers.ActionFilterResult.<ExecuteAsync>d__5.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Controllers.ExceptionFilterResult.<ExecuteAsync>d__6.MoveNext()
+2018-12-15 15:19:07,033 INFO  ApiRequest - Request POST: http://localhost:5556/api/q/token/gettokensdt 
+2018-12-15 15:19:14,239 ERROR MvcExceptionHandlerAttribute - Error while executing POST: http://localhost:5556/api/q/token/gettokensdt 
+2018-12-15 15:19:14,241 ERROR MvcExceptionHandlerAttribute - Stacktrace:  System.NullReferenceException: Object reference not set to an instance of an object.
+   at Sghis.Core.Entity.Qms.QmsMapper.MapTokenToDtContent(Token obj) in D:\Projects\Sghis\Dev\Sghis.Core\Sghis.Core.Entity\Qms\Mapper\QmsMapper-Token.cs:line 123
+   at Sghis.Core.Entity.Qms.QmsMapper.MapTokenToDtContent(List`1 objs) in D:\Projects\Sghis\Dev\Sghis.Core\Sghis.Core.Entity\Qms\Mapper\QmsMapper-Token.cs:line 117
+   at Sghis.Qms.Web.Controllers.QController.GetTokensDt(DtTokenRequest dtr) in D:\Projects\Sghis\Dev\Sghis.Qms\Sghis.Qms.Web\Controllers\QController.cs:line 174
+   at lambda_method(Closure , Object , Object[] )
+   at System.Web.Http.Controllers.ReflectedHttpActionDescriptor.ActionExecutor.<>c__DisplayClass6_1.<GetExecutor>b__3(Object instance, Object[] methodParameters)
+   at System.Web.Http.Controllers.ReflectedHttpActionDescriptor.ActionExecutor.Execute(Object instance, Object[] arguments)
+   at System.Web.Http.Controllers.ReflectedHttpActionDescriptor.ExecuteAsync(HttpControllerContext controllerContext, IDictionary`2 arguments, CancellationToken cancellationToken)
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Controllers.ApiControllerActionInvoker.<InvokeActionAsyncCore>d__1.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Filters.ActionFilterAttribute.<CallOnActionExecutedAsync>d__6.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Web.Http.Filters.ActionFilterAttribute.<CallOnActionExecutedAsync>d__6.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Filters.ActionFilterAttribute.<ExecuteActionFilterAsyncCore>d__5.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Controllers.ActionFilterResult.<ExecuteAsync>d__5.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Controllers.ExceptionFilterResult.<ExecuteAsync>d__6.MoveNext()
+2018-12-15 15:19:54,161 INFO  ApiRequest - Request POST: http://localhost:5556/api/q/token/gettokensdt 
+2018-12-15 15:20:19,468 ERROR MvcExceptionHandlerAttribute - Error while executing POST: http://localhost:5556/api/q/token/gettokensdt 
+2018-12-15 15:20:19,470 ERROR MvcExceptionHandlerAttribute - Stacktrace:  System.NullReferenceException: Object reference not set to an instance of an object.
+   at Sghis.Core.Entity.Qms.QmsMapper.MapTokenToDtContent(Token obj) in D:\Projects\Sghis\Dev\Sghis.Core\Sghis.Core.Entity\Qms\Mapper\QmsMapper-Token.cs:line 123
+   at Sghis.Core.Entity.Qms.QmsMapper.MapTokenToDtContent(List`1 objs) in D:\Projects\Sghis\Dev\Sghis.Core\Sghis.Core.Entity\Qms\Mapper\QmsMapper-Token.cs:line 117
+   at Sghis.Qms.Web.Controllers.QController.GetTokensDt(DtTokenRequest dtr) in D:\Projects\Sghis\Dev\Sghis.Qms\Sghis.Qms.Web\Controllers\QController.cs:line 174
+   at lambda_method(Closure , Object , Object[] )
+   at System.Web.Http.Controllers.ReflectedHttpActionDescriptor.ActionExecutor.<>c__DisplayClass6_1.<GetExecutor>b__3(Object instance, Object[] methodParameters)
+   at System.Web.Http.Controllers.ReflectedHttpActionDescriptor.ActionExecutor.Execute(Object instance, Object[] arguments)
+   at System.Web.Http.Controllers.ReflectedHttpActionDescriptor.ExecuteAsync(HttpControllerContext controllerContext, IDictionary`2 arguments, CancellationToken cancellationToken)
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Controllers.ApiControllerActionInvoker.<InvokeActionAsyncCore>d__1.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Filters.ActionFilterAttribute.<CallOnActionExecutedAsync>d__6.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Web.Http.Filters.ActionFilterAttribute.<CallOnActionExecutedAsync>d__6.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Filters.ActionFilterAttribute.<ExecuteActionFilterAsyncCore>d__5.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Controllers.ActionFilterResult.<ExecuteAsync>d__5.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Controllers.ExceptionFilterResult.<ExecuteAsync>d__6.MoveNext()
+2018-12-15 15:20:19,521 INFO  ApiRequest - Request POST: http://localhost:5556/api/q/token/gettokensdt 
+2018-12-15 15:23:37,016 ERROR MvcExceptionHandlerAttribute - Error while executing POST: http://localhost:5556/api/q/token/gettokensdt 
+2018-12-15 15:23:37,017 ERROR MvcExceptionHandlerAttribute - Stacktrace:  System.NullReferenceException: Object reference not set to an instance of an object.
+   at Sghis.Core.Entity.Qms.QmsMapper.MapTokenToDtContent(Token obj) in D:\Projects\Sghis\Dev\Sghis.Core\Sghis.Core.Entity\Qms\Mapper\QmsMapper-Token.cs:line 123
+   at Sghis.Core.Entity.Qms.QmsMapper.MapTokenToDtContent(List`1 objs) in D:\Projects\Sghis\Dev\Sghis.Core\Sghis.Core.Entity\Qms\Mapper\QmsMapper-Token.cs:line 117
+   at Sghis.Qms.Web.Controllers.QController.GetTokensDt(DtTokenRequest dtr) in D:\Projects\Sghis\Dev\Sghis.Qms\Sghis.Qms.Web\Controllers\QController.cs:line 174
+   at lambda_method(Closure , Object , Object[] )
+   at System.Web.Http.Controllers.ReflectedHttpActionDescriptor.ActionExecutor.<>c__DisplayClass6_1.<GetExecutor>b__3(Object instance, Object[] methodParameters)
+   at System.Web.Http.Controllers.ReflectedHttpActionDescriptor.ActionExecutor.Execute(Object instance, Object[] arguments)
+   at System.Web.Http.Controllers.ReflectedHttpActionDescriptor.ExecuteAsync(HttpControllerContext controllerContext, IDictionary`2 arguments, CancellationToken cancellationToken)
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Controllers.ApiControllerActionInvoker.<InvokeActionAsyncCore>d__1.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Filters.ActionFilterAttribute.<CallOnActionExecutedAsync>d__6.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Web.Http.Filters.ActionFilterAttribute.<CallOnActionExecutedAsync>d__6.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Filters.ActionFilterAttribute.<ExecuteActionFilterAsyncCore>d__5.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Controllers.ActionFilterResult.<ExecuteAsync>d__5.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Controllers.ExceptionFilterResult.<ExecuteAsync>d__6.MoveNext()
+2018-12-15 15:24:00,051 INFO  ApiRequest - Request POST: http://localhost:5556/api/q/token/gettokensdt 
+2018-12-15 15:26:37,959 ERROR MvcExceptionHandlerAttribute - Error while executing POST: http://localhost:5556/api/q/token/gettokensdt 
+2018-12-15 15:26:37,981 ERROR MvcExceptionHandlerAttribute - Stacktrace:  System.NullReferenceException: Object reference not set to an instance of an object.
+   at Sghis.Core.Entity.Qms.QmsMapper.MapTokenToDtContent(Token obj) in D:\Projects\Sghis\Dev\Sghis.Core\Sghis.Core.Entity\Qms\Mapper\QmsMapper-Token.cs:line 123
+   at Sghis.Core.Entity.Qms.QmsMapper.MapTokenToDtContent(List`1 objs) in D:\Projects\Sghis\Dev\Sghis.Core\Sghis.Core.Entity\Qms\Mapper\QmsMapper-Token.cs:line 117
+   at Sghis.Qms.Web.Controllers.QController.GetTokensDt(DtTokenRequest dtr) in D:\Projects\Sghis\Dev\Sghis.Qms\Sghis.Qms.Web\Controllers\QController.cs:line 174
+   at lambda_method(Closure , Object , Object[] )
+   at System.Web.Http.Controllers.ReflectedHttpActionDescriptor.ActionExecutor.<>c__DisplayClass6_1.<GetExecutor>b__3(Object instance, Object[] methodParameters)
+   at System.Web.Http.Controllers.ReflectedHttpActionDescriptor.ActionExecutor.Execute(Object instance, Object[] arguments)
+   at System.Web.Http.Controllers.ReflectedHttpActionDescriptor.ExecuteAsync(HttpControllerContext controllerContext, IDictionary`2 arguments, CancellationToken cancellationToken)
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Controllers.ApiControllerActionInvoker.<InvokeActionAsyncCore>d__1.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Filters.ActionFilterAttribute.<CallOnActionExecutedAsync>d__6.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Web.Http.Filters.ActionFilterAttribute.<CallOnActionExecutedAsync>d__6.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Filters.ActionFilterAttribute.<ExecuteActionFilterAsyncCore>d__5.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Controllers.ActionFilterResult.<ExecuteAsync>d__5.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Controllers.ExceptionFilterResult.<ExecuteAsync>d__6.MoveNext()
+2018-12-15 15:26:40,577 INFO  ApiRequest - Request POST: http://localhost:5556/api/q/token/gettokensdt 
+2018-12-15 15:27:51,116 ERROR MvcExceptionHandlerAttribute - Error while executing POST: http://localhost:5556/api/q/token/gettokensdt 
+2018-12-15 15:27:51,117 ERROR MvcExceptionHandlerAttribute - Stacktrace:  System.NullReferenceException: Object reference not set to an instance of an object.
+   at Sghis.Core.Entity.Qms.QmsMapper.MapTokenToDtContent(Token obj) in D:\Projects\Sghis\Dev\Sghis.Core\Sghis.Core.Entity\Qms\Mapper\QmsMapper-Token.cs:line 123
+   at Sghis.Core.Entity.Qms.QmsMapper.MapTokenToDtContent(List`1 objs) in D:\Projects\Sghis\Dev\Sghis.Core\Sghis.Core.Entity\Qms\Mapper\QmsMapper-Token.cs:line 117
+   at Sghis.Qms.Web.Controllers.QController.GetTokensDt(DtTokenRequest dtr) in D:\Projects\Sghis\Dev\Sghis.Qms\Sghis.Qms.Web\Controllers\QController.cs:line 174
+   at lambda_method(Closure , Object , Object[] )
+   at System.Web.Http.Controllers.ReflectedHttpActionDescriptor.ActionExecutor.<>c__DisplayClass6_1.<GetExecutor>b__3(Object instance, Object[] methodParameters)
+   at System.Web.Http.Controllers.ReflectedHttpActionDescriptor.ActionExecutor.Execute(Object instance, Object[] arguments)
+   at System.Web.Http.Controllers.ReflectedHttpActionDescriptor.ExecuteAsync(HttpControllerContext controllerContext, IDictionary`2 arguments, CancellationToken cancellationToken)
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Controllers.ApiControllerActionInvoker.<InvokeActionAsyncCore>d__1.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Filters.ActionFilterAttribute.<CallOnActionExecutedAsync>d__6.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Web.Http.Filters.ActionFilterAttribute.<CallOnActionExecutedAsync>d__6.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Filters.ActionFilterAttribute.<ExecuteActionFilterAsyncCore>d__5.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Controllers.ActionFilterResult.<ExecuteAsync>d__5.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Controllers.ExceptionFilterResult.<ExecuteAsync>d__6.MoveNext()
+2018-12-15 15:27:53,493 INFO  ApiRequest - Request POST: http://localhost:5556/api/q/token/gettokensdt 
+2018-12-15 15:31:14,475 INFO  QmsLogs - --Starting QMS API--
+2018-12-15 15:31:35,162 INFO  ApiRequest - Request POST: http://localhost:5556/api/q/token/gettokensdt 
+2018-12-15 15:31:40,705 INFO  MvcRequest - Request GET: home/index 
+Parameter: index
+2018-12-15 15:33:36,115 INFO  ApiRequest - Request POST: http://localhost:5556/api/q/token/gettokensdt 
+2018-12-15 15:34:04,163 INFO  ApiRequest - Request POST: http://localhost:5556/api/q/token/gettokensdt 
+2018-12-15 15:34:27,626 INFO  ApiRequest - Request POST: http://localhost:5556/api/q/token/gettokensdt 
+2018-12-15 15:35:02,178 INFO  ApiRequest - Request POST: http://localhost:5556/api/q/token/gettokensdt 
+2018-12-15 15:35:17,957 INFO  ApiRequest - Request POST: http://localhost:5556/api/q/token/gettokensdt 
+2018-12-15 15:38:43,931 INFO  ApiRequest - Request POST: http://localhost:5556/api/q/token/gettokensdt 
+2018-12-15 15:42:04,493 INFO  ApiRequest - Request POST: http://localhost:5556/api/q/token/gettokensdt 
+2018-12-15 15:42:10,191 INFO  ApiRequest - Request POST: http://localhost:5556/api/q/token/call 
+2018-12-15 15:42:10,207 INFO  ApiRequest - Request POST: http://localhost:5556/api/q/token/call 
+2018-12-15 15:42:12,610 INFO  ApiRequest - Request POST: http://localhost:5556/api/q/token/gettokensdt 
+2018-12-15 15:42:45,341 INFO  ApiRequest - Request POST: http://localhost:5556/api/q/token/call 
+2018-12-15 15:42:45,348 INFO  ApiRequest - Request POST: http://localhost:5556/api/q/token/call 
+2018-12-15 15:42:45,535 INFO  ApiRequest - Request POST: http://localhost:5556/api/q/token/done 
+2018-12-15 15:43:29,288 INFO  ApiRequest - Request POST: http://localhost:5556/api/q/token/gettokensdt 
+2018-12-15 15:43:34,657 INFO  ApiRequest - Request POST: http://localhost:5556/api/q/token/call 
+2018-12-15 15:43:34,666 INFO  ApiRequest - Request POST: http://localhost:5556/api/q/token/call 
+2018-12-15 15:43:34,801 INFO  ApiRequest - Request POST: http://localhost:5556/api/q/token/gettokensdt 
+2018-12-15 15:43:56,520 INFO  ApiRequest - Request POST: http://localhost:5556/api/q/token/gettokensdt 
+2018-12-15 15:44:00,975 INFO  ApiRequest - Request POST: http://localhost:5556/api/q/token/call 
+2018-12-15 15:44:00,985 INFO  ApiRequest - Request POST: http://localhost:5556/api/q/token/call 
+2018-12-15 15:44:01,092 INFO  ApiRequest - Request POST: http://localhost:5556/api/q/token/gettokensdt 
+2018-12-15 15:46:23,922 INFO  ApiRequest - Request POST: http://localhost:5556/api/q/token/gettokensdt 
+2018-12-15 15:46:25,625 INFO  ApiRequest - Request POST: http://localhost:5556/api/q/token/call 
+2018-12-15 15:46:25,634 INFO  ApiRequest - Request POST: http://localhost:5556/api/q/token/call 
+2018-12-15 15:46:26,048 INFO  ApiRequest - Request POST: http://localhost:5556/api/q/token/gettokensdt 
+2018-12-15 15:46:45,658 INFO  ApiRequest - Request POST: http://localhost:5556/api/q/token/gettokensdt 
+2018-12-15 15:46:52,401 INFO  ApiRequest - Request POST: http://localhost:5556/api/q/token/call 
+2018-12-15 15:46:52,409 INFO  ApiRequest - Request POST: http://localhost:5556/api/q/token/call 
+2018-12-15 15:46:52,496 INFO  ApiRequest - Request POST: http://localhost:5556/api/q/token/gettokensdt 
+2018-12-15 15:50:25,491 INFO  ApiRequest - Request POST: http://localhost:5556/api/q/token/gettokensdt 
+2018-12-15 15:50:29,387 INFO  ApiRequest - Request POST: http://localhost:5556/api/q/token/call 
+2018-12-15 15:50:29,394 INFO  ApiRequest - Request POST: http://localhost:5556/api/q/token/call 
+2018-12-15 15:50:29,459 INFO  ApiRequest - Request POST: http://localhost:5556/api/q/token/gettokensdt 
+2018-12-15 15:51:24,001 INFO  ApiRequest - Request POST: http://localhost:5556/api/q/token/gettokensdt 
+2018-12-15 15:51:26,664 INFO  ApiRequest - Request POST: http://localhost:5556/api/q/token/call 
+2018-12-15 15:51:26,671 INFO  ApiRequest - Request POST: http://localhost:5556/api/q/token/call 
+2018-12-15 15:51:26,725 INFO  ApiRequest - Request POST: http://localhost:5556/api/q/token/gettokensdt 
+2018-12-15 15:51:56,459 INFO  ApiRequest - Request POST: http://localhost:5556/api/q/token/done 
+2018-12-15 15:51:56,521 INFO  ApiRequest - Request POST: http://localhost:5556/api/q/token/gettokensdt 
+2018-12-15 15:52:54,739 INFO  ApiRequest - Request POST: http://localhost:5556/api/q/token/gettokensdt 
+2018-12-15 15:53:10,852 INFO  ApiRequest - Request POST: http://localhost:5556/api/q/token/call 
+2018-12-15 15:53:10,861 INFO  ApiRequest - Request POST: http://localhost:5556/api/q/token/call 
+2018-12-15 15:53:10,948 INFO  ApiRequest - Request POST: http://localhost:5556/api/q/token/gettokensdt 
+2018-12-15 15:53:13,345 INFO  ApiRequest - Request POST: http://localhost:5556/api/q/token/gettokensdt 
+2018-12-15 15:53:16,156 INFO  ApiRequest - Request POST: http://localhost:5556/api/q/token/call 
+2018-12-15 15:53:16,164 INFO  ApiRequest - Request POST: http://localhost:5556/api/q/token/call 
+2018-12-15 15:53:16,275 INFO  ApiRequest - Request POST: http://localhost:5556/api/q/token/gettokensdt 
+2018-12-15 15:53:17,573 INFO  ApiRequest - Request POST: http://localhost:5556/api/q/token/done 
+2018-12-15 15:53:17,609 INFO  ApiRequest - Request POST: http://localhost:5556/api/q/token/gettokensdt 
+2018-12-15 15:53:35,849 INFO  ApiRequest - Request POST: http://localhost:5556/api/q/token/gettokensdt 
+2018-12-15 15:53:37,590 INFO  ApiRequest - Request POST: http://localhost:5556/api/q/token/call 
+2018-12-15 15:53:37,597 INFO  ApiRequest - Request POST: http://localhost:5556/api/q/token/call 
+2018-12-15 15:53:37,646 INFO  ApiRequest - Request POST: http://localhost:5556/api/q/token/gettokensdt 
+2018-12-15 15:53:39,152 INFO  ApiRequest - Request POST: http://localhost:5556/api/q/token/delay 
+2018-12-15 15:53:39,199 INFO  ApiRequest - Request POST: http://localhost:5556/api/q/token/gettokensdt 
+2018-12-15 15:53:45,347 INFO  ApiRequest - Request POST: http://localhost:5556/api/q/token/call 
+2018-12-15 15:53:45,354 INFO  ApiRequest - Request POST: http://localhost:5556/api/q/token/call 
+2018-12-15 15:53:45,451 INFO  ApiRequest - Request POST: http://localhost:5556/api/q/token/gettokensdt 
+2018-12-15 15:53:48,478 INFO  ApiRequest - Request POST: http://localhost:5556/api/q/token/done 
+2018-12-15 15:53:48,528 INFO  ApiRequest - Request POST: http://localhost:5556/api/q/token/gettokensdt 
+2018-12-15 15:53:55,274 INFO  ApiRequest - Request POST: http://localhost:5556/api/q/token/call 
+2018-12-15 15:53:55,281 INFO  ApiRequest - Request POST: http://localhost:5556/api/q/token/call 
+2018-12-15 15:53:55,391 INFO  ApiRequest - Request POST: http://localhost:5556/api/q/token/gettokensdt 
+2018-12-15 15:53:56,693 INFO  ApiRequest - Request POST: http://localhost:5556/api/q/token/call 
+2018-12-15 15:53:56,701 INFO  ApiRequest - Request POST: http://localhost:5556/api/q/token/call 
+2018-12-15 15:53:56,763 INFO  ApiRequest - Request POST: http://localhost:5556/api/q/token/gettokensdt 
+2018-12-15 15:53:56,775 INFO  ApiRequest - Request POST: http://localhost:5556/api/q/token/done 
+2018-12-15 15:54:07,118 INFO  ApiRequest - Request POST: http://localhost:5556/api/q/token/call 
+2018-12-15 15:54:07,135 INFO  ApiRequest - Request POST: http://localhost:5556/api/q/token/call 
+2018-12-15 15:54:07,238 INFO  ApiRequest - Request POST: http://localhost:5556/api/q/token/done 
+2018-12-15 15:54:07,572 ERROR MvcExceptionHandlerAttribute - Stacktrace:  System.Data.Entity.Core.EntityException: An error occurred while starting a transaction on the provider connection. See the inner exception for details. ---> System.Data.SqlClient.SqlException: New transaction is not allowed because there are other threads running in the session.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.TdsParser.Run(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj)
+   at System.Data.SqlClient.TdsParser.TdsExecuteTransactionManagerRequest(Byte[] buffer, TransactionManagerRequestType request, String transactionName, TransactionManagerIsolationLevel isoLevel, Int32 timeout, SqlInternalTransaction transaction, TdsParserStateObject stateObj, Boolean isDelegateControlRequest)
+   at System.Data.SqlClient.SqlInternalConnectionTds.ExecuteTransactionYukon(TransactionRequest transactionRequest, String transactionName, IsolationLevel iso, SqlInternalTransaction internalTransaction, Boolean isDelegateControlRequest)
+   at System.Data.SqlClient.SqlInternalConnectionTds.ExecuteTransaction(TransactionRequest transactionRequest, String name, IsolationLevel iso, SqlInternalTransaction internalTransaction, Boolean isDelegateControlRequest)
+   at System.Data.SqlClient.SqlInternalConnection.BeginSqlTransaction(IsolationLevel iso, String transactionName, Boolean shouldReconnect)
+   at System.Data.SqlClient.SqlConnection.BeginTransaction(IsolationLevel iso, String transactionName)
+   at System.Data.SqlClient.SqlConnection.BeginDbTransaction(IsolationLevel isolationLevel)
+   at System.Data.Common.DbConnection.BeginTransaction(IsolationLevel isolationLevel)
+   at System.Data.Entity.Infrastructure.Interception.DbConnectionDispatcher.<BeginTransaction>b__0(DbConnection t, BeginTransactionInterceptionContext c)
+   at System.Data.Entity.Infrastructure.Interception.InternalDispatcher`1.Dispatch[TTarget,TInterceptionContext,TResult](TTarget target, Func`3 operation, TInterceptionContext interceptionContext, Action`3 executing, Action`3 executed)
+   at System.Data.Entity.Infrastructure.Interception.DbConnectionDispatcher.BeginTransaction(DbConnection connection, BeginTransactionInterceptionContext interceptionContext)
+   at System.Data.Entity.Core.EntityClient.EntityConnection.<>c__DisplayClassf.<BeginDbTransaction>b__d()
+   at System.Data.Entity.SqlServer.DefaultSqlExecutionStrategy.Execute[TResult](Func`1 operation)
+   at System.Data.Entity.Core.EntityClient.EntityConnection.BeginDbTransaction(IsolationLevel isolationLevel)
+   --- End of inner exception stack trace ---
+   at System.Data.Entity.Core.EntityClient.EntityConnection.BeginDbTransaction(IsolationLevel isolationLevel)
+   at System.Data.Entity.Core.EntityClient.EntityConnection.BeginTransaction()
+   at System.Data.Entity.Core.Objects.ObjectContext.ExecuteInTransaction[T](Func`1 func, IDbExecutionStrategy executionStrategy, Boolean startLocalTransaction, Boolean releaseConnectionOnSuccess)
+   at System.Data.Entity.Core.Objects.ObjectContext.SaveChangesToStore(SaveOptions options, IDbExecutionStrategy executionStrategy, Boolean startLocalTransaction)
+   at System.Data.Entity.Core.Objects.ObjectContext.<>c__DisplayClass2a.<SaveChangesInternal>b__27()
+   at System.Data.Entity.SqlServer.DefaultSqlExecutionStrategy.Execute[TResult](Func`1 operation)
+   at System.Data.Entity.Core.Objects.ObjectContext.SaveChangesInternal(SaveOptions options, Boolean executeInExistingTransaction)
+   at System.Data.Entity.Core.Objects.ObjectContext.SaveChanges(SaveOptions options)
+   at System.Data.Entity.Internal.InternalContext.SaveChanges()
+   at System.Data.Entity.Internal.LazyInternalContext.SaveChanges()
+   at System.Data.Entity.DbContext.SaveChanges()
+   at Sghis.Qms.Data.QmsRepository`1.Commit() in D:\Projects\Sghis\Dev\Sghis.Qms\Sghis.Qms\Data\QmsRepository.cs:line 118
+   at Sghis.Qms.Business.QueuingBusiness.UpdateToken(Int32 id, TokenStatus status, String actionBy, Nullable`1 zoneId, Nullable`1 stationId) in D:\Projects\Sghis\Dev\Sghis.Qms\Sghis.Qms\Business\QueuingBusiness.cs:line 172
+   at Sghis.Qms.Business.QueuingBusiness.UpdateTokenByIp(Int32 id, TokenStatus status, String actionBy, Nullable`1 zoneId, String ipAddress) in D:\Projects\Sghis\Dev\Sghis.Qms\Sghis.Qms\Business\QueuingBusiness.cs:line 133
+   at Sghis.Qms.Web.Controllers.QController.Done(FormDataCollection col) in D:\Projects\Sghis\Dev\Sghis.Qms\Sghis.Qms.Web\Controllers\QController.cs:line 131
+   at lambda_method(Closure , Object , Object[] )
+   at System.Web.Http.Controllers.ReflectedHttpActionDescriptor.ActionExecutor.<>c__DisplayClass6_1.<GetExecutor>b__3(Object instance, Object[] methodParameters)
+   at System.Web.Http.Controllers.ReflectedHttpActionDescriptor.ActionExecutor.Execute(Object instance, Object[] arguments)
+   at System.Web.Http.Controllers.ReflectedHttpActionDescriptor.ExecuteAsync(HttpControllerContext controllerContext, IDictionary`2 arguments, CancellationToken cancellationToken)
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Controllers.ApiControllerActionInvoker.<InvokeActionAsyncCore>d__1.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Filters.ActionFilterAttribute.<CallOnActionExecutedAsync>d__6.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Web.Http.Filters.ActionFilterAttribute.<CallOnActionExecutedAsync>d__6.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Filters.ActionFilterAttribute.<ExecuteActionFilterAsyncCore>d__5.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Controllers.ActionFilterResult.<ExecuteAsync>d__5.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Controllers.ExceptionFilterResult.<ExecuteAsync>d__6.MoveNext()
+2018-12-15 15:54:11,791 INFO  ApiRequest - Request POST: http://localhost:5556/api/q/token/call 
+2018-12-15 15:54:11,800 INFO  ApiRequest - Request POST: http://localhost:5556/api/q/token/call 
+2018-12-15 15:54:11,890 INFO  ApiRequest - Request POST: http://localhost:5556/api/q/token/gettokensdt 
+2018-12-15 15:54:12,943 ERROR MvcExceptionHandlerAttribute - Error while executing POST: http://localhost:5556/api/q/token/done 
+2018-12-15 15:54:12,943 ERROR MvcExceptionHandlerAttribute - Stacktrace:  System.Data.Entity.Core.EntityException: An error occurred while starting a transaction on the provider connection. See the inner exception for details. ---> System.Data.SqlClient.SqlException: New transaction is not allowed because there are other threads running in the session.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.TdsParser.Run(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj)
+   at System.Data.SqlClient.TdsParser.TdsExecuteTransactionManagerRequest(Byte[] buffer, TransactionManagerRequestType request, String transactionName, TransactionManagerIsolationLevel isoLevel, Int32 timeout, SqlInternalTransaction transaction, TdsParserStateObject stateObj, Boolean isDelegateControlRequest)
+   at System.Data.SqlClient.SqlInternalConnectionTds.ExecuteTransactionYukon(TransactionRequest transactionRequest, String transactionName, IsolationLevel iso, SqlInternalTransaction internalTransaction, Boolean isDelegateControlRequest)
+   at System.Data.SqlClient.SqlInternalConnectionTds.ExecuteTransaction(TransactionRequest transactionRequest, String name, IsolationLevel iso, SqlInternalTransaction internalTransaction, Boolean isDelegateControlRequest)
+   at System.Data.SqlClient.SqlInternalConnection.BeginSqlTransaction(IsolationLevel iso, String transactionName, Boolean shouldReconnect)
+   at System.Data.SqlClient.SqlConnection.BeginTransaction(IsolationLevel iso, String transactionName)
+   at System.Data.SqlClient.SqlConnection.BeginDbTransaction(IsolationLevel isolationLevel)
+   at System.Data.Common.DbConnection.BeginTransaction(IsolationLevel isolationLevel)
+   at System.Data.Entity.Infrastructure.Interception.DbConnectionDispatcher.<BeginTransaction>b__0(DbConnection t, BeginTransactionInterceptionContext c)
+   at System.Data.Entity.Infrastructure.Interception.InternalDispatcher`1.Dispatch[TTarget,TInterceptionContext,TResult](TTarget target, Func`3 operation, TInterceptionContext interceptionContext, Action`3 executing, Action`3 executed)
+   at System.Data.Entity.Infrastructure.Interception.DbConnectionDispatcher.BeginTransaction(DbConnection connection, BeginTransactionInterceptionContext interceptionContext)
+   at System.Data.Entity.Core.EntityClient.EntityConnection.<>c__DisplayClassf.<BeginDbTransaction>b__d()
+   at System.Data.Entity.SqlServer.DefaultSqlExecutionStrategy.Execute[TResult](Func`1 operation)
+   at System.Data.Entity.Core.EntityClient.EntityConnection.BeginDbTransaction(IsolationLevel isolationLevel)
+   --- End of inner exception stack trace ---
+   at System.Data.Entity.Core.EntityClient.EntityConnection.BeginDbTransaction(IsolationLevel isolationLevel)
+   at System.Data.Entity.Core.EntityClient.EntityConnection.BeginTransaction()
+   at System.Data.Entity.Core.Objects.ObjectContext.ExecuteInTransaction[T](Func`1 func, IDbExecutionStrategy executionStrategy, Boolean startLocalTransaction, Boolean releaseConnectionOnSuccess)
+   at System.Data.Entity.Core.Objects.ObjectContext.SaveChangesToStore(SaveOptions options, IDbExecutionStrategy executionStrategy, Boolean startLocalTransaction)
+   at System.Data.Entity.Core.Objects.ObjectContext.<>c__DisplayClass2a.<SaveChangesInternal>b__27()
+   at System.Data.Entity.SqlServer.DefaultSqlExecutionStrategy.Execute[TResult](Func`1 operation)
+   at System.Data.Entity.Core.Objects.ObjectContext.SaveChangesInternal(SaveOptions options, Boolean executeInExistingTransaction)
+   at System.Data.Entity.Core.Objects.ObjectContext.SaveChanges(SaveOptions options)
+   at System.Data.Entity.Internal.InternalContext.SaveChanges()
+   at System.Data.Entity.Internal.LazyInternalContext.SaveChanges()
+   at System.Data.Entity.DbContext.SaveChanges()
+   at Sghis.Qms.Data.QmsRepository`1.Commit() in D:\Projects\Sghis\Dev\Sghis.Qms\Sghis.Qms\Data\QmsRepository.cs:line 118
+   at Sghis.Qms.Business.QueuingBusiness.UpdateToken(Int32 id, TokenStatus status, String actionBy, Nullable`1 zoneId, Nullable`1 stationId) in D:\Projects\Sghis\Dev\Sghis.Qms\Sghis.Qms\Business\QueuingBusiness.cs:line 172
+   at Sghis.Qms.Business.QueuingBusiness.UpdateTokenByIp(Int32 id, TokenStatus status, String actionBy, Nullable`1 zoneId, String ipAddress) in D:\Projects\Sghis\Dev\Sghis.Qms\Sghis.Qms\Business\QueuingBusiness.cs:line 133
+   at Sghis.Qms.Web.Controllers.QController.Done(FormDataCollection col) in D:\Projects\Sghis\Dev\Sghis.Qms\Sghis.Qms.Web\Controllers\QController.cs:line 131
+   at lambda_method(Closure , Object , Object[] )
+   at System.Web.Http.Controllers.ReflectedHttpActionDescriptor.ActionExecutor.<>c__DisplayClass6_1.<GetExecutor>b__3(Object instance, Object[] methodParameters)
+   at System.Web.Http.Controllers.ReflectedHttpActionDescriptor.ActionExecutor.Execute(Object instance, Object[] arguments)
+   at System.Web.Http.Controllers.ReflectedHttpActionDescriptor.ExecuteAsync(HttpControllerContext controllerContext, IDictionary`2 arguments, CancellationToken cancellationToken)
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Controllers.ApiControllerActionInvoker.<InvokeActionAsyncCore>d__1.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Filters.ActionFilterAttribute.<CallOnActionExecutedAsync>d__6.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Web.Http.Filters.ActionFilterAttribute.<CallOnActionExecutedAsync>d__6.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Filters.ActionFilterAttribute.<ExecuteActionFilterAsyncCore>d__5.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Controllers.ActionFilterResult.<ExecuteAsync>d__5.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Controllers.ExceptionFilterResult.<ExecuteAsync>d__6.MoveNext()
+2018-12-15 15:54:18,984 INFO  ApiRequest - Request POST: http://localhost:5556/api/q/token/gettokensdt 
+2018-12-15 15:54:41,219 INFO  ApiRequest - Request POST: http://localhost:5556/api/q/token/gettokensdt 
+2018-12-15 15:55:36,672 INFO  ApiRequest - Request POST: http://localhost:5556/api/q/token/gettokensdt 
+2018-12-15 15:55:41,881 INFO  ApiRequest - Request POST: http://localhost:5556/api/q/token/call 
+2018-12-15 15:55:41,890 INFO  ApiRequest - Request POST: http://localhost:5556/api/q/token/call 
+2018-12-15 15:55:41,961 INFO  ApiRequest - Request POST: http://localhost:5556/api/q/token/gettokensdt 
+2018-12-15 15:55:43,527 INFO  ApiRequest - Request POST: http://localhost:5556/api/q/token/delay 
+2018-12-15 15:55:43,582 INFO  ApiRequest - Request POST: http://localhost:5556/api/q/token/gettokensdt 
+2018-12-15 15:55:45,350 INFO  ApiRequest - Request POST: http://localhost:5556/api/q/token/call 
+2018-12-15 15:55:45,358 INFO  ApiRequest - Request POST: http://localhost:5556/api/q/token/call 
+2018-12-15 15:55:45,401 INFO  ApiRequest - Request POST: http://localhost:5556/api/q/token/gettokensdt 
+2018-12-15 15:55:46,773 INFO  ApiRequest - Request POST: http://localhost:5556/api/q/token/delay 
+2018-12-15 15:55:46,809 INFO  ApiRequest - Request POST: http://localhost:5556/api/q/token/gettokensdt 
+2018-12-15 15:55:47,532 INFO  ApiRequest - Request POST: http://localhost:5556/api/q/token/call 
+2018-12-15 15:55:47,540 INFO  ApiRequest - Request POST: http://localhost:5556/api/q/token/call 
+2018-12-15 15:55:47,611 INFO  ApiRequest - Request POST: http://localhost:5556/api/q/token/gettokensdt 
+2018-12-15 15:55:47,990 INFO  ApiRequest - Request POST: http://localhost:5556/api/q/token/delay 
+2018-12-15 15:55:48,032 INFO  ApiRequest - Request POST: http://localhost:5556/api/q/token/gettokensdt 
+2018-12-15 15:55:48,470 INFO  ApiRequest - Request POST: http://localhost:5556/api/q/token/call 
+2018-12-15 15:55:48,478 INFO  ApiRequest - Request POST: http://localhost:5556/api/q/token/call 
+2018-12-15 15:55:48,544 INFO  ApiRequest - Request POST: http://localhost:5556/api/q/token/gettokensdt 
+2018-12-15 15:55:48,943 INFO  ApiRequest - Request POST: http://localhost:5556/api/q/token/delay 
+2018-12-15 15:55:48,982 INFO  ApiRequest - Request POST: http://localhost:5556/api/q/token/gettokensdt 
+2018-12-15 15:55:49,477 INFO  ApiRequest - Request POST: http://localhost:5556/api/q/token/call 
+2018-12-15 15:55:49,484 INFO  ApiRequest - Request POST: http://localhost:5556/api/q/token/call 
+2018-12-15 15:55:49,549 INFO  ApiRequest - Request POST: http://localhost:5556/api/q/token/gettokensdt 
+2018-12-15 15:55:50,038 INFO  ApiRequest - Request POST: http://localhost:5556/api/q/token/delay 
+2018-12-15 15:55:50,089 INFO  ApiRequest - Request POST: http://localhost:5556/api/q/token/gettokensdt 
+2018-12-15 15:55:50,532 INFO  ApiRequest - Request POST: http://localhost:5556/api/q/token/call 
+2018-12-15 15:55:50,540 INFO  ApiRequest - Request POST: http://localhost:5556/api/q/token/call 
+2018-12-15 15:55:50,594 INFO  ApiRequest - Request POST: http://localhost:5556/api/q/token/gettokensdt 
+2018-12-15 15:55:51,039 INFO  ApiRequest - Request POST: http://localhost:5556/api/q/token/delay 
+2018-12-15 15:55:51,088 INFO  ApiRequest - Request POST: http://localhost:5556/api/q/token/gettokensdt 
+2018-12-15 15:55:51,568 INFO  ApiRequest - Request POST: http://localhost:5556/api/q/token/call 
+2018-12-15 15:55:51,577 INFO  ApiRequest - Request POST: http://localhost:5556/api/q/token/call 
+2018-12-15 15:55:51,628 INFO  ApiRequest - Request POST: http://localhost:5556/api/q/token/gettokensdt 
+2018-12-15 15:57:46,692 INFO  ApiRequest - Request POST: http://localhost:5556/api/q/token/gettokensdt 
+2018-12-15 15:58:30,672 INFO  ApiRequest - Request POST: http://localhost:5556/api/q/token/gettokensdt 
+2018-12-15 15:58:32,072 INFO  ApiRequest - Request POST: http://localhost:5556/api/q/token/call 
+2018-12-15 15:58:32,080 INFO  ApiRequest - Request POST: http://localhost:5556/api/q/token/call 
+2018-12-15 15:58:32,146 INFO  ApiRequest - Request POST: http://localhost:5556/api/q/token/gettokensdt 
+2018-12-15 15:59:00,547 INFO  ApiRequest - Request POST: http://localhost:5556/api/q/token/gettokensdt 
+2018-12-15 15:59:04,344 INFO  ApiRequest - Request POST: http://localhost:5556/api/q/token/call 
+2018-12-15 15:59:04,351 INFO  ApiRequest - Request POST: http://localhost:5556/api/q/token/call 
+2018-12-15 15:59:04,419 INFO  ApiRequest - Request POST: http://localhost:5556/api/q/token/gettokensdt 
+2018-12-15 15:59:28,508 INFO  ApiRequest - Request POST: http://localhost:5556/api/q/token/gettokensdt 
+2018-12-15 15:59:29,632 INFO  ApiRequest - Request POST: http://localhost:5556/api/q/token/call 
+2018-12-15 15:59:29,640 INFO  ApiRequest - Request POST: http://localhost:5556/api/q/token/call 
+2018-12-15 15:59:29,707 INFO  ApiRequest - Request POST: http://localhost:5556/api/q/token/gettokensdt 
+2018-12-15 16:00:15,420 INFO  ApiRequest - Request POST: http://localhost:5556/api/q/token/gettokensdt 
+2018-12-15 16:18:36,528 INFO  ApiRequest - Request POST: http://localhost:5556/api/q/token/gettokensdt 
+2018-12-15 16:18:52,608 INFO  ApiRequest - Request POST: http://localhost:5556/api/q/token/gettokensdt 
+2018-12-15 16:18:54,276 INFO  ApiRequest - Request POST: http://localhost:5556/api/q/token/call 
+2018-12-15 16:18:54,365 INFO  ApiRequest - Request POST: http://localhost:5556/api/q/token/call 
+2018-12-15 16:18:54,453 INFO  ApiRequest - Request POST: http://localhost:5556/api/q/token/gettokensdt 
+2018-12-15 16:20:37,143 INFO  ApiRequest - Request POST: http://localhost:5556/api/q/token/gettokensdt 
+2018-12-15 16:20:42,624 INFO  ApiRequest - Request POST: http://localhost:5556/api/q/token/call 
+2018-12-15 16:20:42,632 INFO  ApiRequest - Request POST: http://localhost:5556/api/q/token/call 
+2018-12-15 16:20:42,934 INFO  ApiRequest - Request POST: http://localhost:5556/api/q/token/gettokensdt 
+2018-12-15 16:22:12,138 INFO  ApiRequest - Request POST: http://localhost:5556/api/q/token/gettokensdt 
+2018-12-15 16:22:21,389 INFO  ApiRequest - Request POST: http://localhost:5556/api/q/token/gettokensdt 
+2018-12-15 16:22:25,322 INFO  ApiRequest - Request POST: http://localhost:5556/api/q/token/call 
+2018-12-15 16:22:25,347 INFO  ApiRequest - Request POST: http://localhost:5556/api/q/token/call 
+2018-12-15 16:22:25,434 INFO  ApiRequest - Request POST: http://localhost:5556/api/q/token/gettokensdt 
+2018-12-15 16:23:37,627 INFO  ApiRequest - Request POST: http://localhost:5556/api/q/token/gettokensdt 
+2018-12-15 16:23:40,843 INFO  ApiRequest - Request POST: http://localhost:5556/api/q/token/call 
+2018-12-15 16:23:40,852 INFO  ApiRequest - Request POST: http://localhost:5556/api/q/token/call 
+2018-12-15 16:23:40,914 INFO  ApiRequest - Request POST: http://localhost:5556/api/q/token/gettokensdt 
+2018-12-15 16:25:24,344 INFO  ApiRequest - Request POST: http://localhost:5556/api/q/token/gettokensdt 
+2018-12-15 16:25:26,248 INFO  ApiRequest - Request POST: http://localhost:5556/api/q/token/call 
+2018-12-15 16:25:26,255 INFO  ApiRequest - Request POST: http://localhost:5556/api/q/token/call 
+2018-12-15 16:25:26,307 INFO  ApiRequest - Request POST: http://localhost:5556/api/q/token/gettokensdt 
+2018-12-15 16:27:06,873 INFO  ApiRequest - Request POST: http://localhost:5556/api/q/token/gettokensdt 
+2018-12-15 16:27:15,749 INFO  ApiRequest - Request POST: http://localhost:5556/api/q/token/call 
+2018-12-15 16:27:15,759 INFO  ApiRequest - Request POST: http://localhost:5556/api/q/token/call 
+2018-12-15 16:27:15,849 INFO  ApiRequest - Request POST: http://localhost:5556/api/q/token/gettokensdt 
+2018-12-15 16:27:22,759 INFO  ApiRequest - Request POST: http://localhost:5556/api/q/token/delay 
+2018-12-15 16:27:22,823 INFO  ApiRequest - Request POST: http://localhost:5556/api/q/token/gettokensdt 
+2018-12-15 16:27:24,410 INFO  ApiRequest - Request POST: http://localhost:5556/api/q/token/call 
+2018-12-15 16:27:24,418 INFO  ApiRequest - Request POST: http://localhost:5556/api/q/token/call 
+2018-12-15 16:27:24,461 INFO  ApiRequest - Request POST: http://localhost:5556/api/q/token/gettokensdt 
+2018-12-15 16:27:27,877 INFO  ApiRequest - Request POST: http://localhost:5556/api/q/token/delay 
+2018-12-15 16:27:27,933 INFO  ApiRequest - Request POST: http://localhost:5556/api/q/token/gettokensdt 
+2018-12-15 16:27:28,588 INFO  ApiRequest - Request POST: http://localhost:5556/api/q/token/call 
+2018-12-15 16:27:28,595 INFO  ApiRequest - Request POST: http://localhost:5556/api/q/token/call 
+2018-12-15 16:27:28,666 INFO  ApiRequest - Request POST: http://localhost:5556/api/q/token/gettokensdt 
+2018-12-15 16:27:29,870 INFO  ApiRequest - Request POST: http://localhost:5556/api/q/token/delay 
+2018-12-15 16:27:29,927 INFO  ApiRequest - Request POST: http://localhost:5556/api/q/token/gettokensdt 
+2018-12-15 16:27:30,459 INFO  ApiRequest - Request POST: http://localhost:5556/api/q/token/call 
+2018-12-15 16:27:30,466 INFO  ApiRequest - Request POST: http://localhost:5556/api/q/token/call 
+2018-12-15 16:27:30,534 INFO  ApiRequest - Request POST: http://localhost:5556/api/q/token/gettokensdt 
+2018-12-15 16:27:31,853 INFO  ApiRequest - Request POST: http://localhost:5556/api/q/token/delay 
+2018-12-15 16:27:31,911 INFO  ApiRequest - Request POST: http://localhost:5556/api/q/token/gettokensdt 
+2018-12-15 16:27:32,335 INFO  ApiRequest - Request POST: http://localhost:5556/api/q/token/call 
+2018-12-15 16:27:32,343 INFO  ApiRequest - Request POST: http://localhost:5556/api/q/token/call 
+2018-12-15 16:27:32,407 INFO  ApiRequest - Request POST: http://localhost:5556/api/q/token/gettokensdt 
+2018-12-15 16:28:28,753 INFO  ApiRequest - Request POST: http://localhost:5556/api/q/token/gettokensdt 
+2018-12-15 16:28:32,420 INFO  ApiRequest - Request POST: http://localhost:5556/api/q/token/call 
+2018-12-15 16:28:32,440 INFO  ApiRequest - Request POST: http://localhost:5556/api/q/token/call 
+2018-12-15 16:28:32,572 INFO  ApiRequest - Request POST: http://localhost:5556/api/q/token/gettokensdt 
+2018-12-15 16:28:35,211 INFO  ApiRequest - Request POST: http://localhost:5556/api/q/token/delay 
+2018-12-15 16:28:35,264 INFO  ApiRequest - Request POST: http://localhost:5556/api/q/token/gettokensdt 
+2018-12-15 16:31:27,576 INFO  ApiRequest - Request POST: http://localhost:5556/api/q/token/gettokensdt 
+2018-12-15 16:31:30,344 INFO  ApiRequest - Request POST: http://localhost:5556/api/q/token/call 
+2018-12-15 16:31:30,353 INFO  ApiRequest - Request POST: http://localhost:5556/api/q/token/call 
+2018-12-15 16:31:30,460 INFO  ApiRequest - Request POST: http://localhost:5556/api/q/token/gettokensdt 
+2018-12-15 16:31:33,322 INFO  ApiRequest - Request POST: http://localhost:5556/api/q/token/done 
+2018-12-15 16:31:33,387 INFO  ApiRequest - Request POST: http://localhost:5556/api/q/token/gettokensdt 
+2018-12-15 16:31:35,740 INFO  ApiRequest - Request POST: http://localhost:5556/api/q/token/call 
+2018-12-15 16:31:35,747 INFO  ApiRequest - Request POST: http://localhost:5556/api/q/token/call 
+2018-12-15 16:31:35,811 INFO  ApiRequest - Request POST: http://localhost:5556/api/q/token/gettokensdt 
+2018-12-15 16:31:41,303 INFO  ApiRequest - Request POST: http://localhost:5556/api/q/token/call 
+2018-12-15 16:31:41,310 INFO  ApiRequest - Request POST: http://localhost:5556/api/q/token/call 
+2018-12-15 16:31:41,392 INFO  ApiRequest - Request POST: http://localhost:5556/api/q/token/done 
+2018-12-15 16:31:41,421 INFO  ApiRequest - Request POST: http://localhost:5556/api/q/token/gettokensdt 
+2018-12-15 16:31:44,350 INFO  ApiRequest - Request POST: http://localhost:5556/api/q/token/call 
+2018-12-15 16:31:44,360 INFO  ApiRequest - Request POST: http://localhost:5556/api/q/token/call 
+2018-12-15 16:31:44,427 INFO  ApiRequest - Request POST: http://localhost:5556/api/q/token/done 
+2018-12-15 16:31:44,436 INFO  ApiRequest - Request POST: http://localhost:5556/api/q/token/gettokensdt 
+2018-12-15 16:31:46,409 INFO  ApiRequest - Request POST: http://localhost:5556/api/q/token/done 
+2018-12-15 16:31:46,474 INFO  ApiRequest - Request POST: http://localhost:5556/api/q/token/gettokensdt 
+2018-12-15 16:31:54,462 INFO  ApiRequest - Request POST: http://localhost:5556/api/q/token/gettokensdt 
+2018-12-15 16:40:57,382 INFO  ApiRequest - Request POST: http://localhost:5556/api/q/token/gettokensdt 
+2018-12-15 16:40:58,491 INFO  ApiRequest - Request GET: http://localhost:5556/api/q/token/getcurrentserving?ipAddress=130.1.8.237 
+2018-12-15 16:41:41,431 INFO  ApiRequest - Request GET: http://localhost:5556/api/q/token/getcurrentserving?ipAddress=130.1.8.237 
+2018-12-15 16:41:41,394 ERROR MvcExceptionHandlerAttribute - Error while executing GET: http://localhost:5556/api/q/token/getcurrentserving?ipAddress=130.1.8.237 
+2018-12-15 16:41:43,640 ERROR MvcExceptionHandlerAttribute - Error while executing GET: http://localhost:5556/api/q/token/getcurrentserving?ipAddress=130.1.8.237 
+2018-12-15 16:41:43,666 INFO  ApiRequest - Request POST: http://localhost:5556/api/q/token/gettokensdt 
+2018-12-15 16:41:44,126 ERROR MvcExceptionHandlerAttribute - Stacktrace:  System.NotSupportedException: LINQ to Entities does not recognize the method 'Sghis.Core.Entity.Qms.Token Last[Token](System.Linq.IQueryable`1[Sghis.Core.Entity.Qms.Token])' method, and this method cannot be translated into a store expression.
+   at System.Data.Entity.Core.Objects.ELinq.ExpressionConverter.MethodCallTranslator.DefaultTranslator.Translate(ExpressionConverter parent, MethodCallExpression call)
+   at System.Data.Entity.Core.Objects.ELinq.ExpressionConverter.MethodCallTranslator.TypedTranslate(ExpressionConverter parent, MethodCallExpression linq)
+   at System.Data.Entity.Core.Objects.ELinq.ExpressionConverter.TypedTranslator`1.Translate(ExpressionConverter parent, Expression linq)
+   at System.Data.Entity.Core.Objects.ELinq.ExpressionConverter.TranslateExpression(Expression linq)
+   at System.Data.Entity.Core.Objects.ELinq.ExpressionConverter.Convert()
+   at System.Data.Entity.Core.Objects.ELinq.ELinqQueryState.GetExecutionPlan(Nullable`1 forMergeOption)
+   at System.Data.Entity.Core.Objects.ObjectQuery`1.<>c__DisplayClass7.<GetResults>b__6()
+   at System.Data.Entity.Core.Objects.ObjectContext.ExecuteInTransaction[T](Func`1 func, IDbExecutionStrategy executionStrategy, Boolean startLocalTransaction, Boolean releaseConnectionOnSuccess)
+   at System.Data.Entity.Core.Objects.ObjectQuery`1.<>c__DisplayClass7.<GetResults>b__5()
+   at System.Data.Entity.SqlServer.DefaultSqlExecutionStrategy.Execute[TResult](Func`1 operation)
+   at System.Data.Entity.Core.Objects.ObjectQuery`1.GetResults(Nullable`1 forMergeOption)
+   at System.Data.Entity.Core.Objects.ObjectQuery`1.<System.Collections.Generic.IEnumerable<T>.GetEnumerator>b__0()
+   at System.Data.Entity.Internal.LazyEnumerator`1.MoveNext()
+   at System.Linq.Enumerable.Single[TSource](IEnumerable`1 source)
+   at System.Data.Entity.Core.Objects.ELinq.ObjectQueryProvider.<GetElementFunction>b__3[TResult](IEnumerable`1 sequence)
+   at System.Data.Entity.Core.Objects.ELinq.ObjectQueryProvider.ExecuteSingle[TResult](IEnumerable`1 query, Expression queryRoot)
+   at System.Data.Entity.Core.Objects.ELinq.ObjectQueryProvider.System.Linq.IQueryProvider.Execute[TResult](Expression expression)
+   at System.Data.Entity.Internal.Linq.DbQueryProvider.Execute[TResult](Expression expression)
+   at System.Linq.Queryable.Last[TSource](IQueryable`1 source)
+   at Sghis.Qms.Business.QueuingBusiness.GetTokenCurrrentlyServing(String ipAddress) in D:\Projects\Sghis\Dev\Sghis.Qms\Sghis.Qms\Business\QueuingBusiness.cs:line 100
+   at Sghis.Qms.Web.Controllers.QController.GetTokenCurrrentlyServing(String ipAddress) in D:\Projects\Sghis\Dev\Sghis.Qms\Sghis.Qms.Web\Controllers\QController.cs:line 181
+   at lambda_method(Closure , Object , Object[] )
+   at System.Web.Http.Controllers.ReflectedHttpActionDescriptor.ActionExecutor.<>c__DisplayClass6_1.<GetExecutor>b__3(Object instance, Object[] methodParameters)
+   at System.Web.Http.Controllers.ReflectedHttpActionDescriptor.ActionExecutor.Execute(Object instance, Object[] arguments)
+   at System.Web.Http.Controllers.ReflectedHttpActionDescriptor.ExecuteAsync(HttpControllerContext controllerContext, IDictionary`2 arguments, CancellationToken cancellationToken)
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Controllers.ApiControllerActionInvoker.<InvokeActionAsyncCore>d__1.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Filters.ActionFilterAttribute.<CallOnActionExecutedAsync>d__6.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Web.Http.Filters.ActionFilterAttribute.<CallOnActionExecutedAsync>d__6.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Filters.ActionFilterAttribute.<ExecuteActionFilterAsyncCore>d__5.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Controllers.ActionFilterResult.<ExecuteAsync>d__5.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Controllers.ExceptionFilterResult.<ExecuteAsync>d__6.MoveNext()
+2018-12-15 16:41:44,126 ERROR MvcExceptionHandlerAttribute - Stacktrace:  System.NotSupportedException: LINQ to Entities does not recognize the method 'Sghis.Core.Entity.Qms.Token Last[Token](System.Linq.IQueryable`1[Sghis.Core.Entity.Qms.Token])' method, and this method cannot be translated into a store expression.
+   at System.Data.Entity.Core.Objects.ELinq.ExpressionConverter.MethodCallTranslator.DefaultTranslator.Translate(ExpressionConverter parent, MethodCallExpression call)
+   at System.Data.Entity.Core.Objects.ELinq.ExpressionConverter.MethodCallTranslator.TypedTranslate(ExpressionConverter parent, MethodCallExpression linq)
+   at System.Data.Entity.Core.Objects.ELinq.ExpressionConverter.TypedTranslator`1.Translate(ExpressionConverter parent, Expression linq)
+   at System.Data.Entity.Core.Objects.ELinq.ExpressionConverter.TranslateExpression(Expression linq)
+   at System.Data.Entity.Core.Objects.ELinq.ExpressionConverter.Convert()
+   at System.Data.Entity.Core.Objects.ELinq.ELinqQueryState.GetExecutionPlan(Nullable`1 forMergeOption)
+   at System.Data.Entity.Core.Objects.ObjectQuery`1.<>c__DisplayClass7.<GetResults>b__6()
+   at System.Data.Entity.Core.Objects.ObjectContext.ExecuteInTransaction[T](Func`1 func, IDbExecutionStrategy executionStrategy, Boolean startLocalTransaction, Boolean releaseConnectionOnSuccess)
+   at System.Data.Entity.Core.Objects.ObjectQuery`1.<>c__DisplayClass7.<GetResults>b__5()
+   at System.Data.Entity.SqlServer.DefaultSqlExecutionStrategy.Execute[TResult](Func`1 operation)
+   at System.Data.Entity.Core.Objects.ObjectQuery`1.GetResults(Nullable`1 forMergeOption)
+   at System.Data.Entity.Core.Objects.ObjectQuery`1.<System.Collections.Generic.IEnumerable<T>.GetEnumerator>b__0()
+   at System.Data.Entity.Internal.LazyEnumerator`1.MoveNext()
+   at System.Linq.Enumerable.Single[TSource](IEnumerable`1 source)
+   at System.Data.Entity.Core.Objects.ELinq.ObjectQueryProvider.<GetElementFunction>b__3[TResult](IEnumerable`1 sequence)
+   at System.Data.Entity.Core.Objects.ELinq.ObjectQueryProvider.ExecuteSingle[TResult](IEnumerable`1 query, Expression queryRoot)
+   at System.Data.Entity.Core.Objects.ELinq.ObjectQueryProvider.System.Linq.IQueryProvider.Execute[TResult](Expression expression)
+   at System.Data.Entity.Internal.Linq.DbQueryProvider.Execute[TResult](Expression expression)
+   at System.Linq.Queryable.Last[TSource](IQueryable`1 source)
+   at Sghis.Qms.Business.QueuingBusiness.GetTokenCurrrentlyServing(String ipAddress) in D:\Projects\Sghis\Dev\Sghis.Qms\Sghis.Qms\Business\QueuingBusiness.cs:line 100
+   at Sghis.Qms.Web.Controllers.QController.GetTokenCurrrentlyServing(String ipAddress) in D:\Projects\Sghis\Dev\Sghis.Qms\Sghis.Qms.Web\Controllers\QController.cs:line 181
+   at lambda_method(Closure , Object , Object[] )
+   at System.Web.Http.Controllers.ReflectedHttpActionDescriptor.ActionExecutor.<>c__DisplayClass6_1.<GetExecutor>b__3(Object instance, Object[] methodParameters)
+   at System.Web.Http.Controllers.ReflectedHttpActionDescriptor.ActionExecutor.Execute(Object instance, Object[] arguments)
+   at System.Web.Http.Controllers.ReflectedHttpActionDescriptor.ExecuteAsync(HttpControllerContext controllerContext, IDictionary`2 arguments, CancellationToken cancellationToken)
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Controllers.ApiControllerActionInvoker.<InvokeActionAsyncCore>d__1.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Filters.ActionFilterAttribute.<CallOnActionExecutedAsync>d__6.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Web.Http.Filters.ActionFilterAttribute.<CallOnActionExecutedAsync>d__6.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Filters.ActionFilterAttribute.<ExecuteActionFilterAsyncCore>d__5.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Controllers.ActionFilterResult.<ExecuteAsync>d__5.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Controllers.ExceptionFilterResult.<ExecuteAsync>d__6.MoveNext()
+2018-12-15 16:43:52,160 INFO  QmsLogs - --Starting QMS API--
+2018-12-15 16:43:54,314 INFO  MvcRequest - Request GET: home/index 
+Parameter: index
+2018-12-15 16:45:00,308 INFO  ApiRequest - Request GET: http://localhost:5556/api/q/token/getcurrentserving?ipAddress=130.1.8.237 
+2018-12-15 16:45:00,347 INFO  ApiRequest - Request POST: http://localhost:5556/api/q/token/gettokensdt 
+2018-12-15 16:45:03,763 ERROR MvcExceptionHandlerAttribute - Error while executing GET: http://localhost:5556/api/q/token/getcurrentserving?ipAddress=130.1.8.237 
+2018-12-15 16:45:04,073 ERROR MvcExceptionHandlerAttribute - Stacktrace:  System.InvalidOperationException: The context cannot be used while the model is being created. This exception may be thrown if the context is used inside the OnModelCreating method or if the same context instance is accessed by multiple threads concurrently. Note that instance members of DbContext and related classes are not guaranteed to be thread safe.
+   at System.Data.Entity.Internal.LazyInternalContext.InitializeContext()
+   at System.Data.Entity.Internal.InternalContext.GetEntitySetAndBaseTypeForType(Type entityType)
+   at System.Data.Entity.Internal.Linq.InternalSet`1.Initialize()
+   at System.Data.Entity.Internal.Linq.InternalSet`1.GetEnumerator()
+   at System.Data.Entity.Infrastructure.DbQuery`1.System.Collections.Generic.IEnumerable<TResult>.GetEnumerator()
+   at System.Linq.Enumerable.WhereEnumerableIterator`1.MoveNext()
+   at System.Linq.Enumerable.SingleOrDefault[TSource](IEnumerable`1 source)
+   at Sghis.Qms.Data.QmsRepository`1.GetByCriteria(Func`2 criteria) in D:\Projects\Sghis\Dev\Sghis.Qms\Sghis.Qms\Data\QmsRepository.cs:line 81
+   at Sghis.Qms.Business.QueuingBusiness.GetTokenCurrrentlyServing(String ipAddress) in D:\Projects\Sghis\Dev\Sghis.Qms\Sghis.Qms\Business\QueuingBusiness.cs:line 99
+   at Sghis.Qms.Web.Controllers.QController.GetTokenCurrrentlyServing(String ipAddress) in D:\Projects\Sghis\Dev\Sghis.Qms\Sghis.Qms.Web\Controllers\QController.cs:line 181
+   at lambda_method(Closure , Object , Object[] )
+   at System.Web.Http.Controllers.ReflectedHttpActionDescriptor.ActionExecutor.<>c__DisplayClass6_1.<GetExecutor>b__3(Object instance, Object[] methodParameters)
+   at System.Web.Http.Controllers.ReflectedHttpActionDescriptor.ActionExecutor.Execute(Object instance, Object[] arguments)
+   at System.Web.Http.Controllers.ReflectedHttpActionDescriptor.ExecuteAsync(HttpControllerContext controllerContext, IDictionary`2 arguments, CancellationToken cancellationToken)
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Controllers.ApiControllerActionInvoker.<InvokeActionAsyncCore>d__1.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Filters.ActionFilterAttribute.<CallOnActionExecutedAsync>d__6.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Web.Http.Filters.ActionFilterAttribute.<CallOnActionExecutedAsync>d__6.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Filters.ActionFilterAttribute.<ExecuteActionFilterAsyncCore>d__5.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Controllers.ActionFilterResult.<ExecuteAsync>d__5.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Controllers.ExceptionFilterResult.<ExecuteAsync>d__6.MoveNext()
+2018-12-15 16:45:32,002 INFO  ApiRequest - Request POST: http://localhost:5556/api/q/token/gettokensdt 
+2018-12-15 16:45:32,036 INFO  ApiRequest - Request GET: http://localhost:5556/api/q/token/getcurrentserving?ipAddress=130.1.8.237 
+2018-12-15 16:45:34,797 ERROR MvcExceptionHandlerAttribute - Error while executing GET: http://localhost:5556/api/q/token/getcurrentserving?ipAddress=130.1.8.237 
+2018-12-15 16:45:35,018 ERROR MvcExceptionHandlerAttribute - Stacktrace:  System.NotSupportedException: LINQ to Entities does not recognize the method 'Sghis.Core.Entity.Qms.Token Last[Token](System.Linq.IQueryable`1[Sghis.Core.Entity.Qms.Token])' method, and this method cannot be translated into a store expression.
+   at System.Data.Entity.Core.Objects.ELinq.ExpressionConverter.MethodCallTranslator.DefaultTranslator.Translate(ExpressionConverter parent, MethodCallExpression call)
+   at System.Data.Entity.Core.Objects.ELinq.ExpressionConverter.MethodCallTranslator.TypedTranslate(ExpressionConverter parent, MethodCallExpression linq)
+   at System.Data.Entity.Core.Objects.ELinq.ExpressionConverter.TypedTranslator`1.Translate(ExpressionConverter parent, Expression linq)
+   at System.Data.Entity.Core.Objects.ELinq.ExpressionConverter.TranslateExpression(Expression linq)
+   at System.Data.Entity.Core.Objects.ELinq.ExpressionConverter.Convert()
+   at System.Data.Entity.Core.Objects.ELinq.ELinqQueryState.GetExecutionPlan(Nullable`1 forMergeOption)
+   at System.Data.Entity.Core.Objects.ObjectQuery`1.<>c__DisplayClass7.<GetResults>b__6()
+   at System.Data.Entity.Core.Objects.ObjectContext.ExecuteInTransaction[T](Func`1 func, IDbExecutionStrategy executionStrategy, Boolean startLocalTransaction, Boolean releaseConnectionOnSuccess)
+   at System.Data.Entity.Core.Objects.ObjectQuery`1.<>c__DisplayClass7.<GetResults>b__5()
+   at System.Data.Entity.SqlServer.DefaultSqlExecutionStrategy.Execute[TResult](Func`1 operation)
+   at System.Data.Entity.Core.Objects.ObjectQuery`1.GetResults(Nullable`1 forMergeOption)
+   at System.Data.Entity.Core.Objects.ObjectQuery`1.<System.Collections.Generic.IEnumerable<T>.GetEnumerator>b__0()
+   at System.Data.Entity.Internal.LazyEnumerator`1.MoveNext()
+   at System.Linq.Enumerable.Single[TSource](IEnumerable`1 source)
+   at System.Data.Entity.Core.Objects.ELinq.ObjectQueryProvider.<GetElementFunction>b__3[TResult](IEnumerable`1 sequence)
+   at System.Data.Entity.Core.Objects.ELinq.ObjectQueryProvider.ExecuteSingle[TResult](IEnumerable`1 query, Expression queryRoot)
+   at System.Data.Entity.Core.Objects.ELinq.ObjectQueryProvider.System.Linq.IQueryProvider.Execute[TResult](Expression expression)
+   at System.Data.Entity.Internal.Linq.DbQueryProvider.Execute[TResult](Expression expression)
+   at System.Linq.Queryable.Last[TSource](IQueryable`1 source)
+   at Sghis.Qms.Business.QueuingBusiness.GetTokenCurrrentlyServing(String ipAddress) in D:\Projects\Sghis\Dev\Sghis.Qms\Sghis.Qms\Business\QueuingBusiness.cs:line 100
+   at Sghis.Qms.Web.Controllers.QController.GetTokenCurrrentlyServing(String ipAddress) in D:\Projects\Sghis\Dev\Sghis.Qms\Sghis.Qms.Web\Controllers\QController.cs:line 181
+   at lambda_method(Closure , Object , Object[] )
+   at System.Web.Http.Controllers.ReflectedHttpActionDescriptor.ActionExecutor.<>c__DisplayClass6_1.<GetExecutor>b__3(Object instance, Object[] methodParameters)
+   at System.Web.Http.Controllers.ReflectedHttpActionDescriptor.ActionExecutor.Execute(Object instance, Object[] arguments)
+   at System.Web.Http.Controllers.ReflectedHttpActionDescriptor.ExecuteAsync(HttpControllerContext controllerContext, IDictionary`2 arguments, CancellationToken cancellationToken)
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Controllers.ApiControllerActionInvoker.<InvokeActionAsyncCore>d__1.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Filters.ActionFilterAttribute.<CallOnActionExecutedAsync>d__6.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Web.Http.Filters.ActionFilterAttribute.<CallOnActionExecutedAsync>d__6.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Filters.ActionFilterAttribute.<ExecuteActionFilterAsyncCore>d__5.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Controllers.ActionFilterResult.<ExecuteAsync>d__5.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Controllers.ExceptionFilterResult.<ExecuteAsync>d__6.MoveNext()
+2018-12-15 16:47:13,556 INFO  QmsLogs - --Starting QMS API--
+2018-12-15 16:47:18,355 INFO  MvcRequest - Request GET: home/index 
+Parameter: index
+2018-12-15 16:48:18,331 INFO  ApiRequest - Request GET: http://localhost:5556/api/q/token/getcurrentserving?ipAddress=130.1.8.237 
+2018-12-15 16:48:18,472 INFO  ApiRequest - Request POST: http://localhost:5556/api/q/token/gettokensdt 
+2018-12-15 16:48:22,836 ERROR MvcExceptionHandlerAttribute - Error while executing POST: http://localhost:5556/api/q/token/gettokensdt 
+2018-12-15 16:48:23,101 ERROR MvcExceptionHandlerAttribute - Stacktrace:  System.InvalidOperationException: The context cannot be used while the model is being created. This exception may be thrown if the context is used inside the OnModelCreating method or if the same context instance is accessed by multiple threads concurrently. Note that instance members of DbContext and related classes are not guaranteed to be thread safe.
+   at System.Data.Entity.Internal.LazyInternalContext.InitializeContext()
+   at System.Data.Entity.Internal.InternalContext.GetEntitySetAndBaseTypeForType(Type entityType)
+   at System.Data.Entity.Internal.Linq.InternalSet`1.Initialize()
+   at System.Data.Entity.Internal.Linq.InternalSet`1.GetEnumerator()
+   at System.Data.Entity.Infrastructure.DbQuery`1.System.Collections.Generic.IEnumerable<TResult>.GetEnumerator()
+   at System.Linq.Enumerable.WhereEnumerableIterator`1.MoveNext()
+   at System.Linq.Enumerable.SingleOrDefault[TSource](IEnumerable`1 source)
+   at Sghis.Qms.Data.QmsRepository`1.GetByCriteria(Func`2 criteria) in D:\Projects\Sghis\Dev\Sghis.Qms\Sghis.Qms\Data\QmsRepository.cs:line 81
+   at Sghis.Qms.Business.QueuingBusiness.GetTokensByIpAddress(Int32& totalRecords, Int32 startPage, Int32 pageSize, String ipAddress, String statusIds) in D:\Projects\Sghis\Dev\Sghis.Qms\Sghis.Qms\Business\QueuingBusiness.cs:line 117
+   at Sghis.Qms.Web.Controllers.QController.GetTokensDt(DtTokenRequest dtr) in D:\Projects\Sghis\Dev\Sghis.Qms\Sghis.Qms.Web\Controllers\QController.cs:line 173
+   at lambda_method(Closure , Object , Object[] )
+   at System.Web.Http.Controllers.ReflectedHttpActionDescriptor.ActionExecutor.<>c__DisplayClass6_1.<GetExecutor>b__3(Object instance, Object[] methodParameters)
+   at System.Web.Http.Controllers.ReflectedHttpActionDescriptor.ActionExecutor.Execute(Object instance, Object[] arguments)
+   at System.Web.Http.Controllers.ReflectedHttpActionDescriptor.ExecuteAsync(HttpControllerContext controllerContext, IDictionary`2 arguments, CancellationToken cancellationToken)
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Controllers.ApiControllerActionInvoker.<InvokeActionAsyncCore>d__1.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Filters.ActionFilterAttribute.<CallOnActionExecutedAsync>d__6.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Web.Http.Filters.ActionFilterAttribute.<CallOnActionExecutedAsync>d__6.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Filters.ActionFilterAttribute.<ExecuteActionFilterAsyncCore>d__5.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Controllers.ActionFilterResult.<ExecuteAsync>d__5.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Controllers.ExceptionFilterResult.<ExecuteAsync>d__6.MoveNext()
+2018-12-15 16:48:38,132 ERROR MvcExceptionHandlerAttribute - Error while executing GET: http://localhost:5556/api/q/token/getcurrentserving?ipAddress=130.1.8.237 
+2018-12-15 16:48:38,145 ERROR MvcExceptionHandlerAttribute - Stacktrace:  System.NotSupportedException: LINQ to Entities does not recognize the method 'Sghis.Core.Entity.Qms.Token LastOrDefault[Token](System.Linq.IQueryable`1[Sghis.Core.Entity.Qms.Token], System.Linq.Expressions.Expression`1[System.Func`2[Sghis.Core.Entity.Qms.Token,System.Boolean]])' method, and this method cannot be translated into a store expression.
+   at System.Data.Entity.Core.Objects.ELinq.ExpressionConverter.MethodCallTranslator.DefaultTranslator.Translate(ExpressionConverter parent, MethodCallExpression call)
+   at System.Data.Entity.Core.Objects.ELinq.ExpressionConverter.MethodCallTranslator.TypedTranslate(ExpressionConverter parent, MethodCallExpression linq)
+   at System.Data.Entity.Core.Objects.ELinq.ExpressionConverter.TypedTranslator`1.Translate(ExpressionConverter parent, Expression linq)
+   at System.Data.Entity.Core.Objects.ELinq.ExpressionConverter.TranslateExpression(Expression linq)
+   at System.Data.Entity.Core.Objects.ELinq.ExpressionConverter.Convert()
+   at System.Data.Entity.Core.Objects.ELinq.ELinqQueryState.GetExecutionPlan(Nullable`1 forMergeOption)
+   at System.Data.Entity.Core.Objects.ObjectQuery`1.<>c__DisplayClass7.<GetResults>b__6()
+   at System.Data.Entity.Core.Objects.ObjectContext.ExecuteInTransaction[T](Func`1 func, IDbExecutionStrategy executionStrategy, Boolean startLocalTransaction, Boolean releaseConnectionOnSuccess)
+   at System.Data.Entity.Core.Objects.ObjectQuery`1.<>c__DisplayClass7.<GetResults>b__5()
+   at System.Data.Entity.SqlServer.DefaultSqlExecutionStrategy.Execute[TResult](Func`1 operation)
+   at System.Data.Entity.Core.Objects.ObjectQuery`1.GetResults(Nullable`1 forMergeOption)
+   at System.Data.Entity.Core.Objects.ObjectQuery`1.<System.Collections.Generic.IEnumerable<T>.GetEnumerator>b__0()
+   at System.Data.Entity.Internal.LazyEnumerator`1.MoveNext()
+   at System.Linq.Enumerable.Single[TSource](IEnumerable`1 source)
+   at System.Data.Entity.Core.Objects.ELinq.ObjectQueryProvider.<GetElementFunction>b__3[TResult](IEnumerable`1 sequence)
+   at System.Data.Entity.Core.Objects.ELinq.ObjectQueryProvider.ExecuteSingle[TResult](IEnumerable`1 query, Expression queryRoot)
+   at System.Data.Entity.Core.Objects.ELinq.ObjectQueryProvider.System.Linq.IQueryProvider.Execute[TResult](Expression expression)
+   at System.Data.Entity.Internal.Linq.DbQueryProvider.Execute[TResult](Expression expression)
+   at System.Linq.Queryable.LastOrDefault[TSource](IQueryable`1 source, Expression`1 predicate)
+   at Sghis.Qms.Business.QueuingBusiness.GetTokenCurrrentlyServing(String ipAddress) in D:\Projects\Sghis\Dev\Sghis.Qms\Sghis.Qms\Business\QueuingBusiness.cs:line 100
+   at Sghis.Qms.Web.Controllers.QController.GetTokenCurrrentlyServing(String ipAddress) in D:\Projects\Sghis\Dev\Sghis.Qms\Sghis.Qms.Web\Controllers\QController.cs:line 181
+   at lambda_method(Closure , Object , Object[] )
+   at System.Web.Http.Controllers.ReflectedHttpActionDescriptor.ActionExecutor.<>c__DisplayClass6_1.<GetExecutor>b__3(Object instance, Object[] methodParameters)
+   at System.Web.Http.Controllers.ReflectedHttpActionDescriptor.ActionExecutor.Execute(Object instance, Object[] arguments)
+   at System.Web.Http.Controllers.ReflectedHttpActionDescriptor.ExecuteAsync(HttpControllerContext controllerContext, IDictionary`2 arguments, CancellationToken cancellationToken)
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Controllers.ApiControllerActionInvoker.<InvokeActionAsyncCore>d__1.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Filters.ActionFilterAttribute.<CallOnActionExecutedAsync>d__6.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Web.Http.Filters.ActionFilterAttribute.<CallOnActionExecutedAsync>d__6.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Filters.ActionFilterAttribute.<ExecuteActionFilterAsyncCore>d__5.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Controllers.ActionFilterResult.<ExecuteAsync>d__5.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Controllers.ExceptionFilterResult.<ExecuteAsync>d__6.MoveNext()
+2018-12-15 16:49:57,169 INFO  ApiRequest - Request GET: http://localhost:5556/api/q/token/getcurrentserving?ipAddress=130.1.8.237 
+2018-12-15 16:52:50,422 ERROR MvcExceptionHandlerAttribute - Error while executing GET: http://localhost:5556/api/q/token/getcurrentserving?ipAddress=130.1.8.237 
+2018-12-15 16:52:50,438 INFO  ApiRequest - Request POST: http://localhost:5556/api/q/token/gettokensdt 
+2018-12-15 16:52:58,990 INFO  ApiRequest - Request GET: http://localhost:5556/api/q/token/getcurrentserving?ipAddress=130.1.8.237 
+2018-12-15 16:53:00,518 INFO  ApiRequest - Request POST: http://localhost:5556/api/q/token/gettokensdt 
+2018-12-15 16:54:58,232 INFO  ApiRequest - Request GET: http://localhost:5556/api/q/token/getcurrentserving?ipAddress=130.1.8.237 
+2018-12-15 16:55:00,011 INFO  ApiRequest - Request POST: http://localhost:5556/api/q/token/gettokensdt 
+2018-12-19 17:22:43,547 INFO  QmsLogs - --Starting QMS API--
+2018-12-19 17:23:02,824 INFO  MVC - ::1-->GET:home/index 
+Parameter: 
+2018-12-20 11:38:39,469 INFO  MVC - ::1-->GET:home/index 
+Parameter: 
+2018-12-20 11:38:41,366 INFO  MVC - ::1-->GET:home/index 
+Parameter: 
+2018-12-20 11:38:42,193 ERROR MvcExceptionHandlerAttribute - Error while executing POST: http://localhost:5556/api/q/token/createtest/ 
+2018-12-20 11:38:42,193 ERROR MvcExceptionHandlerAttribute - Error while executing POST: http://localhost:5556/api/q/token/createtest/ 
+2018-12-20 11:38:42,769 ERROR MvcExceptionHandlerAttribute - Stacktrace:  System.OperationCanceledException: The operation was canceled.
+   at System.Threading.CancellationToken.ThrowOperationCanceledException()
+   at System.Net.Http.HttpContentExtensions.<ReadAsAsyncCore>d__17`1.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.ModelBinding.FormatterParameterBinding.<ExecuteBindingAsyncCore>d__18.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Controllers.HttpActionBinding.<ExecuteBindingAsyncCore>d__12.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Controllers.ActionFilterResult.<ExecuteAsync>d__5.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Controllers.ExceptionFilterResult.<ExecuteAsync>d__6.MoveNext()
+2018-12-20 11:38:42,769 ERROR MvcExceptionHandlerAttribute - Stacktrace:  System.OperationCanceledException: The operation was canceled.
+   at System.Threading.CancellationToken.ThrowOperationCanceledException()
+   at System.Net.Http.HttpContentExtensions.<ReadAsAsyncCore>d__17`1.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.ModelBinding.FormatterParameterBinding.<ExecuteBindingAsyncCore>d__18.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Controllers.HttpActionBinding.<ExecuteBindingAsyncCore>d__12.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Controllers.ActionFilterResult.<ExecuteAsync>d__5.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Controllers.ExceptionFilterResult.<ExecuteAsync>d__6.MoveNext()

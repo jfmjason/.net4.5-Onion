@@ -1,0 +1,82 @@
+﻿@{ViewBag.Title = "QMS";}
+<div>
+    Index Page : @User.Identity.Name
+</div>
+
+<h2>Welcome to QMS @("v" + ViewContext.Controller.GetType().Assembly.GetName().Version.ToString().Remove(5))</h2>
+<h5>@ViewBag.Business </h5>
+
+<div class="qms_container">
+    @Html.ActionLink("Display1", "Display1")
+    <br />
+    @Html.ActionLink("Display2", "Display2")
+    <br />
+    @Html.ActionLink("Admin", "Index", "Admin")
+</div>
+<br />
+<div class="qms_container">
+    StationId/ZoneId(for transfer) <input type="text" id="tbStationId" value="1" />
+    <br />
+    TokenId <input type="text" id="tbTokenId" value="1" />
+    <br />
+    <a id="btnCall" href="#">Call</a>
+    <br />
+    <a id="btnTransfer" href="#">Transfer</a>
+    <br />
+    <a id="btnDone" href="">Done</a>
+    <br />
+    <a id="btnCreate" href="">Create</a>
+</div>
+<script>
+    //cDqNugXsa/tqN+W6fgmKCPLK3p6mrAcWPkE17ycuKpIKU0A5NsZJiSWVoTSJxBcZUfewUinZvWC+5rjsfbrRWe1u9N3IN3apblXsxP4Mb3aHVTPbz4biVo8un5E93BP/COXuFAMnVCN3ezoB0icNEFJZHEKuJCbY
+    var baseUrl = '@Html.BaseUrl()api/';
+    $(document).ready(function () {
+        $(document).on("click", "#btnCall", function () {
+            var data = { id: $("#tbTokenId").val() };
+            $.ajax({
+                type: "POST",
+                url: baseUrl + 'q/token/call/',
+                data: data,
+                success: function (d) {
+                    console.log("call success");
+                }
+            });
+        });
+
+        $(document).on("click", "#btnTransfer", function () {
+            var data = { id: $("#tbTokenId").val(), zoneid: $("#tbStationId").val() };
+            $.ajax({
+                type: "POST",
+                url: baseUrl +'q/token/transfer/',
+                data: data,
+                success: function (d) {
+                    console.log("transfer success");
+                }
+            });
+        });
+
+        $(document).on("click", "#btnDone", function () {
+            var data = { id: $("#tbTokenId").val(), clientId: $("#tbStationId").val() };
+            $.ajax({
+                type: "POST",
+                url: baseUrl +'q/token/donebyclientid/',
+                data: data,
+                success: function (d) {
+                    console.log("donebyclientid success");
+                }
+            });
+        });
+
+        $(document).on("click", "#btnCreate", function () {
+            var data = { id: "A123456" };
+            $.ajax({
+                type: "POST",
+                url: baseUrl +'q/token/createtest/',
+                data: data,
+                success: function (d) {
+                    console.log("createtest success");
+                }
+            });
+        });
+    });
+</script>

@@ -1,0 +1,46 @@
+﻿@model Sghis.Core.Entity.Qms.TokenVmWithLogs
+@{ViewBag.Title = "QMS - Token";}
+<h2>Token Info</h2>
+<div class="qms_container">
+    <label>Id</label> : @Model.Id
+    <br />
+    <label>No</label> : @Model.TokenNumber
+    <br />
+    <label>Status</label> : @Model.Status
+
+    <div class="" style="padding:4px;">
+        <div class="border-info">
+            <div class="pull-left">
+                <h4>Logs</h4>
+            </div>
+            <table id="tblZone" class="table table-bordered table-hover dataTable no-footer">
+                <thead>
+                    <tr>
+                        <th>Zone</th>
+                        <th>Client</th>
+                        <th>Status</th>
+                        <th>DateTime</th>
+                        <th>Action By</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    @foreach (var log in Model.Logs)
+                    {
+                        <tr>
+                            <td>@log.Zone</td>
+                            <td>@log.Client</td>
+                            <td>@log.TokenStatus</td>
+                            <td>@log.ActionAt</td>
+                            <td>@log.ActionBy</td>
+                        </tr>
+                    }
+
+                </tbody>
+            </table>
+        </div>
+    </div>
+</div>
+<script>
+
+</script>
+

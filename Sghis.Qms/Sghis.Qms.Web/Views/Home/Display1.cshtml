@@ -1,0 +1,144 @@
+﻿ZoneId:@ViewBag.ZoneId ClientId:@ViewBag.ClientId
+<div class="qms_container">
+    <div class="qms_header_1">
+        <div class="qms_header_token_1">
+            Token (رمز)
+        </div>
+        <div class="qms_header_counter_1">
+            Counter No. (رقم العداد)
+        </div>
+
+    </div>
+
+    <div class="qms_content_1">
+        <div class="qms_content_token_1">
+
+        </div>
+        <div class="qms_content_counter_1">
+
+        </div>
+    </div>
+    <div class="qms_logo_container_1">
+
+    </div>
+    <div class="qms_marquee_1">
+        <marquee id="markcontainer" scrollamount="12">
+
+        </marquee>
+
+    </div>
+</div>
+
+<script src="~/content/scripts/jquery.signalR-2.4.0.min.js"></script>
+<script src="~/signalr/hubs"></script>
+<script type="text/javascript">
+    var qms = $.connection.qmsHub;
+    var baseUrl = '@Html.BaseUrl()';
+
+    // Start the connection.
+    $.connection.hub.start().done(function () {
+        //Pending = 1,Serving = 2,Transfered = 3,Delayed = 4,
+        var data = {  status: '1,2,3,4' };
+        $.ajax({
+            type: "GET",
+            url: baseUrl+'api/q/token/gettokens',
+            data: data,
+            success: function (ds) {
+                $(ds).each(function (i, token) {
+                    //Pending, Transfered, Delayed
+                    if (token.StatusId === "1" || token.StatusId === "3" || token.StatusId === "4") {
+                        $('#markcontainer').append('<div id="divPendingToken' + token.Id + '" class="qms_marque_content_1">' +
+                            token.TokenNumber + ' - <span class="qms_marquee_arabic_1">' + qmsjs.TokenToArabic(token.TokenNumber) + '</span></div>');
+                    }
+                    else if (token.StatusId === "2") { //"Serving"
+                        $('.qms_content_token_1').append('<div id="divToken' + token.Id + '" class="qms_token_queue_1">' + token.TokenNumber + " - " + qmsjs.TokenToArabic(token.TokenNumber) + '</div>');
+                        $('.qms_content_counter_1').append('<div id="divCounter' + token.Id + '" class="qms_counter_queue_1">' + token.Client + ' - ' + qmsjs.TokenToArabic(token.Client) + ' عداد </div>');
+                    }
+                    else if (token.StatusId === "10")//"Done"
+                        console.log(token);
+                });
+            }
+        });
+    });
+
+    //subscribes
+    qms.client.userConnectedResponse = function (msg) { console.log(msg); };
+    qms.client.invalidUserResponse = function (msg) { alert(msg); };
+
+    //Create
+    qms.client.createAddToPendingResponse = function (token) {
+        if (!$("#markcontainer").find("div[id='divPendingToken" + token.Id + "']").length > 0) {
+            $('#markcontainer').append('<div id="divPendingToken' + token.Id + '" class="qms_marque_content_1">' +
+                token.TokenNumber + ' - <span class="qms_marquee_arabic_1">' + qmsjs.TokenToArabic(token.TokenNumber) + '</span></div>');
+        }
+        console.log("createAddToPendingResponse");
+    };
+    //Create End
+    //Done
+    qms.client.doneResponse = function (token) {
+        if (!$(".qms_content_token_1").find("div[id='" + token.Id + "']").length > 0) {
+            $("#divToken" + token.Id).remove();
+            $("#divCounter" + token.Id).remove();
+        }
+        console.log("doneResponse");
+    };
+    //Done End
+    //Call
+    qms.client.callAddToServingResponse = function (token) {
+        if (!$(".qms_content_token_1").find("div[id='divToken" + token.Id + "']").length > 0) {
+            $('.qms_content_token_1').append('<div id="divToken' + token.Id + '" class="qms_token_queue_1">' + token.TokenNumber + " - " + qmsjs.TokenToArabic(token.TokenNumber) + '</div>');
+            $('.qms_content_counter_1').append('<div id="divCounter' + token.Id + '" class="qms_counter_queue_1">' + token.Client + ' - ' + qmsjs.TokenToArabic(token.Client) + ' عداد </div>');
+        }
+        console.log("callAddToServingResponse");
+    };
+
+    qms.client.callRemoveFromPendingResponse = function (token) {
+        var ticker = $("#markcontainer").find("div[id='divPendingToken" + token.Id + "']");
+        $(ticker).remove();
+        console.log("callRemoveFromPendingResponse");
+    };
+    //Delay End
+
+    //Delay
+    qms.client.delayAddToPendingResponse = function (token) {
+        if (!$("#markcontainer").find("div[id='divPendingToken" + token.Id + "']").length > 0) {
+            $('#markcontainer').append('<div id="divPendingToken' + token.Id + '" class="qms_marque_content_1">' +
+                token.TokenNumber + ' - <span class="qms_marquee_arabic_1">' + qmsjs.TokenToArabic(token.TokenNumber) + '</span></div>');
+        }
+        console.log("delayAddToPendingResponse");
+    };
+
+    qms.client.delayRemoveFromServingResponse = function (token) {
+        if (!$(".qms_content_token_1").find("div[id='" + token.Id + "']").length > 0) {
+            $("#divToken" + token.Id).remove();
+            $("#divCounter" + token.Id).remove();
+        }
+        console.log("delayRemoveFromServingResponse");
+    };
+    //Delay End
+
+    //Transfer
+    qms.client.transferAddToPendingResponse = function (token) {
+        if (!$("#markcontainer").find("div[id='divPendingToken" + token.Id + "']").length > 0) {
+            $('#markcontainer').append('<div id="divPendingToken' + token.Id + '" class="qms_marque_content_1">' +
+                token.TokenNumber + ' - <span class="qms_marquee_arabic_1">' + qmsjs.TokenToArabic(token.TokenNumber) + '</span></div>');
+        }
+        console.log("transferAddToPendingResponse");
+    };
+
+    qms.client.transferRemoveFromServingResponse = function (token) {
+        if (!$(".qms_content_token_1").find("div[id='" + token.Id + "']").length > 0) {
+            $("#divToken" + token.Id).remove();
+            $("#divCounter" + token.Id).remove();
+        }
+        console.log("transferRemoveFromServingResponse");
+    };
+
+    qms.client.transferRemoveFromPendingResponse = function (token) {
+        var ticker = $("#markcontainer").find("div[id='divPendingToken" + token.Id + "']");
+        $(ticker).remove();
+        console.log("transferRemoveFromPendingResponse");
+    };
+    
+    //Transfer End
+</script>

@@ -1,0 +1,5 @@
+D:\Projects\Sghis\Dev\Sghis.Core\Sghis.Core.Entity\bin\Release\Sghis.Core.Entity.dll
+D:\Projects\Sghis\Dev\Sghis.Core\Sghis.Core.Entity\bin\Release\Sghis.Core.Entity.pdb
+D:\Projects\Sghis\Dev\Sghis.Core\Sghis.Core.Entity\obj\Release\Sghis.Core.Entity.csproj.CoreCompileInputs.cache
+D:\Projects\Sghis\Dev\Sghis.Core\Sghis.Core.Entity\obj\Release\Sghis.Core.Entity.dll
+D:\Projects\Sghis\Dev\Sghis.Core\Sghis.Core.Entity\obj\Release\Sghis.Core.Entity.pdb

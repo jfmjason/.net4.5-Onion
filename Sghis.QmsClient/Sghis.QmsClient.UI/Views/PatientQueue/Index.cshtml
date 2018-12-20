@@ -1,0 +1,104 @@
+﻿@using Sghis.QmsClient.UI.Common;
+@{
+    ViewBag.Title = "PATIENT QUEUE";
+    ViewBag.ParentMenu = "FILE";
+    ViewBag.SubMenu = "Patient Queue";
+}
+
+<div class="box box-comments">
+    <div class="box-header">
+        <h3 class="box-title text-red text-bold blink_me">NOW SERVING</h3>
+        <button type="button" id="donetoken" class=" btn btn-sm btn-success inqueue-btn pull-right">Done <i class="glyphicon glyphicon-check"></i></button>
+        <button type="button" id="delaytoken" class="btn btn-sm btn-danger inqueue-btn pull-right">Delay <i class="glyphicon glyphicon-time"></i></button>
+        <button type="button" id="transfertoken" class="btn btn-sm btn-warning inqueue-btn pull-right">Transfer <i class="glyphicon glyphicon-share"></i> </button>
+        <button type="button" id="calltoken" class="btn btn-sm btn-primary inqueue-btn pull-right">Call Patient <i class="glyphicon glyphicon-bullhorn"></i> </button>
+    </div>
+    <div class="box-body">
+        <div class="col-md-12" style="padding: 15px; padding-bottom: 5px; border-radius: 5px; background-color: rgba(199, 19, 77, 0.050980392156862744);border: rgb(234, 201, 212) 1px solid;">
+            <div class="col-md-3">
+                <label>Token No</label>
+                <h1 id="tokenno" class="text-pussy text-bold" style="margin-top:0px;font-size: 70px;"> N / A</h1>
+            </div>
+
+            <div class="col-md-9">
+                <div class="col-md-12">
+                    <label>Patient</label>
+                    <h1 id="patientname" class="text-bluegray text-bold" style="margin-top:0px;"> - - </h1>
+                </div>
+                <div class="col-md-12">
+                    <h4 id="pin" class="row text-bluegray-light text-bold col-md-3" style="margin-top:0px;"></h4>
+                    <h4 id="gender" class="row text-bluegray-light text-bold col-md-2" style="margin-top:0px;"></h4>
+                    <h4 id="age" class="row text-bluegray-light text-bold col-md-4" style="margin-top:0px;"></h4>
+                </div>
+            </div>
+        </div>
+
+        <input id="curserveid" class="hidden" />
+    </div>
+
+</div>
+
+
+<div class="box box-widget">
+    <div class="box-header">
+        <h5 class="box-title text-blue"> IN QUEUE</h5>
+    </div>
+    <div class="box-body">
+        <table id="queuetable" class="table table-bordered table-striped dataTable table-hover" role="grid">
+            <thead>
+            </thead>
+            <tbody></tbody>
+        </table>
+    </div>
+
+</div>
+
+@{
+    var baseUrl = Global.QmsHubAddress;
+    var url = baseUrl + "signalr/hubs";
+}
+@section scripts{
+    <script src="~/Content/scripts/pagescript/patientqueue.js"></script>
+    <script src="@url"></script>
+    <script type="text/javascript">
+      var queuescript = {};
+
+        $(document).ready(function () {
+            queuescript = new PatientQueue();
+            queuescript.init();
+
+            var qms = $.connection.qmsHub;
+            $.connection.hub.url = '@(baseUrl + "signalr/")';
+
+            $.connection.hub.logging = false;
+            qms.client.refreshGridResponse = function (token) {
+                console.log('refresh message recieved');
+                $('#queuetable').DataTable().draw();
+
+                queuescript.getCurrentServe()
+                    .then(function (data) {
+                        if (data.Mrn) {
+                            queuescript.getPatient(data.Mrn).then(function (pdata) {
+                                $("#tokenno").html(data.TokenNumber);
+                                $("#pin").html(pdata.PIN);
+                                $("#gender").html(pdata.SexDescription);
+                                $("#age").html(pdata.Age + " " + pdata.AgetTypeDescription + " Old");
+                                $("#patientname").html(pdata.Name);
+                                $("#curserveid").val(data.Id);
+                            });
+                        } else {
+                            queuescript.clearCurrentServe();
+                        }
+                    })
+                    .catch(function (e) {
+                        console.log(e);
+                    });
+            };
+            $.connection.hub.start().done(function (data) {
+                console.log("connected");
+            });
+
+        });
+    </script>
+}
+
